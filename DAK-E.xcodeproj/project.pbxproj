@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		474880DA19F6E13200C39C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880D919F6E13200C39C09 /* main.m */; };
+		474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880DC19F6E13200C39C09 /* AppDelegate.m */; };
+		474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */; };
+		474880E319F6E13200C39C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880E219F6E13200C39C09 /* ViewController.m */; };
+		474880E619F6E13200C39C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474880E419F6E13200C39C09 /* Main.storyboard */; };
+		474880E819F6E13200C39C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474880E719F6E13200C39C09 /* Images.xcassets */; };
+		474880EB19F6E13200C39C09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474880E919F6E13200C39C09 /* LaunchScreen.xib */; };
+		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		474880F119F6E13200C39C09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 474880CC19F6E13100C39C09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 474880D319F6E13100C39C09;
+			remoteInfo = "DAK-E";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		474880D419F6E13200C39C09 /* DAK-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAK-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474880D819F6E13200C39C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474880D919F6E13200C39C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		474880DB19F6E13200C39C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		474880DC19F6E13200C39C09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		474880DF19F6E13200C39C09 /* DAK_E.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DAK_E.xcdatamodel; sourceTree = "<group>"; };
+		474880E119F6E13200C39C09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		474880E219F6E13200C39C09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		474880E519F6E13200C39C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		474880E719F6E13200C39C09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		474880EA19F6E13200C39C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		474880F019F6E13200C39C09 /* DAK-ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAK-ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		474880F519F6E13200C39C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474880F619F6E13200C39C09 /* DAK_ETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAK_ETests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		474880D119F6E13100C39C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474880ED19F6E13200C39C09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		474880CB19F6E13100C39C09 = {
+			isa = PBXGroup;
+			children = (
+				474880D619F6E13200C39C09 /* DAK-E */,
+				474880F319F6E13200C39C09 /* DAK-ETests */,
+				474880D519F6E13200C39C09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		474880D519F6E13200C39C09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				474880D419F6E13200C39C09 /* DAK-E.app */,
+				474880F019F6E13200C39C09 /* DAK-ETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		474880D619F6E13200C39C09 /* DAK-E */ = {
+			isa = PBXGroup;
+			children = (
+				474880DB19F6E13200C39C09 /* AppDelegate.h */,
+				474880DC19F6E13200C39C09 /* AppDelegate.m */,
+				474880E119F6E13200C39C09 /* ViewController.h */,
+				474880E219F6E13200C39C09 /* ViewController.m */,
+				474880E419F6E13200C39C09 /* Main.storyboard */,
+				474880E719F6E13200C39C09 /* Images.xcassets */,
+				474880E919F6E13200C39C09 /* LaunchScreen.xib */,
+				474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */,
+				474880D719F6E13200C39C09 /* Supporting Files */,
+			);
+			path = "DAK-E";
+			sourceTree = "<group>";
+		};
+		474880D719F6E13200C39C09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474880D819F6E13200C39C09 /* Info.plist */,
+				474880D919F6E13200C39C09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		474880F319F6E13200C39C09 /* DAK-ETests */ = {
+			isa = PBXGroup;
+			children = (
+				474880F619F6E13200C39C09 /* DAK_ETests.m */,
+				474880F419F6E13200C39C09 /* Supporting Files */,
+			);
+			path = "DAK-ETests";
+			sourceTree = "<group>";
+		};
+		474880F419F6E13200C39C09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				474880F519F6E13200C39C09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		474880D319F6E13100C39C09 /* DAK-E */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474880FA19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-E" */;
+			buildPhases = (
+				474880D019F6E13100C39C09 /* Sources */,
+				474880D119F6E13100C39C09 /* Frameworks */,
+				474880D219F6E13100C39C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DAK-E";
+			productName = "DAK-E";
+			productReference = 474880D419F6E13200C39C09 /* DAK-E.app */;
+			productType = "com.apple.product-type.application";
+		};
+		474880EF19F6E13200C39C09 /* DAK-ETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 474880FD19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-ETests" */;
+			buildPhases = (
+				474880EC19F6E13200C39C09 /* Sources */,
+				474880ED19F6E13200C39C09 /* Frameworks */,
+				474880EE19F6E13200C39C09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				474880F219F6E13200C39C09 /* PBXTargetDependency */,
+			);
+			name = "DAK-ETests";
+			productName = "DAK-ETests";
+			productReference = 474880F019F6E13200C39C09 /* DAK-ETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		474880CC19F6E13100C39C09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Konrad Gnoinski";
+				TargetAttributes = {
+					474880D319F6E13100C39C09 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					474880EF19F6E13200C39C09 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 474880D319F6E13100C39C09;
+					};
+				};
+			};
+			buildConfigurationList = 474880CF19F6E13100C39C09 /* Build configuration list for PBXProject "DAK-E" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 474880CB19F6E13100C39C09;
+			productRefGroup = 474880D519F6E13200C39C09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				474880D319F6E13100C39C09 /* DAK-E */,
+				474880EF19F6E13200C39C09 /* DAK-ETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		474880D219F6E13100C39C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474880E619F6E13200C39C09 /* Main.storyboard in Resources */,
+				474880EB19F6E13200C39C09 /* LaunchScreen.xib in Resources */,
+				474880E819F6E13200C39C09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474880EE19F6E13200C39C09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		474880D019F6E13100C39C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
+				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
+				474880E319F6E13200C39C09 /* ViewController.m in Sources */,
+				474880DA19F6E13200C39C09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474880EC19F6E13200C39C09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		474880F219F6E13200C39C09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 474880D319F6E13100C39C09 /* DAK-E */;
+			targetProxy = 474880F119F6E13200C39C09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		474880E419F6E13200C39C09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474880E519F6E13200C39C09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		474880E919F6E13200C39C09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				474880EA19F6E13200C39C09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		474880F819F6E13200C39C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		474880F919F6E13200C39C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		474880FB19F6E13200C39C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DAK-E/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		474880FC19F6E13200C39C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DAK-E/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		474880FE19F6E13200C39C09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DAK-ETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAK-E.app/DAK-E";
+			};
+			name = Debug;
+		};
+		474880FF19F6E13200C39C09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DAK-ETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAK-E.app/DAK-E";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		474880CF19F6E13100C39C09 /* Build configuration list for PBXProject "DAK-E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474880F819F6E13200C39C09 /* Debug */,
+				474880F919F6E13200C39C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		474880FA19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-E" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474880FB19F6E13200C39C09 /* Debug */,
+				474880FC19F6E13200C39C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		474880FD19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-ETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				474880FE19F6E13200C39C09 /* Debug */,
+				474880FF19F6E13200C39C09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				474880DF19F6E13200C39C09 /* DAK_E.xcdatamodel */,
+			);
+			currentVersion = 474880DF19F6E13200C39C09 /* DAK_E.xcdatamodel */;
+			path = DAK_E.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 474880CC19F6E13100C39C09 /* Project object */;
+}
