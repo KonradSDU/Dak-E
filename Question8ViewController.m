@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.questionNumber=8;
+    self.segueToNextControllerName = @"segueToQuestion9";
     // Do any additional setup after loading the view.
 }
 

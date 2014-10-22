@@ -15,8 +15,9 @@
 @implementation Question4ViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     self.questionNumber=4;
+    self.segueToNextControllerName = @"segueToQuestion5";
+    [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
 

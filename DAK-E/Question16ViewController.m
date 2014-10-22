@@ -1,23 +1,23 @@
 //
-//  Question6ViewController.m
+//  Question16ViewController.m
 //  DAK-E
 //
 //  Created by david on 22.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "Question6ViewController.h"
+#import "Question16ViewController.h"
 
-@interface Question6ViewController ()
+@interface Question16ViewController ()
 
 @end
 
-@implementation Question6ViewController
+@implementation Question16ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.questionNumber=6;
-    self.segueToNextControllerName = @"segueToQuestion8";
+    self.questionNumber=16;
+    //self.segueToNextControllerName = @"segueToQuestion17";
     // Do any additional setup after loading the view.
 }
 

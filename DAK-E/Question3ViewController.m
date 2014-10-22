@@ -29,9 +29,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)rightNavButtHasBeenPressed{
-    [self performSegueWithIdentifier:@"Question4ViewController" sender:self];
-}
+
 
 /*
 #pragma mark - Navigation
