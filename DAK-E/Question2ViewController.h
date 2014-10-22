@@ -9,5 +9,5 @@
 #import "BaseViewController.h"
 
 @interface Question2ViewController : BaseViewController
-- (UIImage *)imageWithColor:(UIColor *)color;
+
 @end
