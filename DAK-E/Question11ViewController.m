@@ -1,35 +1,28 @@
 //
-//  Question3ViewController.m
+//  Question11ViewController.m
 //  DAK-E
 //
 //  Created by david on 22.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "Question3ViewController.h"
-#import "BaseViewController.h"
+#import "Question11ViewController.h"
 
-@interface Question3ViewController ()
+@interface Question11ViewController ()
 
 @end
 
-@implementation Question3ViewController
+@implementation Question11ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.questionNumber=3;
-    self.segueToNextControllerName=@"Question4ViewController";
-    
+    self.questionNumber=11;
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)rightNavButtHasBeenPressed{
-    [self performSegueWithIdentifier:@"Question4ViewController" sender:self];
 }
 
 /*
