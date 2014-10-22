@@ -13,4 +13,5 @@
 @property (nonatomic, retain) NSString *leftNavigationButton; //default value is back - u can change it in your subclass
 @property (nonatomic, retain) NSString *rightNavigationButton;//default value is next - u can change it in your subclass
 @property (nonatomic, retain) NSString *segueToNextControllerName;
+-(void)updateView;
 @end

@@ -1,5 +1,5 @@
 //
-//  0ViewController.h
+//  ZeroViewController.h
 //  DAK-E
 //
 //  Created by Konrad Gnoinski on 22/10/14.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface _ViewController : BaseViewController
+@interface ZeroViewController : BaseViewController
 
 @end
