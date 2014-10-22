@@ -11,7 +11,7 @@
 @implementation BigUISlider
 
 - (CGRect)trackRectForBounds:(CGRect)bounds{
-    CGRect customBounds = CGRectMake(50, 100, 650, 50);
+    CGRect customBounds = CGRectMake(0, 0, 550, 40);
     return customBounds;
 }
 
