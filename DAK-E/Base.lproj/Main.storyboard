@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wK1-ij-7N6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="wK1-ij-7N6">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -99,7 +99,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ctn-Tx-Vsk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gXj-in-8DZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-lQ-phC" colorLabel="IBBuiltInLabel-Orange">
@@ -152,12 +152,12 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <segue destination="Ag5-Fh-0jF" kind="push" identifier="A" id="F0r-gz-Z6z"/>
+                        <segue destination="Ag5-Fh-0jF" kind="push" identifier="segueToQuestion4" id="F0r-gz-Z6z"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3O-zH-7hB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2433" y="251"/>
+            <point key="canvasLocation" x="3009" y="175"/>
         </scene>
         <!--Question4 View Controller-->
         <scene sceneID="QTH-io-9XV">
@@ -168,7 +168,7 @@
                         <viewControllerLayoutGuide type="bottom" id="uHM-Uj-WPE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6MD-eE-7gu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-Yw-IQx" colorLabel="IBBuiltInLabel-Orange">
@@ -224,7 +224,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="glj-Af-Kyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4163" y="251"/>
+            <point key="canvasLocation" x="3891" y="175"/>
         </scene>
         <!--Question5 View Controller-->
         <scene sceneID="e8k-pp-pgG">
@@ -368,7 +368,7 @@ På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre en
                         <viewControllerLayoutGuide type="bottom" id="th2-Ks-AGs"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Awz-3c-Xd8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MCe-Sz-eVr" customClass="BigUISlider">
@@ -378,13 +378,14 @@ På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre en
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="6Vq-bn-JDc"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <segue destination="tW7-i6-fa7" kind="push" identifier="segueToQuestion3" id="Hjx-DF-N7P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSd-BV-8uB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2779" y="251"/>
+            <point key="canvasLocation" x="2167" y="175"/>
         </scene>
         <!--Question8 View Controller-->
         <scene sceneID="zhv-X7-TRb">
@@ -656,7 +657,7 @@ På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre en
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vp8-h1-k6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2703" y="963"/>
+            <point key="canvasLocation" x="2713" y="1253"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rQk-t8-uIq">
@@ -674,7 +675,7 @@ På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre en
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5K-dy-kqJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1967" y="251"/>
+            <point key="canvasLocation" x="1307" y="175"/>
         </scene>
     </scenes>
 </document>
