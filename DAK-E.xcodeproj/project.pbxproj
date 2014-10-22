@@ -28,6 +28,7 @@
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
 		E79534BE19F8500A00D7E12D /* TwelfthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79534BD19F8500A00D7E12D /* TwelfthViewController.m */; };
+		E79534C119F8546400D7E12D /* ThirteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79534C019F8546400D7E12D /* ThirteenthViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,8 @@
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
 		E79534BC19F8500A00D7E12D /* TwelfthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelfthViewController.h; sourceTree = "<group>"; };
 		E79534BD19F8500A00D7E12D /* TwelfthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelfthViewController.m; sourceTree = "<group>"; };
+		E79534BF19F8546400D7E12D /* ThirteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirteenthViewController.h; sourceTree = "<group>"; };
+		E79534C019F8546400D7E12D /* ThirteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirteenthViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +194,8 @@
 				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
 				E79534BC19F8500A00D7E12D /* TwelfthViewController.h */,
 				E79534BD19F8500A00D7E12D /* TwelfthViewController.m */,
+				E79534BF19F8546400D7E12D /* ThirteenthViewController.h */,
+				E79534C019F8546400D7E12D /* ThirteenthViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 				63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */,
 				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
+				E79534C119F8546400D7E12D /* ThirteenthViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,

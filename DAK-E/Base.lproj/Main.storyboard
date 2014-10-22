@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Sp0-Kr-gq2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cHS-Od-IX3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -677,10 +677,87 @@ På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre en
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="cHS-Od-IX3" kind="push" identifier="segue1213" id="xhA-3W-58g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wyA-uH-How" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="7927" y="1081"/>
+        </scene>
+        <!--Thirteenth View Controller-->
+        <scene sceneID="0He-9a-CAb">
+            <objects>
+                <viewController id="cHS-Od-IX3" customClass="ThirteenthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AA7-6c-FWs"/>
+                        <viewControllerLayoutGuide type="bottom" id="9b2-a5-aVR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HCj-x7-2i6">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-Wa-XCl">
+                                <rect key="frame" x="69" y="250" width="630" height="33"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Træner hårdt og dyrker konkurrenceidræt regelmæsigt og flere gange om ugen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMI-rw-B8f">
+                                <rect key="frame" x="69" y="299" width="630" height="33"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Dyrker motionsidræt eller udfører tungt havearbejde eller lingnende mindst 4 timer om ugen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpL-ep-bc2">
+                                <rect key="frame" x="69" y="350" width="630" height="33"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvis du ser på det seneste år, hvad ville du så sige passer bedst som beskrivelse " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-F4-K5P">
+                                <rect key="frame" x="39" y="165" width="661" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="af din fysiske aktivitet i fritiden? (kun ėt kryds)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4B0-gP-c5g">
+                                <rect key="frame" x="39" y="185" width="661" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kA9-h6-dSn">
+                                <rect key="frame" x="70" y="429" width="630" height="33"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Læser, ser fjernsyn eller har anden stillesiddende beskæftiglese">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z60-Y6-9Nm">
+                                <rect key="frame" x="69" y="379" width="630" height="33"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="(medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde ">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gCZ-CP-vhA"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njH-hF-fur" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8793" y="1075"/>
         </scene>
         <!--Zero View Controller-->
         <scene sceneID="Nqm-9b-xQK">

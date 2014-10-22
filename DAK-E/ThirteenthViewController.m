@@ -1,24 +1,23 @@
 //
-//  TwelfthViewController.m
+//  ThirteenthViewController.m
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 22.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "TwelfthViewController.h"
+#import "ThirteenthViewController.h"
 
-@interface TwelfthViewController ()
+@interface ThirteenthViewController ()
 
 @end
 
-@implementation TwelfthViewController
+@implementation ThirteenthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.questionNumber = 12;
-    self.segueToNextControllerName = @"segue1213";
+    self.questionNumber = 13;
 }
 
 - (void)didReceiveMemoryWarning {
