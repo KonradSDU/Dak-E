@@ -1,20 +1,17 @@
 //
-//  UIColor+customColors.h
-//  Bash
+//  ViewController.m
+//  DAK-E
 //
-//  Created by Konrad Gnoinski on 30.07.2013.
-//  Copyright (c) 2013 Konrad Gnoinski. All rights reserved.
+//  Created by Konrad Gnoinski on 21/10/14.
+//  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UIColor (customColors)
 
-+ (UIColor*)ApplicationBackgroundLighterColor;
-+ (UIColor*)ZUTZielony;
-+ (UIColor*)ZUTNiebieski;
-+ (UIColor*)ApplicationBackgroundDarkerColor;
-+ (UIColor*)KolorZLogaWI;
-+ (UIColor*)CzerwonyDoOdpowiedzi;
++ (UIColor*)lighterGreen;
++ (UIColor*)darkerGreen;
++ (UIColor*)gray;
 
 @end

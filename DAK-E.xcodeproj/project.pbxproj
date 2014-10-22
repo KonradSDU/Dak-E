@@ -10,11 +10,12 @@
 		474880DA19F6E13200C39C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880D919F6E13200C39C09 /* main.m */; };
 		474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880DC19F6E13200C39C09 /* AppDelegate.m */; };
 		474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */; };
-		474880E319F6E13200C39C09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880E219F6E13200C39C09 /* ViewController.m */; };
 		474880E619F6E13200C39C09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 474880E419F6E13200C39C09 /* Main.storyboard */; };
 		474880E819F6E13200C39C09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474880E719F6E13200C39C09 /* Images.xcassets */; };
 		474880EB19F6E13200C39C09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 474880E919F6E13200C39C09 /* LaunchScreen.xib */; };
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
+		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
+		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +35,16 @@
 		474880DB19F6E13200C39C09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		474880DC19F6E13200C39C09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		474880DF19F6E13200C39C09 /* DAK_E.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DAK_E.xcdatamodel; sourceTree = "<group>"; };
-		474880E119F6E13200C39C09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		474880E219F6E13200C39C09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		474880E519F6E13200C39C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		474880E719F6E13200C39C09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		474880EA19F6E13200C39C09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		474880F019F6E13200C39C09 /* DAK-ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DAK-ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474880F519F6E13200C39C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474880F619F6E13200C39C09 /* DAK_ETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAK_ETests.m; sourceTree = "<group>"; };
+		4748810019F6E29100C39C09 /* UIColor+customColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+customColors.h"; sourceTree = "<group>"; };
+		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
+		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +88,11 @@
 			children = (
 				474880DB19F6E13200C39C09 /* AppDelegate.h */,
 				474880DC19F6E13200C39C09 /* AppDelegate.m */,
-				474880E119F6E13200C39C09 /* ViewController.h */,
-				474880E219F6E13200C39C09 /* ViewController.m */,
 				474880E419F6E13200C39C09 /* Main.storyboard */,
+				4748810319F6E58F00C39C09 /* BaseViewController.h */,
+				4748810419F6E58F00C39C09 /* BaseViewController.m */,
+				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
+				4748810119F6E29100C39C09 /* UIColor+customColors.m */,
 				474880E719F6E13200C39C09 /* Images.xcassets */,
 				474880E919F6E13200C39C09 /* LaunchScreen.xib */,
 				474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */,
@@ -223,8 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
+				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
-				474880E319F6E13200C39C09 /* ViewController.m in Sources */,
+				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +356,7 @@
 				INFOPLIST_FILE = "DAK-E/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -360,6 +367,7 @@
 				INFOPLIST_FILE = "DAK-E/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
