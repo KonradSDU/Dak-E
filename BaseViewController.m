@@ -46,6 +46,10 @@
     leftNavButt.tintColor = [UIColor darkerGreen];
     [leftNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:leftNavButt];
+    //hide back for the first question
+    if(self.questionNumber == 1){
+        leftNavButt.hidden=YES;
+    }
     
     UIButton *rightNavButt =[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [rightNavButt addTarget:self
