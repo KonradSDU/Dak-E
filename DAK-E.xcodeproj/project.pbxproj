@@ -16,6 +16,8 @@
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
+		4796527219F8685D00756FCC /* TwelfthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796526E19F8685D00756FCC /* TwelfthViewController.m */; };
+		4796527319F8685D00756FCC /* ThirteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796527019F8685D00756FCC /* ThirteenthViewController.m */; };
 		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
 		47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */; };
@@ -57,6 +59,10 @@
 		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		4796526E19F8685D00756FCC /* TwelfthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelfthViewController.m; sourceTree = "<group>"; };
+		4796526F19F8685D00756FCC /* ThirteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirteenthViewController.h; sourceTree = "<group>"; };
+		4796527019F8685D00756FCC /* ThirteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirteenthViewController.m; sourceTree = "<group>"; };
+		4796527119F8685D00756FCC /* TwelfthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelfthViewController.h; sourceTree = "<group>"; };
 		47F764D519F83E5200E8CEEB /* Question2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question2ViewController.h; sourceTree = "<group>"; };
 		47F764D619F83E5200E8CEEB /* Question2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question2ViewController.m; sourceTree = "<group>"; };
 		47F764D819F840ED00E8CEEB /* BigUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUISlider.h; sourceTree = "<group>"; };
@@ -191,6 +197,10 @@
 				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
 				63AD998E19F856DD0046B0F9 /* Question16ViewController.h */,
 				63AD998F19F856DD0046B0F9 /* Question16ViewController.m */,
+				4796526E19F8685D00756FCC /* TwelfthViewController.m */,
+				4796526F19F8685D00756FCC /* ThirteenthViewController.h */,
+				4796527019F8685D00756FCC /* ThirteenthViewController.m */,
+				4796527119F8685D00756FCC /* TwelfthViewController.h */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -303,7 +313,9 @@
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
+				4796527319F8685D00756FCC /* ThirteenthViewController.m in Sources */,
 				47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */,
+				4796527219F8685D00756FCC /* TwelfthViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,

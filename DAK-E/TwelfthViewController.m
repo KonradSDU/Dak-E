@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.questionNumber = 12;
-    self.segueToNextControllerName = @"segue1213";  
+    self.segueToNextControllerName = @"segue1213";
 }
 
 - (void)didReceiveMemoryWarning {
