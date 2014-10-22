@@ -16,6 +16,7 @@
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
+		4748810819F813B300C39C09 /* 0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810719F813B300C39C09 /* 0ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		4748810619F813B300C39C09 /* 0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 0ViewController.h; sourceTree = "<group>"; };
+		4748810719F813B300C39C09 /* 0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 0ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				474880E419F6E13200C39C09 /* Main.storyboard */,
 				4748810319F6E58F00C39C09 /* BaseViewController.h */,
 				4748810419F6E58F00C39C09 /* BaseViewController.m */,
+				4748810619F813B300C39C09 /* 0ViewController.h */,
+				4748810719F813B300C39C09 /* 0ViewController.m */,
 				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
 				4748810119F6E29100C39C09 /* UIColor+customColors.m */,
 				474880E719F6E13200C39C09 /* Images.xcassets */,
@@ -230,6 +235,7 @@
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
+				4748810819F813B300C39C09 /* 0ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
 			);

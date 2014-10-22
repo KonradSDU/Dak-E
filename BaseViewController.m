@@ -10,10 +10,6 @@
 #import "UIColor+customColors.h"
 
 @interface BaseViewController ()
-@property (readwrite) float questionNumber; //need to be setted for evry screen
-@property (nonatomic, retain) NSString *leftNavigationButton; //default value is back - u can change it in your subclass
-@property (nonatomic, retain) NSString *rightNavigationButton;//default value is next - u can change it in your subclass
-@property (nonatomic, retain) NSString *segueToNextControllerName; //default value is back - u can change it in your subclass
 @end
 
 @implementation BaseViewController
