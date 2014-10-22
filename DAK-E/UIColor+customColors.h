@@ -13,5 +13,4 @@
 + (UIColor*)lighterGreen;
 + (UIColor*)darkerGreen;
 + (UIColor*)gray;
-
 @end
