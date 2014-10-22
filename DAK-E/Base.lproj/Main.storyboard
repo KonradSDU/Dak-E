@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3379" y="963"/>
+            <point key="canvasLocation" x="3515" y="1277"/>
         </scene>
         <!--Question3 View Controller-->
         <scene sceneID="PJi-gk-hWo">
@@ -32,11 +32,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Ctn-Tx-Vsk"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gXj-in-8DZ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-lQ-phC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="165" y="433" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Ryger til dagligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -44,7 +44,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YJ4-Ts-fMd" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="165" y="486" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Lejlighedsvis ryger">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -52,7 +52,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d52-nn-MaB" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="165" y="534" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Er stoppet for mindre end 6 måneder siden">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -60,7 +60,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlG-xm-Igo" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="165" y="582" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Er stoppet for mere end 6 måneder siden">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -68,7 +68,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vsb-xh-Ixm" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="414" width="439" height="30"/>
+                                <rect key="frame" x="165" y="626" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Har aldrig røget (hvis du aldrig har røget, gå da til spørgsmål 7)">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -76,17 +76,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Ryger du? (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FBN-9g-Snq">
-                                <rect key="frame" x="210" y="156" width="181" height="30"/>
+                                <rect key="frame" x="294" y="395" width="181" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="tintColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P3O-zH-7hB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2711" y="251"/>
+            <point key="canvasLocation" x="2593" y="251"/>
         </scene>
         <!--Question4 View Controller-->
         <scene sceneID="QTH-io-9XV">
@@ -97,51 +98,51 @@
                         <viewControllerLayoutGuide type="bottom" id="uHM-Uj-WPE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="6MD-eE-7gu">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-Yw-IQx" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rvz-NW-fSm" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="433" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="På intet tidspunkt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxt-Dj-8gh" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2T8-Mz-Pd9" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="486" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Sjældent">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Nh-mA-3RJ" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMg-UB-XP3" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="534" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Af og til">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhF-cS-wI8" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zh-Yo-xhw" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="582" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Ofte">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ohv-AS-uZ4" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="414" width="439" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6R-NM-gPi" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="626" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Hele tiden">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hEg-84-Hoz">
-                                <rect key="frame" x="-57" y="129" width="1125" height="51"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HWW-pd-jb3">
+                                <rect key="frame" x="-178" y="395" width="1125" height="30"/>
                                 <string key="text">Indenfor de sidste 4 uger, har du da haft åndenød i forbindelse med hverdagsaktiviteter? (for eksempel en gåtur, let havearbejde, rengøring, indkøb og lignende) (Kun ét kryds)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -150,10 +151,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="DGJ-nP-gy7"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="glj-Af-Kyy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3351" y="251"/>
+            <point key="canvasLocation" x="3421" y="251"/>
         </scene>
         <!--Question5 View Controller-->
         <scene sceneID="e8k-pp-pgG">
@@ -164,11 +166,11 @@
                         <viewControllerLayoutGuide type="bottom" id="q5S-8H-Mlb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8Et-Ac-YaQ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQv-7Z-3rG" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="165" y="432" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Nej, aldrig">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -176,7 +178,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpn-Uc-sjG" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="165" y="485" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Kun når jeg er forkølet eller har hals- eller lungebetændelse">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -184,15 +186,23 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRg-Hy-sD4" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="165" y="533" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Ja, et par dage om måneden">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zf-cD-DpS" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="581" width="439" height="30"/>
+                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Ja, de fleste dage på en uge">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1e-SE-SdU" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="414" width="439" height="30"/>
+                                <rect key="frame" x="165" y="625" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Ja, alle dage">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -200,25 +210,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoster du slim op? (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hQn-hH-0rW">
-                                <rect key="frame" x="190" y="157" width="220" height="30"/>
+                                <rect key="frame" x="274" y="394" width="220" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zf-cD-DpS" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
-                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Ja, de fleste dage på en uge">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1z-08-WbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3965" y="251"/>
+            <point key="canvasLocation" x="4211" y="251"/>
         </scene>
         <!--Question6 View Controller-->
         <scene sceneID="DSB-cr-tJ1">
@@ -229,11 +232,19 @@
                         <viewControllerLayoutGuide type="bottom" id="mDk-nN-ns8"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="apQ-Xt-VWY">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTj-uD-yRC" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="200" y="433" width="439" height="30"/>
+                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Meget uenig">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8LG-Wk-KcC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="200" y="486" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Uenig">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -241,7 +252,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-hC-bfN" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="200" y="534" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Måske">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -249,7 +260,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIP-H5-bOJ" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="200" y="582" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Enig">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -257,7 +268,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVG-Qv-D1t" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="414" width="439" height="30"/>
+                                <rect key="frame" x="200" y="626" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Meget enig">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -265,26 +276,19 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n9b-YJ-MRL">
-                                <rect key="frame" x="210" y="156" width="951" height="30"/>
+                                <rect key="frame" x="-91" y="395" width="951" height="30"/>
                                 <string key="text">I hvor høj grad er du enig i følgende udsagn.På grund af åndenød har jeg i de sidste 12 måneder bevæget mig mindre end jeg plejer. (Kun ét kryds)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTj-uD-yRC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
-                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Meget uenig">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5T-Fm-05h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4633" y="251"/>
+            <point key="canvasLocation" x="5025" y="251"/>
         </scene>
         <!--Question8 View Controller-->
         <scene sceneID="zhv-X7-TRb">
@@ -295,11 +299,11 @@
                         <viewControllerLayoutGuide type="bottom" id="uYT-NY-11O"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="B6S-qD-5eD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4k0-Gd-Cdh" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="190" y="430" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Dagligt eller næsten dagligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -307,7 +311,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LsP-ts-Ana" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="190" y="483" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Ugentligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -315,7 +319,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nZX-rL-bU5" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="190" y="531" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Månedligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -323,7 +327,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="02j-Sj-Wjj" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="190" y="579" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Sjældent">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -331,7 +335,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S50-mA-nuW" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="414" width="439" height="30"/>
+                                <rect key="frame" x="190" y="623" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Aldrig">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -339,17 +343,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hvor ofte drikker du mere end 5 genstande ved samme lejlighed? (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="243-6q-Vgf">
-                                <rect key="frame" x="16" y="162" width="518" height="17"/>
+                                <rect key="frame" x="125" y="400" width="518" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OUd-RH-b4r" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5297" y="251"/>
+            <point key="canvasLocation" x="5835" y="251"/>
         </scene>
         <!--Question9 View Controller-->
         <scene sceneID="6Yg-ow-NvA">
@@ -360,11 +365,11 @@
                         <viewControllerLayoutGuide type="bottom" id="NNG-ak-JAW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="iMy-Cu-oOD">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1J-dt-1fU" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="165" y="428" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="To gange dagligt eller oftere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -372,7 +377,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UYO-Y5-gLC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="165" y="481" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="En gang dagligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -380,7 +385,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MjH-jR-isC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="165" y="529" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Nogle gange i løbet af ugen">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -388,7 +393,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hEL-FL-1kL" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="165" y="577" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="En gang om ugen eller sjældnere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -396,17 +401,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hvor hyppigt spiser du grøntsager og/eller rodfrugter (friske såvel som frosne) (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8fn-Cu-3pV">
-                                <rect key="frame" x="210" y="156" width="597" height="30"/>
+                                <rect key="frame" x="86" y="390" width="597" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ROo-dV-4xF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5943" y="251"/>
+            <point key="canvasLocation" x="6641" y="251"/>
         </scene>
         <!--Question10 View Controller-->
         <scene sceneID="iPF-nI-qUq">
@@ -417,11 +423,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Wg9-MG-l5A"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jP3-JQ-l5Z">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cE1-qj-bo3" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="165" y="422" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="To gange dagligt eller oftere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -429,7 +435,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akj-tt-tpq" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="165" y="475" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="En gang dagligt">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -437,7 +443,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jY0-ec-f69" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="165" y="523" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Nogle gange i løbet af ugen">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -445,7 +451,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swl-pc-ZKL" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="165" y="571" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="En gang om ugen eller sjældnere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -453,17 +459,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hvor hyppigt spiser du frugt og/eller bær (friske, frosne, konserves eller juice/smoothie) (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2IE-Kz-xVB">
-                                <rect key="frame" x="210" y="156" width="658" height="30"/>
+                                <rect key="frame" x="55" y="384" width="658" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NxI-uX-JdC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6585" y="251"/>
+            <point key="canvasLocation" x="7441" y="251"/>
         </scene>
         <!--Question11 View Controller-->
         <scene sceneID="RMd-eo-TIQ">
@@ -474,11 +481,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Tfw-sI-ukU"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="USW-R9-HA1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thh-9Q-u9p" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="221" width="439" height="30"/>
+                                <rect key="frame" x="165" y="422" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Tre gange om ugen eller oftere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -486,7 +493,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLU-Ih-VHF" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="274" width="439" height="30"/>
+                                <rect key="frame" x="165" y="475" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="To gange om ugen">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -494,7 +501,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrD-B2-PFn" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="322" width="439" height="30"/>
+                                <rect key="frame" x="165" y="523" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="En gang om ugen">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -502,7 +509,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRr-dJ-Bwr" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="81" y="370" width="439" height="30"/>
+                                <rect key="frame" x="165" y="571" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                                 <state key="normal" title="Et par gange om måneden eller sjældnere">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
@@ -510,17 +517,18 @@
                                 </state>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hvor hyppigt spiser du fisk eller skaldyr som hovedret (Kun ét kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZBw-b3-mPY">
-                                <rect key="frame" x="210" y="156" width="444" height="30"/>
+                                <rect key="frame" x="162" y="384" width="444" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IIe-ia-Fw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7233" y="251"/>
+            <point key="canvasLocation" x="8259" y="251"/>
         </scene>
         <!--Zero View Controller-->
         <scene sceneID="Nqm-9b-xQK">
@@ -556,7 +564,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vp8-h1-k6i" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2703" y="963"/>
+            <point key="canvasLocation" x="2567" y="1269"/>
         </scene>
     </scenes>
 </document>
