@@ -1,21 +1,22 @@
 //
-//  0ViewController.m
+//  ZeroViewController.m
 //  DAK-E
 //
 //  Created by Konrad Gnoinski on 22/10/14.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "0ViewController.h"
+#import "ZeroViewController.h"
 
-@interface _ViewController ()
+@interface ZeroViewController ()
 
 @end
 
-@implementation _ViewController
+@implementation ZeroViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.questionNumber = 3.0;
     // Do any additional setup after loading the view.
 }
 

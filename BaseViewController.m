@@ -16,6 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+}
+
+-(void) viewDidAppear:(BOOL)animated{
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     self.view.backgroundColor = [UIColor lighterGreen];
     _leftNavigationButton = @"< Back";
@@ -35,8 +39,8 @@
     
     UIButton *leftNavButt =[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [leftNavButt addTarget:self
-               action:@selector(leftNavButtHasBeenPressed)
-     forControlEvents:UIControlEventTouchUpInside];
+                    action:@selector(leftNavButtHasBeenPressed)
+          forControlEvents:UIControlEventTouchUpInside];
     [leftNavButt setTitle:_leftNavigationButton forState:UIControlStateNormal];
     leftNavButt.frame = CGRectMake(0, 10, 150, 50);
     leftNavButt.tintColor = [UIColor darkerGreen];
@@ -45,15 +49,15 @@
     
     UIButton *rightNavButt =[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [rightNavButt addTarget:self
-                    action:@selector(rightNavButtHasBeenPressed)
-          forControlEvents:UIControlEventTouchUpInside];
+                     action:@selector(rightNavButtHasBeenPressed)
+           forControlEvents:UIControlEventTouchUpInside];
     [rightNavButt setTitle:_rightNavigationButton forState:UIControlStateNormal];
     rightNavButt.frame = CGRectMake(620, 10, 150, 50);
     rightNavButt.tintColor = [UIColor darkerGreen];
     [rightNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:rightNavButt];
     
-
+    
     UIProgressView *progressView = [[UIProgressView alloc] init];
     progressView.frame = CGRectMake(0,100,768,100);
     [progressView setTransform:CGAffineTransformMakeScale(1.0, 28.0)];
@@ -94,7 +98,6 @@
                                                           attribute:NSLayoutAttributeCenterX
                                                          multiplier:1.0
                                                            constant:0.0]];
-    
 }
 
 -(BOOL)prefersStatusBarHidden { return YES; }
@@ -112,4 +115,5 @@
 - (void)rightNavButtHasBeenPressed{
     [self performSegueWithIdentifier:_segueToNextControllerName sender:self];
 }
+
 @end
