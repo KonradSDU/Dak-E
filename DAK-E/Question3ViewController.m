@@ -1,22 +1,24 @@
 //
-//  0ViewController.m
+//  Question3ViewController.m
 //  DAK-E
 //
-//  Created by Konrad Gnoinski on 22/10/14.
+//  Created by david on 22.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "0ViewController.h"
+#import "Question3ViewController.h"
+#import "BaseViewController.h"
 
-@interface _ViewController ()
+@interface Question3ViewController ()
 
 @end
 
-@implementation _ViewController
+@implementation Question3ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.questionNumber=2;
+    self.questionNumber=3;
+    
     // Do any additional setup after loading the view.
 }
 

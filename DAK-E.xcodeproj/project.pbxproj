@@ -17,6 +17,7 @@
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
 		4748810819F813B300C39C09 /* 0ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810719F813B300C39C09 /* 0ViewController.m */; };
+		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
 		4748810619F813B300C39C09 /* 0ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 0ViewController.h; sourceTree = "<group>"; };
 		4748810719F813B300C39C09 /* 0ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = 0ViewController.m; sourceTree = "<group>"; };
+		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
+		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				474880E419F6E13200C39C09 /* Main.storyboard */,
 				4748810319F6E58F00C39C09 /* BaseViewController.h */,
 				4748810419F6E58F00C39C09 /* BaseViewController.m */,
+				63AD997619F816230046B0F9 /* Question3ViewController.h */,
+				63AD997719F816230046B0F9 /* Question3ViewController.m */,
 				4748810619F813B300C39C09 /* 0ViewController.h */,
 				4748810719F813B300C39C09 /* 0ViewController.m */,
 				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
@@ -236,6 +241,7 @@
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
 				4748810819F813B300C39C09 /* 0ViewController.m in Sources */,
+				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
 			);
@@ -430,6 +436,7 @@
 				474880FC19F6E13200C39C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		474880FD19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-ETests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +445,7 @@
 				474880FF19F6E13200C39C09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
