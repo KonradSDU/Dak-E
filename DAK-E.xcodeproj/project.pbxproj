@@ -298,6 +298,7 @@
 				63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */,
 				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
+				E79534C119F8546400D7E12D /* ThirteenthViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
