@@ -16,6 +16,9 @@
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
+		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
+		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
+		47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */; };
 		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
 		63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997D19F8279F0046B0F9 /* Question5ViewController.m */; };
@@ -24,7 +27,6 @@
 		63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998619F828D60046B0F9 /* Question9ViewController.m */; };
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
-		E778755619F83FAF00C440B2 /* FirstViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E778755519F83FAF00C440B2 /* FirstViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,12 @@
 		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		47F764D519F83E5200E8CEEB /* Question2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question2ViewController.h; sourceTree = "<group>"; };
+		47F764D619F83E5200E8CEEB /* Question2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question2ViewController.m; sourceTree = "<group>"; };
+		47F764D819F840ED00E8CEEB /* BigUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUISlider.h; sourceTree = "<group>"; };
+		47F764D919F840ED00E8CEEB /* BigUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigUISlider.m; sourceTree = "<group>"; };
+		47F764DB19F846C900E8CEEB /* FirstQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstQuestionViewController.h; sourceTree = "<group>"; };
+		47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstQuestionViewController.m; sourceTree = "<group>"; };
 		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
 		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 		63AD997919F824960046B0F9 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
@@ -70,8 +78,6 @@
 		63AD998919F829070046B0F9 /* Question10ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question10ViewController.m; sourceTree = "<group>"; };
 		63AD998B19F829180046B0F9 /* Question11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question11ViewController.h; sourceTree = "<group>"; };
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
-		E778755419F83FAF00C440B2 /* FirstViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewViewController.h; path = ../../../../../../../../Movies/FirstViewViewController.h; sourceTree = "<group>"; };
-		E778755519F83FAF00C440B2 /* FirstViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewViewController.m; path = ../../../../../../../../Movies/FirstViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,26 +122,11 @@
 				474880DB19F6E13200C39C09 /* AppDelegate.h */,
 				474880DC19F6E13200C39C09 /* AppDelegate.m */,
 				474880E419F6E13200C39C09 /* Main.storyboard */,
+				47F764D819F840ED00E8CEEB /* BigUISlider.h */,
+				47F764D919F840ED00E8CEEB /* BigUISlider.m */,
 				4748810319F6E58F00C39C09 /* BaseViewController.h */,
 				4748810419F6E58F00C39C09 /* BaseViewController.m */,
-				E778755419F83FAF00C440B2 /* FirstViewViewController.h */,
-				E778755519F83FAF00C440B2 /* FirstViewViewController.m */,
-				63AD997619F816230046B0F9 /* Question3ViewController.h */,
-				63AD997719F816230046B0F9 /* Question3ViewController.m */,
-				63AD997919F824960046B0F9 /* Question4ViewController.h */,
-				63AD997A19F824960046B0F9 /* Question4ViewController.m */,
-				63AD997C19F8279F0046B0F9 /* Question5ViewController.h */,
-				63AD997D19F8279F0046B0F9 /* Question5ViewController.m */,
-				63AD997F19F828810046B0F9 /* Question6ViewController.h */,
-				63AD998019F828810046B0F9 /* Question6ViewController.m */,
-				63AD998219F828BB0046B0F9 /* Question8ViewController.h */,
-				63AD998319F828BB0046B0F9 /* Question8ViewController.m */,
-				63AD998519F828D60046B0F9 /* Question9ViewController.h */,
-				63AD998619F828D60046B0F9 /* Question9ViewController.m */,
-				63AD998819F829070046B0F9 /* Question10ViewController.h */,
-				63AD998919F829070046B0F9 /* Question10ViewController.m */,
-				63AD998B19F829180046B0F9 /* Question11ViewController.h */,
-				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
+				47F764D419F83D6800E8CEEB /* ViewControllers */,
 				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
 				4748810119F6E29100C39C09 /* UIColor+customColors.m */,
 				474880E719F6E13200C39C09 /* Images.xcassets */,
@@ -170,6 +161,33 @@
 				474880F519F6E13200C39C09 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47F764D419F83D6800E8CEEB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				47F764DB19F846C900E8CEEB /* FirstQuestionViewController.h */,
+				47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */,
+				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
+				47F764D619F83E5200E8CEEB /* Question2ViewController.m */,
+				63AD997619F816230046B0F9 /* Question3ViewController.h */,
+				63AD997719F816230046B0F9 /* Question3ViewController.m */,
+				63AD997919F824960046B0F9 /* Question4ViewController.h */,
+				63AD997A19F824960046B0F9 /* Question4ViewController.m */,
+				63AD997C19F8279F0046B0F9 /* Question5ViewController.h */,
+				63AD997D19F8279F0046B0F9 /* Question5ViewController.m */,
+				63AD997F19F828810046B0F9 /* Question6ViewController.h */,
+				63AD998019F828810046B0F9 /* Question6ViewController.m */,
+				63AD998219F828BB0046B0F9 /* Question8ViewController.h */,
+				63AD998319F828BB0046B0F9 /* Question8ViewController.m */,
+				63AD998519F828D60046B0F9 /* Question9ViewController.h */,
+				63AD998619F828D60046B0F9 /* Question9ViewController.m */,
+				63AD998819F829070046B0F9 /* Question10ViewController.h */,
+				63AD998919F829070046B0F9 /* Question10ViewController.m */,
+				63AD998B19F829180046B0F9 /* Question11ViewController.h */,
+				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,14 +294,16 @@
 				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
-				E778755619F83FAF00C440B2 /* FirstViewViewController.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
+				47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
+				47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */,
 				63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */,
+				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
 			);
