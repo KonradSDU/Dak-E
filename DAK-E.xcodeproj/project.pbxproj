@@ -309,6 +309,7 @@
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
 				47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */,
 				63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */,
+				E79534BE19F8500A00D7E12D /* TwelfthViewController.m in Sources */,
 				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
