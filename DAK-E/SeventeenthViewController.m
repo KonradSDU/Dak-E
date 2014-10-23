@@ -1,24 +1,24 @@
 //
-//  Question16ViewController.m
+//  SeventeenthViewController.m
 //  DAK-E
 //
-//  Created by david on 22.10.2014.
+//  Created by Milena Gnoińska on 23.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "Question16ViewController.h"
+#import "SeventeenthViewController.h"
 
-@interface Question16ViewController ()
+@interface SeventeenthViewController ()
 
 @end
 
-@implementation Question16ViewController
+@implementation SeventeenthViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.questionNumber=16;
-    self.segueToNextControllerName = @"segue1617";
     // Do any additional setup after loading the view.
+    self.questionNumber = 17;
+    self.segueToNextControllerName = @"segue1718";
 }
 
 - (void)didReceiveMemoryWarning {

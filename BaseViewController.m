@@ -66,6 +66,9 @@
     rightNavButt.tintColor = [UIColor darkerGreen];
     [rightNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:rightNavButt];
+    if(self.questionNumber==18){
+        rightNavButt.hidden=YES;
+    }
     
     
     UIProgressView *progressView = [[UIProgressView alloc] init];

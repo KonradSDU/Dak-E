@@ -723,7 +723,7 @@
                     <navigationItem key="navigationItem" id="Lie-ie-axf"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <segue destination="dSt-YU-lZ5" kind="push" identifier="segueToQuestion16" id="Rzm-Mu-oDF"/>
+                        <segue destination="6bZ-qP-DL4" kind="push" identifier="segue1112" id="00J-nS-g9B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IIe-ia-Fw2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -749,6 +749,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="Onb-nq-fOa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G2t-fh-gAx" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="402" width="439" height="30"/>
@@ -757,6 +760,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="tB3-TG-xri"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1FS-95-Nqw" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="440" width="439" height="30"/>
@@ -765,6 +771,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="xA0-wX-D9D"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fbD-1N-ZP1" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="478" width="439" height="30"/>
@@ -773,6 +782,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="H8P-Vv-1lC"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CbE-Qi-CT2" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="516" width="439" height="30"/>
@@ -781,6 +793,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="tyH-RN-N3L"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8QI-y7-kk6" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="554" width="439" height="30"/>
@@ -789,6 +804,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="sho-o2-leg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5RZ-2A-VjM" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="592" width="439" height="30"/>
@@ -797,6 +815,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="6h4-dK-kCK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EGH-M1-TWd" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="630" width="439" height="30"/>
@@ -805,6 +826,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="ePB-3o-VAf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1MW-MV-Etl" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="167" y="668" width="439" height="30"/>
@@ -813,6 +837,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="h3f-An-D3W" kind="push" id="0yl-Cj-6Dm"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="(nærmeste familie er bedsteforældre, forældre, søskende, børn) (Sæt gerne flere kryds)" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="P2u-7b-NS0">
                                 <rect key="frame" x="104" y="339" width="561" height="17"/>
@@ -832,12 +859,12 @@
                     <navigationItem key="navigationItem" id="z2g-Wb-Nw6"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <segue destination="cHS-Od-IX3" kind="push" identifier="segue1213" id="xhA-3W-58g"/>
+                        <segue destination="h3f-An-D3W" kind="push" identifier="segue1617" id="DrD-2I-qKx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="naw-mf-HgK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10501" y="175"/>
+            <point key="canvasLocation" x="9677" y="1601"/>
         </scene>
         <!--Thirteenth View Controller-->
         <scene sceneID="0He-9a-CAb">
@@ -858,6 +885,9 @@
                                 <state key="normal" title="Træner hårdt og dyrker konkurrenceidræt regelmæsigt og flere gange om ugen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="gFs-9A-r26"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BMI-rw-B8f">
                                 <rect key="frame" x="69" y="299" width="630" height="33"/>
@@ -866,6 +896,9 @@
                                 <state key="normal" title="Dyrker motionsidræt eller udfører tungt havearbejde eller lingnende mindst 4 timer om ugen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="1Uc-0p-ayR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpL-ep-bc2">
                                 <rect key="frame" x="69" y="350" width="630" height="33"/>
@@ -874,6 +907,9 @@
                                 <state key="normal" title="Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="ylM-mP-lJM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvis du ser på det seneste år, hvad ville du så sige passer bedst som beskrivelse " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-F4-K5P">
                                 <rect key="frame" x="39" y="165" width="661" height="21"/>
@@ -894,6 +930,9 @@
                                 <state key="normal" title="Læser, ser fjernsyn eller har anden stillesiddende beskæftiglese">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="7cc-08-itg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z60-Y6-9Nm">
                                 <rect key="frame" x="69" y="379" width="630" height="33"/>
@@ -902,16 +941,270 @@
                                 <state key="normal" title="(medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde ">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="lBZ-53-7go"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="gCZ-CP-vhA"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="Dka-Ba-kES" kind="push" identifier="segue1314" id="Tii-pH-GLF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="njH-hF-fur" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9605" y="1075"/>
+            <point key="canvasLocation" x="6933" y="1595"/>
+        </scene>
+        <!--Fourteenth View Controller-->
+        <scene sceneID="tmq-vV-qcC">
+            <objects>
+                <viewController id="Dka-Ba-kES" customClass="FourteenthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IA7-Sy-jwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="5fP-f3-AXc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cNL-tQ-Qpa">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvis du tænker på dine hofter og knæ, har du så... (du må gerne svare ja til mere end et spørgsmål)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CN-22-u6S">
+                                <rect key="frame" x="5" y="184" width="759" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Haft vedvarende semrter eller gener i dine knæ eller" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Xy-h0-RBM">
+                                <rect key="frame" x="16" y="337" width="395" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hofter indenfor den sidstemåned? " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh7-OG-hNr">
+                                <rect key="frame" x="16" y="366" width="395" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Haft en skalde i knæ eller hofter som gjorde at du " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7IB-8R-B7P">
+                                <rect key="frame" x="16" y="456" width="395" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ja" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJo-q7-NTe">
+                                <rect key="frame" x="540" y="274" width="14" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nej" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T6Y-Hp-vyf">
+                                <rect key="frame" x="699" y="274" width="23" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="opsøgte læge?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3c-Da-z02">
+                                <rect key="frame" x="16" y="485" width="395" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fået foretaget en operation i knæ eller hofler?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XLI-4i-mvE">
+                                <rect key="frame" x="16" y="565" width="395" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d0o-JD-DzQ"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="p25-wE-4Hh" kind="push" identifier="segue1415" id="MVu-OV-KlH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXT-dL-8p8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7903" y="1589"/>
+        </scene>
+        <!--Fifteenth View Controller-->
+        <scene sceneID="Eam-2w-c7B">
+            <objects>
+                <viewController id="p25-wE-4Hh" customClass="FifteenthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kbh-pi-cEY"/>
+                        <viewControllerLayoutGuide type="bottom" id="agx-Ij-sJW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hWb-i9-Ufd">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ønsker du hjælp til ændre din livsstil?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAp-lf-u1v">
+                                <rect key="frame" x="210" y="200" width="349" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZC8-hD-PLE">
+                                <rect key="frame" x="361" y="350" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nej">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dSt-YU-lZ5" kind="push" id="qAd-OX-gKU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nFz-V3-F3Q">
+                                <rect key="frame" x="361" y="250" width="30" height="30"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Ja">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dSt-YU-lZ5" kind="push" id="HaY-2p-cxg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8O-2E-za2">
+                                <rect key="frame" x="316" y="300" width="136" height="30"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Ja, men ikke lige nu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dSt-YU-lZ5" kind="push" id="K8h-H3-fdc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rLx-7u-UeX"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="dSt-YU-lZ5" kind="push" identifier="segue1516" id="45p-cy-FJH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qi0-2J-GS7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8815" y="1595"/>
+        </scene>
+        <!--Seventeenth View Controller-->
+        <scene sceneID="pKU-0h-r5r">
+            <objects>
+                <viewController id="h3f-An-D3W" customClass="SeventeenthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zmm-mi-E3w"/>
+                        <viewControllerLayoutGuide type="bottom" id="bLI-gv-X8A"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uue-fh-9QZ">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ønsker du at give din e-mail adresse" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqU-VQ-gdP">
+                                <rect key="frame" x="39" y="185" width="661" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Din e-mail adresse vil blive brugt til at kommuinikere elektronisk mellem dig og sundhedsvæsenet)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dyl-fv-QHs">
+                                <rect key="frame" x="7" y="214" width="754" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="E-mail adresse:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZs-LD-tOn">
+                                <rect key="frame" x="39" y="333" width="119" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xvG-R0-K97"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="6zJ-H1-FEH" kind="push" identifier="segue1718" id="Hn7-f1-g7p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L7I-sK-cq2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10499" y="1601"/>
+        </scene>
+        <!--Eighteenth View Controller-->
+        <scene sceneID="Uv1-Ab-Bil">
+            <objects>
+                <viewController id="6zJ-H1-FEH" customClass="EighteenthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A5H-R1-XpF"/>
+                        <viewControllerLayoutGuide type="bottom" id="gcv-d1-SzH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="QAv-f6-8nO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Må vi kontakte dig igen forbindelse med yderligere forskning?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQ3-MQ-JNV">
+                                <rect key="frame" x="16" y="185" width="661" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="sprøgsmal relateret til projektets overordnede formål om at fremme sunde levevaner og opspore" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvD-gF-MDn">
+                                <rect key="frame" x="16" y="225" width="734" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(Du har fået sprøgeskemaet som led i et stort forskningsprojekt. I projekt Undersøges flere" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQf-jq-eNc">
+                                <rect key="frame" x="16" y="205" width="690" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="og forebygge sygdomme forårsaget af en usund livsstil. Det vil her være til stor hjælp, at så mange" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tph-yP-pzL">
+                                <rect key="frame" x="16" y="245" width="753" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="borgere som muligt vil bidrage til at skabe ny viden på dette område) (Kun ét kryds)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVP-NA-zZw">
+                                <rect key="frame" x="16" y="265" width="636" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5J-z7-ijN">
+                                <rect key="frame" x="193" y="370" width="382" height="30"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Ja, I må gerne kontakte mig i forbindelse med forskning">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxM-eC-sUk">
+                                <rect key="frame" x="151" y="420" width="467" height="30"/>
+                                <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nej tak, jeg vil IKKE kontaktes yderligere i forbindelse med forskning">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fNr-5n-GbW"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u1S-vL-EOW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="11407" y="1595"/>
         </scene>
         <!--Zero View Controller-->
         <scene sceneID="Nqm-9b-xQK">
@@ -1053,6 +1346,9 @@
                                 <state key="normal" title="To gange dagligt eller oftere">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cHS-Od-IX3" kind="push" id="Om0-bS-KWe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iP1-VN-SH7">
                                 <rect key="frame" x="90" y="399" width="558" height="33"/>
@@ -1061,6 +1357,9 @@
                                 <state key="normal" title="En gang om ugen eller sjældnere">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cHS-Od-IX3" kind="push" id="CeW-iW-2io"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="guk-80-V9u">
                                 <rect key="frame" x="90" y="299" width="558" height="33"/>
@@ -1069,6 +1368,9 @@
                                 <state key="normal" title="En gang dagligt">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cHS-Od-IX3" kind="push" id="PQb-uu-47N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-FJ-HHi">
                                 <rect key="frame" x="90" y="350" width="558" height="33"/>
@@ -1077,6 +1379,9 @@
                                 <state key="normal" title="Nogle gange i løbet af ugen">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="cHS-Od-IX3" kind="push" id="ib7-da-ueg"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvor hyppigt spiser du wienerbrød, slik, chips og/eller drikker sodavand (Kun ét kryds)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOX-IB-Q0j">
                                 <rect key="frame" x="39" y="185" width="661" height="21"/>
@@ -1087,19 +1392,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="bEN-v2-DfM"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <segue destination="cHS-Od-IX3" kind="push" identifier="segue1213" id="xdG-Rg-fCO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="koV-jv-fXI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8603" y="1145"/>
+            <point key="canvasLocation" x="6019" y="1601"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="nU1-Jv-2It"/>
-        <segue reference="c2n-0y-6Uc"/>
-        <segue reference="y2F-ov-FmC"/>
-        <segue reference="zhq-cu-bLT"/>
-        <segue reference="wnY-UT-Eb2"/>
         <segue reference="qrA-3s-jnk"/>
+        <segue reference="wnY-UT-Eb2"/>
+        <segue reference="zhq-cu-bLT"/>
+        <segue reference="y2F-ov-FmC"/>
+        <segue reference="c2n-0y-6Uc"/>
+        <segue reference="nU1-Jv-2It"/>
+        <segue reference="xdG-Rg-fCO"/>
+        <segue reference="ylM-mP-lJM"/>
+        <segue reference="qAd-OX-gKU"/>
+        <segue reference="xA0-wX-D9D"/>
     </inferredMetricsTieBreakers>
 </document>
