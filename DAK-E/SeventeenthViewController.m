@@ -15,10 +15,10 @@
 @implementation SeventeenthViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.questionNumber = 17;
     self.segueToNextControllerName = @"segue1718";
+    [super viewDidLoad];
 }
 
 - (void)didReceiveMemoryWarning {

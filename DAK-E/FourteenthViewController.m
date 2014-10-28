@@ -15,10 +15,10 @@
 @implementation FourteenthViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.questionNumber = 14;
     self.segueToNextControllerName = @"segue1415";
+    [super viewDidLoad];
     
 }
 

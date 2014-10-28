@@ -15,17 +15,6 @@
 @implementation BaseViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    [self initialize];
-    
-
-}
-
--(void) viewDidAppear:(BOOL)animated{
-    [self initialize];
-}
-
--(void) initialize{
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     self.view.backgroundColor = [UIColor lighterGreen];
     _leftNavigationButton = @"< Back";
@@ -111,7 +100,7 @@
                                                           attribute:NSLayoutAttributeCenterX
                                                          multiplier:1.0
                                                            constant:0.0]];
-
+    [super viewDidLoad];
 }
 
 -(BOOL)prefersStatusBarHidden { return YES; }

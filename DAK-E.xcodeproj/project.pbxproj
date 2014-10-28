@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */; };
+		470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470B737119FEA66900E6ABD8 /* Question7ViewController.m */; };
 		474880DA19F6E13200C39C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880D919F6E13200C39C09 /* main.m */; };
 		474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880DC19F6E13200C39C09 /* AppDelegate.m */; };
 		474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */; };
@@ -47,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionaireAnswersList.h; sourceTree = "<group>"; };
+		4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionaireAnswersList.m; sourceTree = "<group>"; };
+		470B737019FEA66900E6ABD8 /* Question7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question7ViewController.h; sourceTree = "<group>"; };
+		470B737119FEA66900E6ABD8 /* Question7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question7ViewController.m; sourceTree = "<group>"; };
 		474880D419F6E13200C39C09 /* DAK-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAK-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474880D819F6E13200C39C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474880D919F6E13200C39C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -147,6 +153,8 @@
 				47F764D919F840ED00E8CEEB /* BigUISlider.m */,
 				4748810319F6E58F00C39C09 /* BaseViewController.h */,
 				4748810419F6E58F00C39C09 /* BaseViewController.m */,
+				4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */,
+				4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */,
 				47F764D419F83D6800E8CEEB /* ViewControllers */,
 				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
 				4748810119F6E29100C39C09 /* UIColor+customColors.m */,
@@ -199,6 +207,8 @@
 				63AD997D19F8279F0046B0F9 /* Question5ViewController.m */,
 				63AD997F19F828810046B0F9 /* Question6ViewController.h */,
 				63AD998019F828810046B0F9 /* Question6ViewController.m */,
+				470B737019FEA66900E6ABD8 /* Question7ViewController.h */,
+				470B737119FEA66900E6ABD8 /* Question7ViewController.m */,
 				63AD998219F828BB0046B0F9 /* Question8ViewController.h */,
 				63AD998319F828BB0046B0F9 /* Question8ViewController.m */,
 				63AD998519F828D60046B0F9 /* Question9ViewController.h */,
@@ -340,9 +350,11 @@
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
 				E741C05A19F876DC000C89AE /* EighteenthViewController.m in Sources */,
+				4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */,
 				E741C05719F874D3000C89AE /* SeventeenthViewController.m in Sources */,
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
 				47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */,
+				470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */,
 				63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */,
 				E741C05119F86D4A000C89AE /* FourteenthViewController.m in Sources */,
 				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,

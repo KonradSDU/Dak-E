@@ -11,6 +11,7 @@
 
 @interface Question2ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *questeionLabel1;
+@property (weak, nonatomic) IBOutlet UILabel *titleLAbel;
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel2;
 @property (weak, nonatomic) IBOutlet UILabel *kgLabel;
 @property (weak, nonatomic) IBOutlet UILabel *cmLabel;
@@ -40,6 +41,7 @@
     _questeionLabel1.textColor = [UIColor darkerGreen];
     _questionLabel2.textColor = [UIColor darkerGreen];
     _kgLabel.textColor = [UIColor darkerGreen];
+    _titleLAbel.textColor=[UIColor darkerGreen];
     _kgLabel.backgroundColor = [UIColor whiteColor];
     _cmLabel.textColor = [UIColor darkerGreen];
     _cmLabel.backgroundColor = [UIColor whiteColor];
