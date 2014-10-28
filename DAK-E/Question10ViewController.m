@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     self.questionNumber=10;
+    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQuestion11";
     [super viewDidLoad];
     // Do any additional setup after loading the view.

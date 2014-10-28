@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
+    self.rightNavigationButtonTit=@"";
     [super viewDidLoad];
 }
 

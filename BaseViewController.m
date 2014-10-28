@@ -17,8 +17,12 @@
 - (void)viewDidLoad {
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     self.view.backgroundColor = [UIColor lighterGreen];
-    _leftNavigationButton = @"< Back";
-    _rightNavigationButton = @"Next >";
+    if(self.leftNavigationButtonTit == nil){
+        _leftNavigationButtonTit= @"< Back";
+    }
+    if(self.rightNavigationButtonTit == nil){
+        _rightNavigationButtonTit = @"Next >";
+    }
     
     UIView *topBar = [[UIView alloc] init];
     [topBar setTranslatesAutoresizingMaskIntoConstraints:NO];
@@ -36,28 +40,21 @@
     [leftNavButt addTarget:self
                     action:@selector(leftNavButtHasBeenPressed)
           forControlEvents:UIControlEventTouchUpInside];
-    [leftNavButt setTitle:_leftNavigationButton forState:UIControlStateNormal];
+    [leftNavButt setTitle:_leftNavigationButtonTit forState:UIControlStateNormal];
     leftNavButt.frame = CGRectMake(0, 10, 150, 50);
     leftNavButt.tintColor = [UIColor darkerGreen];
     [leftNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:leftNavButt];
-    //hide back for the first question
-    if(self.questionNumber == 1){
-        leftNavButt.hidden=YES;
-    }
     
     UIButton *rightNavButt =[UIButton buttonWithType:UIButtonTypeRoundedRect];
     [rightNavButt addTarget:self
                      action:@selector(rightNavButtHasBeenPressed)
            forControlEvents:UIControlEventTouchUpInside];
-    [rightNavButt setTitle:_rightNavigationButton forState:UIControlStateNormal];
+    [rightNavButt setTitle:_rightNavigationButtonTit forState:UIControlStateNormal];
     rightNavButt.frame = CGRectMake(620, 10, 150, 50);
     rightNavButt.tintColor = [UIColor darkerGreen];
     [rightNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:rightNavButt];
-    if(self.questionNumber==18){
-        rightNavButt.hidden=YES;
-    }
     
     
     UIProgressView *progressView = [[UIProgressView alloc] init];

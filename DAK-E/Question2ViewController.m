@@ -23,6 +23,7 @@
 @implementation Question2ViewController
 
 - (void)viewDidLoad {
+    self.rightNavigationButtonTit=@"";
     self.questionNumber = 2;
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
@@ -50,6 +51,12 @@
     _cmLabel.text = [NSString stringWithFormat:@"%d cm", (int)_cmSlider.value];
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if (self.list.Q2Height!=nil) {
+        self.rightNavigationButtonTit=@"Next >";
+    }
 }
 
 -(IBAction)sliderValueChanged:(id)sender

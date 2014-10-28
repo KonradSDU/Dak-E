@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     self.questionNumber=3;
+    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQuestion4";
     NSLog(@"%@",self.list.Q2Height);
     [super viewDidLoad];
