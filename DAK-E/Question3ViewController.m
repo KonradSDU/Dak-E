@@ -8,6 +8,7 @@
 
 #import "Question3ViewController.h"
 #import "BaseViewController.h"
+#import "Question4ViewController.h"
 
 @interface Question3ViewController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     self.questionNumber=3;
     self.segueToNextControllerName = @"segueToQuestion4";
+    NSLog(@"%@",self.list.Q2Height);
     [super viewDidLoad];
     
     
@@ -29,6 +31,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question4ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
+}
 
 
 /*

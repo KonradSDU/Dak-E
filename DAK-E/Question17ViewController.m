@@ -1,23 +1,24 @@
 //
-//  FifteenthViewController.m
+//  SeventeenthViewController.m
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 23.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "FifteenthViewController.h"
+#import "Question17ViewController.h"
+#import "Question18ViewController.h"
 
-@interface FifteenthViewController ()
+@interface Question17ViewController ()
 
 @end
 
-@implementation FifteenthViewController
+@implementation Question17ViewController
 
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
-    self.questionNumber = 15;
-    self.segueToNextControllerName = @"segue1516";
+    self.questionNumber = 17;
+    self.segueToNextControllerName = @"segue1718";
     [super viewDidLoad];
 }
 
@@ -26,6 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question18ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
+}
 /*
 #pragma mark - Navigation
 

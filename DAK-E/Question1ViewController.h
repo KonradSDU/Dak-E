@@ -9,6 +9,6 @@
 #import "BaseViewController.h"
 #import "UIColor+customColors.h"
 
-@interface FirstQuestionViewController : BaseViewController
+@interface Question1ViewController : BaseViewController
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */; };
+		4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699B19FFB7B6008B592C /* LoginViewController.m */; };
 		470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470B737119FEA66900E6ABD8 /* Question7ViewController.m */; };
 		474880DA19F6E13200C39C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880D919F6E13200C39C09 /* main.m */; };
 		474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880DC19F6E13200C39C09 /* AppDelegate.m */; };
@@ -18,11 +19,11 @@
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
-		4796527219F8685D00756FCC /* TwelfthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796526E19F8685D00756FCC /* TwelfthViewController.m */; };
-		4796527319F8685D00756FCC /* ThirteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796527019F8685D00756FCC /* ThirteenthViewController.m */; };
+		4796527219F8685D00756FCC /* Question12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796526E19F8685D00756FCC /* Question12ViewController.m */; };
+		4796527319F8685D00756FCC /* Question13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796527019F8685D00756FCC /* Question13ViewController.m */; };
 		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
-		47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */; };
+		47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* Question1ViewController.m */; };
 		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
 		63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997D19F8279F0046B0F9 /* Question5ViewController.m */; };
@@ -32,10 +33,10 @@
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
 		63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998F19F856DD0046B0F9 /* Question16ViewController.m */; };
-		E741C05119F86D4A000C89AE /* FourteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* FourteenthViewController.m */; };
-		E741C05419F87274000C89AE /* FifteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* FifteenthViewController.m */; };
-		E741C05719F874D3000C89AE /* SeventeenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* SeventeenthViewController.m */; };
-		E741C05A19F876DC000C89AE /* EighteenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* EighteenthViewController.m */; };
+		E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* Question14ViewController.m */; };
+		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
+		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
+		E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* Question18ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 /* Begin PBXFileReference section */
 		4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionaireAnswersList.h; sourceTree = "<group>"; };
 		4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionaireAnswersList.m; sourceTree = "<group>"; };
+		4709699A19FFB7B6008B592C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		4709699B19FFB7B6008B592C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		470B737019FEA66900E6ABD8 /* Question7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question7ViewController.h; sourceTree = "<group>"; };
 		470B737119FEA66900E6ABD8 /* Question7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question7ViewController.m; sourceTree = "<group>"; };
 		474880D419F6E13200C39C09 /* DAK-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAK-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,16 +72,16 @@
 		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
-		4796526E19F8685D00756FCC /* TwelfthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwelfthViewController.m; sourceTree = "<group>"; };
-		4796526F19F8685D00756FCC /* ThirteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirteenthViewController.h; sourceTree = "<group>"; };
-		4796527019F8685D00756FCC /* ThirteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirteenthViewController.m; sourceTree = "<group>"; };
-		4796527119F8685D00756FCC /* TwelfthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwelfthViewController.h; sourceTree = "<group>"; };
+		4796526E19F8685D00756FCC /* Question12ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question12ViewController.m; sourceTree = "<group>"; };
+		4796526F19F8685D00756FCC /* Question13ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question13ViewController.h; sourceTree = "<group>"; };
+		4796527019F8685D00756FCC /* Question13ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question13ViewController.m; sourceTree = "<group>"; };
+		4796527119F8685D00756FCC /* Question12ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question12ViewController.h; sourceTree = "<group>"; };
 		47F764D519F83E5200E8CEEB /* Question2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question2ViewController.h; sourceTree = "<group>"; };
 		47F764D619F83E5200E8CEEB /* Question2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question2ViewController.m; sourceTree = "<group>"; };
 		47F764D819F840ED00E8CEEB /* BigUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUISlider.h; sourceTree = "<group>"; };
 		47F764D919F840ED00E8CEEB /* BigUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigUISlider.m; sourceTree = "<group>"; };
-		47F764DB19F846C900E8CEEB /* FirstQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstQuestionViewController.h; sourceTree = "<group>"; };
-		47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstQuestionViewController.m; sourceTree = "<group>"; };
+		47F764DB19F846C900E8CEEB /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
+		47F764DC19F846C900E8CEEB /* Question1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1ViewController.m; sourceTree = "<group>"; };
 		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
 		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 		63AD997919F824960046B0F9 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
@@ -97,14 +100,14 @@
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
 		63AD998E19F856DD0046B0F9 /* Question16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question16ViewController.h; sourceTree = "<group>"; };
 		63AD998F19F856DD0046B0F9 /* Question16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question16ViewController.m; sourceTree = "<group>"; };
-		E741C04F19F86D4A000C89AE /* FourteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourteenthViewController.h; sourceTree = "<group>"; };
-		E741C05019F86D4A000C89AE /* FourteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourteenthViewController.m; sourceTree = "<group>"; };
-		E741C05219F87274000C89AE /* FifteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifteenthViewController.h; sourceTree = "<group>"; };
-		E741C05319F87274000C89AE /* FifteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifteenthViewController.m; sourceTree = "<group>"; };
-		E741C05519F874D3000C89AE /* SeventeenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeventeenthViewController.h; sourceTree = "<group>"; };
-		E741C05619F874D3000C89AE /* SeventeenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeventeenthViewController.m; sourceTree = "<group>"; };
-		E741C05819F876DC000C89AE /* EighteenthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EighteenthViewController.h; sourceTree = "<group>"; };
-		E741C05919F876DC000C89AE /* EighteenthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EighteenthViewController.m; sourceTree = "<group>"; };
+		E741C04F19F86D4A000C89AE /* Question14ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question14ViewController.h; sourceTree = "<group>"; };
+		E741C05019F86D4A000C89AE /* Question14ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question14ViewController.m; sourceTree = "<group>"; };
+		E741C05219F87274000C89AE /* Question15ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question15ViewController.h; sourceTree = "<group>"; };
+		E741C05319F87274000C89AE /* Question15ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question15ViewController.m; sourceTree = "<group>"; };
+		E741C05519F874D3000C89AE /* Question17ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question17ViewController.h; sourceTree = "<group>"; };
+		E741C05619F874D3000C89AE /* Question17ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question17ViewController.m; sourceTree = "<group>"; };
+		E741C05819F876DC000C89AE /* Question18ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question18ViewController.h; sourceTree = "<group>"; };
+		E741C05919F876DC000C89AE /* Question18ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question18ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,8 +198,10 @@
 		47F764D419F83D6800E8CEEB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				47F764DB19F846C900E8CEEB /* FirstQuestionViewController.h */,
-				47F764DC19F846C900E8CEEB /* FirstQuestionViewController.m */,
+				4709699A19FFB7B6008B592C /* LoginViewController.h */,
+				4709699B19FFB7B6008B592C /* LoginViewController.m */,
+				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
+				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
 				47F764D619F83E5200E8CEEB /* Question2ViewController.m */,
 				63AD997619F816230046B0F9 /* Question3ViewController.h */,
@@ -217,20 +222,20 @@
 				63AD998919F829070046B0F9 /* Question10ViewController.m */,
 				63AD998B19F829180046B0F9 /* Question11ViewController.h */,
 				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
+				4796527119F8685D00756FCC /* Question12ViewController.h */,
+				4796526E19F8685D00756FCC /* Question12ViewController.m */,
+				4796526F19F8685D00756FCC /* Question13ViewController.h */,
+				4796527019F8685D00756FCC /* Question13ViewController.m */,
+				E741C04F19F86D4A000C89AE /* Question14ViewController.h */,
+				E741C05019F86D4A000C89AE /* Question14ViewController.m */,
+				E741C05219F87274000C89AE /* Question15ViewController.h */,
+				E741C05319F87274000C89AE /* Question15ViewController.m */,
 				63AD998E19F856DD0046B0F9 /* Question16ViewController.h */,
 				63AD998F19F856DD0046B0F9 /* Question16ViewController.m */,
-				4796527119F8685D00756FCC /* TwelfthViewController.h */,
-				4796526E19F8685D00756FCC /* TwelfthViewController.m */,
-				4796526F19F8685D00756FCC /* ThirteenthViewController.h */,
-				4796527019F8685D00756FCC /* ThirteenthViewController.m */,
-				E741C04F19F86D4A000C89AE /* FourteenthViewController.h */,
-				E741C05019F86D4A000C89AE /* FourteenthViewController.m */,
-				E741C05219F87274000C89AE /* FifteenthViewController.h */,
-				E741C05319F87274000C89AE /* FifteenthViewController.m */,
-				E741C05519F874D3000C89AE /* SeventeenthViewController.h */,
-				E741C05619F874D3000C89AE /* SeventeenthViewController.m */,
-				E741C05819F876DC000C89AE /* EighteenthViewController.h */,
-				E741C05919F876DC000C89AE /* EighteenthViewController.m */,
+				E741C05519F874D3000C89AE /* Question17ViewController.h */,
+				E741C05619F874D3000C89AE /* Question17ViewController.m */,
+				E741C05819F876DC000C89AE /* Question18ViewController.h */,
+				E741C05919F876DC000C89AE /* Question18ViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -337,26 +342,27 @@
 			files = (
 				63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */,
 				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
+				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
-				E741C05419F87274000C89AE /* FifteenthViewController.m in Sources */,
+				E741C05419F87274000C89AE /* Question15ViewController.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
-				4796527319F8685D00756FCC /* ThirteenthViewController.m in Sources */,
-				47F764DD19F846C900E8CEEB /* FirstQuestionViewController.m in Sources */,
-				4796527219F8685D00756FCC /* TwelfthViewController.m in Sources */,
+				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
+				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
+				4796527219F8685D00756FCC /* Question12ViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
-				E741C05A19F876DC000C89AE /* EighteenthViewController.m in Sources */,
+				E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */,
 				4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */,
-				E741C05719F874D3000C89AE /* SeventeenthViewController.m in Sources */,
+				E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */,
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
 				47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */,
 				470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */,
 				63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */,
-				E741C05119F86D4A000C89AE /* FourteenthViewController.m in Sources */,
+				E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */,
 				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,

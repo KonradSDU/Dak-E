@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface FifteenthViewController : BaseViewController
+@interface Question15ViewController : BaseViewController
 
 @end

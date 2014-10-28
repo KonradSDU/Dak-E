@@ -7,6 +7,7 @@
 //
 
 #import "Question16ViewController.h"
+#import "Question17ViewController.h"
 
 @interface Question16ViewController ()
 
@@ -26,6 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question17ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
+}
 /*
 #pragma mark - Navigation
 

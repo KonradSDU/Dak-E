@@ -1,5 +1,5 @@
 //
-//  TwelfthViewController.h
+//  ThirteenthViewController.h
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 22.10.2014.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface TwelfthViewController : BaseViewController
+@interface Question13ViewController : BaseViewController
 
 @end

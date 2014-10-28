@@ -8,6 +8,7 @@
 
 #import "Question2ViewController.h"
 #import "UIColor+customColors.h"
+#import "Question3ViewController.h"
 
 @interface Question2ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *questeionLabel1;
@@ -23,7 +24,6 @@
 
 - (void)viewDidLoad {
     self.questionNumber = 2;
-    
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
     CGContextRef context = UIGraphicsGetCurrentContext();
@@ -61,6 +61,12 @@
     }
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question3ViewController *vc = [segue destinationViewController];
+    self.list.Q2Height=[NSString stringWithFormat:@"%d",(int)_cmSlider.value];
+    self.list.Q2Weight=[NSString stringWithFormat:@"%d",(int)_kgSlider.value];
+    vc.list=self.list;
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

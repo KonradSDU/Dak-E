@@ -7,6 +7,7 @@
 //
 
 #import "Question4ViewController.h"
+#import "Question5ViewController.h"
 
 @interface Question4ViewController ()
 
@@ -24,6 +25,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question5ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
 }
 
 /*

@@ -1,23 +1,24 @@
 //
-//  ThirteenthViewController.m
+//  TwelfthViewController.m
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 22.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "ThirteenthViewController.h"
+#import "Question12ViewController.h"
+#import "Question13ViewController.h"
 
-@interface ThirteenthViewController ()
+@interface Question12ViewController ()
 
 @end
 
-@implementation ThirteenthViewController
+@implementation Question12ViewController
 
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
-    self.questionNumber = 13;
-    self.segueToNextControllerName = @"segue1314";
+    self.questionNumber = 12;
+    self.segueToNextControllerName = @"segue1213";
     [super viewDidLoad];
 }
 
@@ -26,6 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question13ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
+}
 /*
 #pragma mark - Navigation
 

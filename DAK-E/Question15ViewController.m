@@ -1,25 +1,25 @@
 //
-//  FourteenthViewController.m
+//  FifteenthViewController.m
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 23.10.2014.
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "FourteenthViewController.h"
+#import "Question15ViewController.h"
+#import "Question16ViewController.h"
 
-@interface FourteenthViewController ()
+@interface Question15ViewController ()
 
 @end
 
-@implementation FourteenthViewController
+@implementation Question15ViewController
 
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
-    self.questionNumber = 14;
-    self.segueToNextControllerName = @"segue1415";
+    self.questionNumber = 15;
+    self.segueToNextControllerName = @"segue1516";
     [super viewDidLoad];
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -27,6 +27,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question16ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
+}
 /*
 #pragma mark - Navigation
 

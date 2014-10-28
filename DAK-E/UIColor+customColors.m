@@ -21,7 +21,7 @@
 
 + (UIColor*)gray
 {
-        return [UIColor colorWithRed:181.0/255.0 green:182.0/255.0 blue:186.0/255.0 alpha:1.0];
+        return [UIColor colorWithRed:115.0/255.0 green:115.0/255.0 blue:115.0/255.0 alpha:1.0];
 }
 
 @end

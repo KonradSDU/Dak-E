@@ -8,6 +8,7 @@
 
 #import "Question7ViewController.h"
 #import "UIColor+customColors.h"
+#import "Question8ViewController.h"
 
 @interface Question7ViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
@@ -49,7 +50,6 @@
 - (void)viewDidLoad {
     self.questionNumber=7;
     self.segueToNextControllerName=@"segueToQ8";
-    _questionLabel.lineBreakMode = UILineBreakModeWordWrap;
     _questionLabel.numberOfLines = 0;
     _questionLabel.text=@"Hvor mange genstande drikker du i gennemsnit \nom ugen på en almindelig uge?";
     _questionLabel.textColor = [UIColor darkerGreen];
@@ -121,7 +121,7 @@
     
 }
 
--(void)calculateAlcholAmount{
+-(float)calculateAlcholAmount{
     float alkochol;
     alkochol=alkochol+(_Q1Slider.value*1);
     alkochol=alkochol+(_Q2Slider.value*1.25);
@@ -133,6 +133,13 @@
     alkochol=alkochol+(_Q8Slider.value*20);
     alkochol=alkochol+(_Q9Slider.value*10);
     alkochol=alkochol+(_Q10Slider.value*6);
+    return alkochol;
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question8ViewController *vc = [segue destinationViewController];
+    self.list.Q7Answer=[NSString stringWithFormat:@"%d",(int)[self calculateAlcholAmount]];
+    vc.list=self.list;
 }
 
 

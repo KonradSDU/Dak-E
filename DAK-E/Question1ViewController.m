@@ -6,9 +6,10 @@
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "FirstQuestionViewController.h"
+#import "Question1ViewController.h"
+#import "Question2ViewController.h"
 
-@interface FirstQuestionViewController ()
+@interface Question1ViewController ()
 
 @property (weak, nonatomic) IBOutlet UILabel *questionLabel;
 @property (weak, nonatomic) IBOutlet UIButton *button1;
@@ -18,17 +19,23 @@
 @property (weak, nonatomic) IBOutlet UIButton *button5;
 @end
 
-@implementation FirstQuestionViewController
+@implementation Question1ViewController
 
 - (void)viewDidLoad {
+    self.questionNumber = 1;
+    self.segueToNextControllerName = @"segueToQ2";
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.questionNumber = 1;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    Question2ViewController *vc = [segue destinationViewController];
+    vc.list=self.list;
 }
 
 /*

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Konrad Gnoinski. All rights reserved.
 //
 
-#import "EighteenthViewController.h"
+#import "Question18ViewController.h"
 
-@interface EighteenthViewController ()
+@interface Question18ViewController ()
 
 @end
 
-@implementation EighteenthViewController
+@implementation Question18ViewController
 
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.

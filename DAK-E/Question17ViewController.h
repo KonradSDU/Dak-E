@@ -1,5 +1,5 @@
 //
-//  EighteenthViewController.h
+//  SeventeenthViewController.h
 //  DAK-E
 //
 //  Created by Milena Gnoińska on 23.10.2014.
@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface EighteenthViewController : BaseViewController
+@interface Question17ViewController : BaseViewController
 
 @end
