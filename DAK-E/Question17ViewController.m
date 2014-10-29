@@ -9,7 +9,9 @@
 #import "Question17ViewController.h"
 #import "Question18ViewController.h"
 
-@interface Question17ViewController ()
+@interface Question17ViewController () <UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -18,7 +20,7 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 17;
-    self.rightNavigationButtonTit=@"";
+    self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1718";
     [super viewDidLoad];
 }
@@ -30,7 +32,20 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question18ViewController *vc = [segue destinationViewController];
+    self.list.Q17Answer = [NSString stringWithFormat:@"%@", self.textField.text];
     vc.list=self.list;
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q17Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField*)textField
+{
+    [textField resignFirstResponder];
+    return YES;
 }
 /*
 #pragma mark - Navigation
