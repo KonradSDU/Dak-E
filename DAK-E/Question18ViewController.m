@@ -17,8 +17,20 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
-    self.rightNavigationButtonTit=@"";
+    self.rightNavButt.hidden = YES;
     [super viewDidLoad];
+}
+- (IBAction)button1:(id)sender {
+    self.list.Q18Answer = @"Ja, I må gerne kontakte mig i forbindelse med forskning";
+}
+- (IBAction)button2:(id)sender {
+    self.list.Q18Answer = @"Nej tak, jeg vil IKKE kontaktes yderligere i forbindelse med forskning";
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q18Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
