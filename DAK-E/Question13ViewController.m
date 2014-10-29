@@ -47,7 +47,7 @@
     [self.answers appendString:@"Træner hårdt og dyrker konkurrenceidræt regelmæsigt og flere gange om ugen"];
 }
 -(void)viewDidAppear:(BOOL)animated{
-    if(self.list.Q12Answer!=nil){
+    if(self.list.Q13Answer!=nil){
         self.rightNavButt.hidden = NO;
     }
 }

@@ -1090,6 +1090,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="p25-wE-4Hh" eventType="touchUpInside" id="d5i-4t-ZWZ"/>
                                     <segue destination="dSt-YU-lZ5" kind="push" id="qAd-OX-gKU"/>
                                 </connections>
                             </button>
@@ -1101,6 +1102,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="p25-wE-4Hh" eventType="touchUpInside" id="SsN-mh-JNO"/>
                                     <segue destination="dSt-YU-lZ5" kind="push" id="HaY-2p-cxg"/>
                                 </connections>
                             </button>
@@ -1112,6 +1114,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="p25-wE-4Hh" eventType="touchUpInside" id="UwI-ns-wKn"/>
                                     <segue destination="dSt-YU-lZ5" kind="push" id="K8h-H3-fdc"/>
                                 </connections>
                             </button>

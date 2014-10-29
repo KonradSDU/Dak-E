@@ -27,6 +27,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)button1:(id)sender {
+    self.list.Q15Answer = @"Ja";
+}
+- (IBAction)button2:(id)sender {
+    self.list.Q15Answer = @"Ja, men ikke lige nu";
+}
+- (IBAction)button3:(id)sender {
+    self.list.Q15Answer = @"Nej";
+}
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q15Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question16ViewController *vc = [segue destinationViewController];
