@@ -11,12 +11,6 @@
 
 @interface Question1ViewController ()
 
-@property (weak, nonatomic) IBOutlet UILabel *questionLabel;
-@property (weak, nonatomic) IBOutlet UIButton *button1;
-@property (weak, nonatomic) IBOutlet UIButton *button2;
-@property (weak, nonatomic) IBOutlet UIButton *button3;
-@property (weak, nonatomic) IBOutlet UIButton *button4;
-@property (weak, nonatomic) IBOutlet UIButton *button5;
 @end
 
 @implementation Question1ViewController
@@ -32,6 +26,27 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)button1:(id)sender {
+    self.list.Q1Answer = @"Fremragende";
+}
+- (IBAction)button2:(id)sender {
+    self.list.Q1Answer = @"Vældigt godt";
+}
+- (IBAction)button3:(id)sender {
+    self.list.Q1Answer = @"Godt";
+}
+- (IBAction)button4:(id)sender {
+    self.list.Q1Answer = @"Mindre godt";
+}
+- (IBAction)button5:(id)sender {
+    self.list.Q1Answer = @"Dårligt";
+}
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q1Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

@@ -23,6 +23,9 @@
                                 <state key="normal" title="Fremragende">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button1:" destination="OCL-Po-e23" eventType="touchUpInside" id="opK-CB-xvh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-3K-YKg">
                                 <rect key="frame" x="165" y="478" width="439" height="30"/>
@@ -31,6 +34,9 @@
                                 <state key="normal" title="Vældigt godt">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button2:" destination="OCL-Po-e23" eventType="touchUpInside" id="nEW-JN-FpH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldP-Gh-xCo">
                                 <rect key="frame" x="165" y="516" width="439" height="30"/>
@@ -39,6 +45,9 @@
                                 <state key="normal" title="Godt">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button3:" destination="OCL-Po-e23" eventType="touchUpInside" id="J2h-US-qWh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDa-Wa-2uS">
                                 <rect key="frame" x="165" y="554" width="439" height="30"/>
@@ -47,6 +56,9 @@
                                 <state key="normal" title="Mindre godt">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button4:" destination="OCL-Po-e23" eventType="touchUpInside" id="PUK-C6-PWp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-CV-FBp">
                                 <rect key="frame" x="165" y="592" width="439" height="30"/>
@@ -55,6 +67,9 @@
                                 <state key="normal" title="Dårligt">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="button5:" destination="OCL-Po-e23" eventType="touchUpInside" id="1i0-0o-mHw"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO0-eh-XC7">
                                 <rect key="frame" x="105" y="404" width="558" height="21"/>
