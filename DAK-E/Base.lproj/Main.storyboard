@@ -1719,6 +1719,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="6bZ-qP-DL4" eventType="touchUpInside" id="SvR-Uv-sKI"/>
                                     <segue destination="cHS-Od-IX3" kind="push" id="Om0-bS-KWe"/>
                                 </connections>
                             </button>
@@ -1730,6 +1731,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="6bZ-qP-DL4" eventType="touchUpInside" id="8GI-vT-fgz"/>
                                     <segue destination="cHS-Od-IX3" kind="push" id="CeW-iW-2io"/>
                                 </connections>
                             </button>
@@ -1741,6 +1743,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="6bZ-qP-DL4" eventType="touchUpInside" id="qQQ-rl-Rl8"/>
                                     <segue destination="cHS-Od-IX3" kind="push" id="PQb-uu-47N"/>
                                 </connections>
                             </button>
@@ -1752,6 +1755,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="6bZ-qP-DL4" eventType="touchUpInside" id="6Ya-ez-76u"/>
                                     <segue destination="cHS-Od-IX3" kind="push" id="ib7-da-ueg"/>
                                 </connections>
                             </button>
@@ -1762,7 +1766,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvor hyppigt spiser du wienerbrød, slik, chips og/eller " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OOX-IB-Q0j">
-                                <rect key="frame" x="54" y="375" width="661" height="21"/>
+                                <rect key="frame" x="54" y="365" width="661" height="31"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>

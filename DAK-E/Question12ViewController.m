@@ -11,6 +11,8 @@
 
 @interface Question12ViewController ()
 
+@property (nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question12ViewController
@@ -26,6 +28,23 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"To gange dagligt eller oftere"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"En gang dagligt"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Nogle gange i løbet af ugen"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"En gang om ugen eller sjældnere"];
+}
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.answers){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
