@@ -42,13 +42,14 @@
     [self.answers appendString:@"En gang om ugen eller sjældnere"];
 }
 -(void)viewDidAppear:(BOOL)animated{
-    if(self.answers){
+    if(self.list.Q12Answer!=nil){
         self.rightNavButt.hidden = NO;
     }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question13ViewController *vc = [segue destinationViewController];
+    self.list.Q12Answer = self.answers;
     vc.list=self.list;
 }
 /*
