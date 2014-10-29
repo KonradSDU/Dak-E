@@ -914,6 +914,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="cHS-Od-IX3" eventType="touchUpInside" id="rdw-wQ-lj0"/>
                                     <segue destination="Dka-Ba-kES" kind="push" id="gFs-9A-r26"/>
                                 </connections>
                             </button>
@@ -925,6 +926,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="cHS-Od-IX3" eventType="touchUpInside" id="b6j-eY-jtA"/>
                                     <segue destination="Dka-Ba-kES" kind="push" id="1Uc-0p-ayR"/>
                                 </connections>
                             </button>
@@ -936,6 +938,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="cHS-Od-IX3" eventType="touchUpInside" id="Yhx-xv-MRh"/>
                                     <segue destination="Dka-Ba-kES" kind="push" id="ylM-mP-lJM"/>
                                 </connections>
                             </button>
@@ -953,6 +956,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="cHS-Od-IX3" eventType="touchUpInside" id="hzG-R3-7LJ"/>
                                     <segue destination="Dka-Ba-kES" kind="push" id="7cc-08-itg"/>
                                 </connections>
                             </button>
@@ -964,6 +968,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2b:" destination="cHS-Od-IX3" eventType="touchUpInside" id="tjK-EW-BzN"/>
                                     <segue destination="Dka-Ba-kES" kind="push" id="lBZ-53-7go"/>
                                 </connections>
                             </button>

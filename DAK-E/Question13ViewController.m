@@ -11,6 +11,8 @@
 
 @interface Question13ViewController ()
 
+@property (nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question13ViewController
@@ -27,9 +29,32 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"Dyrker motionsidræt eller udfører tungt havearbejde eller lingnende mindst 4 timer om ugen"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen (medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde"];
+
+}
+- (IBAction)button2b:(id)sender {
+    [self.answers appendString:@"Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen (medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde"];
+
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Læser, ser fjernsyn eller har anden stillesiddende beskæftiglese"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Træner hårdt og dyrker konkurrenceidræt regelmæsigt og flere gange om ugen"];
+}
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q12Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question14ViewController *vc = [segue destinationViewController];
+    self.list.Q13Answer = self.answers;
     vc.list=self.list;
 }
 /*
