@@ -23,7 +23,6 @@
 @implementation Question2ViewController
 
 - (void)viewDidLoad {
-    self.rightNavigationButtonTit=@"";
     self.questionNumber = 2;
     CGRect rect = CGRectMake(0.0f, 0.0f, 1.0f, 1.0f);
     UIGraphicsBeginImageContext(rect.size);
@@ -50,12 +49,13 @@
     _kgLabel.text = [NSString stringWithFormat:@"%d kg", (int)_kgSlider.value];
     _cmLabel.text = [NSString stringWithFormat:@"%d cm", (int)_cmSlider.value];
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
 -(void)viewDidAppear:(BOOL)animated{
     if (self.list.Q2Height!=nil) {
-        self.rightNavigationButtonTit=@"Next >";
+        self.rightNavButt.hidden=NO;
     }
 }
 
@@ -63,8 +63,10 @@
 {
     if (sender == _kgSlider) {
         _kgLabel.text = [NSString stringWithFormat:@"%d kg", (int)_kgSlider.value];
+        self.rightNavButt.hidden=NO;
     }else{
         _cmLabel.text = [NSString stringWithFormat:@"%d cm", (int)_cmSlider.value];
+        self.rightNavButt.hidden=NO;
     }
 }
 

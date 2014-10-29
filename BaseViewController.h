@@ -15,5 +15,5 @@
 @property (nonatomic, retain) NSString *rightNavigationButtonTit;//default value is next - u can change it in your subclass
 @property (nonatomic, retain) NSString *segueToNextControllerName;
 @property (nonatomic, retain) QuestionaireAnswersList *list;
--(void)updateView;
+@property (nonatomic,retain) UIButton *rightNavButt;
 @end

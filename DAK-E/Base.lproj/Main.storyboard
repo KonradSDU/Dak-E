@@ -1252,6 +1252,33 @@
             </objects>
             <point key="canvasLocation" x="6451" y="1511"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mN3-xa-QMd">
+            <objects>
+                <viewController id="7hn-QR-OtJ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="whc-JC-W3g"/>
+                        <viewControllerLayoutGuide type="bottom" id="FBK-xS-Uty"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k7D-oF-O0b">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thenk Y" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQe-xx-ATI">
+                                <rect key="frame" x="170" y="384" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nMZ-12-gnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7379" y="1511"/>
+        </scene>
         <!--Question7 View Controller-->
         <scene sceneID="vkH-TW-Dhu">
             <objects>

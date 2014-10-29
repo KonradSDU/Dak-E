@@ -46,15 +46,15 @@
     [leftNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:leftNavButt];
     
-    UIButton *rightNavButt =[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [rightNavButt addTarget:self
+    _rightNavButt=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [_rightNavButt addTarget:self
                      action:@selector(rightNavButtHasBeenPressed)
            forControlEvents:UIControlEventTouchUpInside];
-    [rightNavButt setTitle:_rightNavigationButtonTit forState:UIControlStateNormal];
-    rightNavButt.frame = CGRectMake(620, 10, 150, 50);
-    rightNavButt.tintColor = [UIColor darkerGreen];
-    [rightNavButt setFont:[UIFont systemFontOfSize:36]];
-    [topBar addSubview:rightNavButt];
+    [_rightNavButt setTitle:_rightNavigationButtonTit forState:UIControlStateNormal];
+    _rightNavButt.frame = CGRectMake(620, 10, 150, 50);
+    _rightNavButt.tintColor = [UIColor darkerGreen];
+    [_rightNavButt setFont:[UIFont systemFontOfSize:36]];
+    [topBar addSubview:_rightNavButt];
     
     
     UIProgressView *progressView = [[UIProgressView alloc] init];
