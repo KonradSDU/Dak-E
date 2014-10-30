@@ -11,6 +11,12 @@
 
 @interface Question1ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+@property (weak, nonatomic) IBOutlet UIButton *button4;
+@property (weak, nonatomic) IBOutlet UIButton *button5;
+
 @end
 
 @implementation Question1ViewController
@@ -18,8 +24,13 @@
 - (void)viewDidLoad {
     self.questionNumber = 1;
     self.segueToNextControllerName = @"segueToQ2";
-    self.rightNavButt.hidden = YES;
     [super viewDidLoad];
+    self.rightNavButt.hidden = YES;
+    self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button3.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button4.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button5.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     // Do any additional setup after loading the view.
 }
 

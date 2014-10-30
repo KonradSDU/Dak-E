@@ -16,8 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO0-eh-XC7">
+                                <rect key="frame" x="105" y="250" width="558" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APl-cX-ffA">
-                                <rect key="frame" x="165" y="440" width="439" height="30"/>
+                                <rect key="frame" x="165" y="490" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Fremragende">
@@ -25,10 +31,11 @@
                                 </state>
                                 <connections>
                                     <action selector="button1:" destination="OCL-Po-e23" eventType="touchUpInside" id="opK-CB-xvh"/>
+                                    <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="yO4-QN-EI5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTb-3K-YKg">
-                                <rect key="frame" x="165" y="478" width="439" height="30"/>
+                                <rect key="frame" x="165" y="560" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Vældigt godt">
@@ -36,10 +43,11 @@
                                 </state>
                                 <connections>
                                     <action selector="button2:" destination="OCL-Po-e23" eventType="touchUpInside" id="nEW-JN-FpH"/>
+                                    <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="RuU-Kc-S1M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldP-Gh-xCo">
-                                <rect key="frame" x="165" y="516" width="439" height="30"/>
+                                <rect key="frame" x="165" y="630" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Godt">
@@ -47,10 +55,11 @@
                                 </state>
                                 <connections>
                                     <action selector="button3:" destination="OCL-Po-e23" eventType="touchUpInside" id="J2h-US-qWh"/>
+                                    <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="asV-wc-qvS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDa-Wa-2uS">
-                                <rect key="frame" x="165" y="554" width="439" height="30"/>
+                                <rect key="frame" x="165" y="700" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Mindre godt">
@@ -58,10 +67,11 @@
                                 </state>
                                 <connections>
                                     <action selector="button4:" destination="OCL-Po-e23" eventType="touchUpInside" id="PUK-C6-PWp"/>
+                                    <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="E3Z-E3-WF1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ris-CV-FBp">
-                                <rect key="frame" x="165" y="592" width="439" height="30"/>
+                                <rect key="frame" x="165" y="770" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.70588235290000001" green="0.81568627449999997" blue="0.76470588240000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Dårligt">
@@ -69,20 +79,20 @@
                                 </state>
                                 <connections>
                                     <action selector="button5:" destination="OCL-Po-e23" eventType="touchUpInside" id="1i0-0o-mHw"/>
+                                    <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="dgT-wD-Wac"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO0-eh-XC7">
-                                <rect key="frame" x="105" y="404" width="558" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="tpz-QN-szU"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
+                        <outlet property="button1" destination="APl-cX-ffA" id="ilZ-at-1RF"/>
+                        <outlet property="button2" destination="lTb-3K-YKg" id="1Yr-kz-tDj"/>
+                        <outlet property="button3" destination="ldP-Gh-xCo" id="gUq-lq-6kb"/>
+                        <outlet property="button4" destination="CDa-Wa-2uS" id="4ag-SF-Xb7"/>
+                        <outlet property="button5" destination="Ris-CV-FBp" id="YL3-G4-AV3"/>
                         <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="uVG-Ng-h9C"/>
                     </connections>
                 </viewController>
@@ -1845,6 +1855,7 @@
         <segue reference="Ib1-mw-aY9"/>
         <segue reference="6bl-uW-XvC"/>
         <segue reference="5eJ-lf-GMt"/>
+        <segue reference="dgT-wD-Wac"/>
         <segue reference="y2F-ov-FmC"/>
         <segue reference="c2n-0y-6Uc"/>
         <segue reference="nU1-Jv-2It"/>
