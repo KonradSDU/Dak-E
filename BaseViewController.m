@@ -18,10 +18,10 @@
     [[self navigationController] setNavigationBarHidden:YES animated:NO];
     self.view.backgroundColor = [UIColor lighterGreen];
     if(self.leftNavigationButtonTit == nil){
-        _leftNavigationButtonTit= @"< Back";
+        _leftNavigationButtonTit= @"< Forrige";
     }
     if(self.rightNavigationButtonTit == nil){
-        _rightNavigationButtonTit = @"Next >";
+        _rightNavigationButtonTit = @"Næste >";
     }
     
     UIView *topBar = [[UIView alloc] init];
@@ -41,7 +41,7 @@
                     action:@selector(leftNavButtHasBeenPressed)
           forControlEvents:UIControlEventTouchUpInside];
     [leftNavButt setTitle:_leftNavigationButtonTit forState:UIControlStateNormal];
-    leftNavButt.frame = CGRectMake(0, 10, 150, 50);
+    leftNavButt.frame = CGRectMake(3, 10, 150, 50);
     leftNavButt.tintColor = [UIColor darkerGreen];
     [leftNavButt setFont:[UIFont systemFontOfSize:36]];
     [topBar addSubview:leftNavButt];
