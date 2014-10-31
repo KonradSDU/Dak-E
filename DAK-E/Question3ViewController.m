@@ -12,7 +12,6 @@
 
 @interface Question3ViewController ()
 
-@property (weak,nonatomic) NSMutableString *answers;
 
 @end
 
@@ -55,14 +54,14 @@
 }
 
 -(void)viewDidAppear:(BOOL)animated{
-    NSLog(@"%@",self.list.Q3Answer);
+    //NSLog(@"%@",self.list.Q3Answer);
     if(self.list.Q3Answer!=nil){
         self.rightNavButt.hidden = NO;
     }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-   // NSLog(@"@")
+   
     Question4ViewController *vc = [segue destinationViewController];
   //  self.list.Q3Answer = [NSString stringWithFormat: @"%@", self.];
     vc.list=self.list;

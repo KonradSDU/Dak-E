@@ -10,16 +10,16 @@
 #import "Question5ViewController.h"
 
 @interface Question4ViewController ()
-@property (weak,nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question4ViewController
 
 - (void)viewDidLoad {
     self.questionNumber=4;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQuestion5";
     [super viewDidLoad];
+    self.rightNavButt.hidden = YES;
     // Do any additional setup after loading the view.
 }
 
@@ -29,19 +29,19 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"På intet tidspunkt"];
+    self.list.Q4Answer=@"På intet tidspunkt";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"Sjældent"];
+    self.list.Q4Answer=@"Sjældent";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Af og til"];
+    self.list.Q4Answer=@"Af og til";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Ofte"];
+    self.list.Q4Answer=@"Ofte";
 }
 - (IBAction)button5:(id)sender {
-    [self.answers appendString:@"Hele tiden"];
+    self.list.Q4Answer=@"Hele tiden";
 }
 
 -(void)viewDidAppear:(BOOL)animated{

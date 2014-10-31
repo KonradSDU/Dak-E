@@ -11,7 +11,6 @@
 
 @interface Question5ViewController ()
 
-@property (weak,nonatomic) NSMutableString *answers;
 
 @end
 
@@ -19,9 +18,9 @@
 
 - (void)viewDidLoad {
     self.questionNumber=5;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQuestion6";
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -33,19 +32,25 @@
 
 
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"Nej, aldrig"];
+    self.list.Q5Answer=@"Nej, aldrig";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"Kun når jeg er forkølet eller har hals- eller lungebetændelse"];
+    self.list.Q5Answer=@"Kun når jeg er forkølet eller har hals- eller lungebetændelse";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Ja, et par dage om måneden"];
+    self.list.Q5Answer=@"Ja, et par dage om måneden";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Ja, de fleste dage på en uge"];
+    self.list.Q5Answer=@"Ja, de fleste dage på en uge";
 }
 - (IBAction)button5:(id)sender {
-    [self.answers appendString:@"Ja, alle dage"];
+    self.list.Q5Answer=@"Ja, alle dage";
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q5Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

@@ -1922,16 +1922,17 @@
         <image name="card" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="tyH-RN-N3L"/>
-        <segue reference="qAd-OX-gKU"/>
-        <segue reference="Tii-pH-GLF"/>
-        <segue reference="xdG-Rg-fCO"/>
-        <segue reference="nU1-Jv-2It"/>
-        <segue reference="c2n-0y-6Uc"/>
-        <segue reference="y2F-ov-FmC"/>
         <segue reference="xGX-ZS-TcV"/>
         <segue reference="qtu-tn-WOj"/>
         <segue reference="6bl-uW-XvC"/>
         <segue reference="5eJ-lf-GMt"/>
+        <segue reference="yO4-QN-EI5"/>
+        <segue reference="y2F-ov-FmC"/>
+        <segue reference="c2n-0y-6Uc"/>
+        <segue reference="nU1-Jv-2It"/>
+        <segue reference="xdG-Rg-fCO"/>
+        <segue reference="Tii-pH-GLF"/>
+        <segue reference="qAd-OX-gKU"/>
+        <segue reference="tyH-RN-N3L"/>
     </inferredMetricsTieBreakers>
 </document>

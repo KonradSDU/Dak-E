@@ -10,16 +10,16 @@
 #import "Question17ViewController.h"
 
 @interface Question16ViewController ()
-@property (weak,nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question16ViewController
 
 - (void)viewDidLoad {
     self.questionNumber=16;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segue1617";
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -29,31 +29,36 @@
 }
 
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"Forhøjet blodtryk"];
+    self.list.Q16Answer=@"Forhøjet blodtryk";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"Forhøjet kolesterol"];
+    self.list.Q16Answer=@"Forhøjet kolesterol";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Blodprop i hjertet"];
+    self.list.Q16Answer=@"Blodprop i hjertet";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Blodprop i hjernen"];
+    self.list.Q16Answer=@"Blodprop i hjernen";
 }
 - (IBAction)button5:(id)sender {
-    [self.answers appendString:@"Blodprop i lunger eller ben"];
+    self.list.Q16Answer=@"Blodprop i lunger eller ben";
 }
 - (IBAction)button6:(id)sender {
-    [self.answers appendString:@"Type-1 diabetes"];
+    self.list.Q16Answer=@"Type-1 diabetes";
 }
 - (IBAction)button7:(id)sender {
-    [self.answers appendString:@"Type-2 diabetes"];
+    self.list.Q16Answer=@"Type-2 diabetes";
 }
 - (IBAction)button8:(id)sender {
-    [self.answers appendString:@"KOL"];
+    self.list.Q16Answer=@"KOL";
 }
 - (IBAction)button9:(id)sender {
-    [self.answers appendString:@"Slidgigt/ artrose"];
+    self.list.Q16Answer=@"Slidgigt/ artrose";
+}
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q16Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

@@ -10,16 +10,16 @@
 #import "Question9ViewController.h"
 
 @interface Question8ViewController ()
-@property (weak,nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question8ViewController
 
 - (void)viewDidLoad {
     self.questionNumber=8;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQuestion9";
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -28,19 +28,25 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"Dagligt eller næsten dagligt"];
+    self.list.Q8Answer=@"Dagligt eller næsten dagligt";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"Ugentligt"];
+    self.list.Q8Answer=@"Ugentligt";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Månedligt"];
+    self.list.Q8Answer= @"Månedligt";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Sjældent"];
+    self.list.Q8Answer=@"Sjældent";
 }
 - (IBAction)button5:(id)sender {
-    [self.answers appendString:@"Aldrig"];
+    self.list.Q8Answer=@"Aldrig";
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q8Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question9ViewController *vc = [segue destinationViewController];

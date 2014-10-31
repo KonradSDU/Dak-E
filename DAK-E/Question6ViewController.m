@@ -11,7 +11,6 @@
 
 @interface Question6ViewController ()
 
-@property (weak, nonatomic) NSMutableString *answers;
 
 @end
 
@@ -19,9 +18,9 @@
 
 - (void)viewDidLoad {
     self.questionNumber=6;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segueToQ7";
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -31,19 +30,25 @@
 }
 
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"Meget uenig"];
+    self.list.Q6Answer=@"Meget uenig";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"Uenig"];
+    self.list.Q6Answer=@"Uenig";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Måske"];
+    self.list.Q6Answer=@"Måske";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Enig"];
+    self.list.Q6Answer=@"Enig";
 }
 - (IBAction)button5:(id)sender {
-    [self.answers appendString:@"Meget enig"];
+    self.list.Q6Answer=@"Meget enig";
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q6Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

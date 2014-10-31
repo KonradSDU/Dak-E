@@ -10,16 +10,15 @@
 #import "Question12ViewController.h"
 
 @interface Question11ViewController ()
-@property (weak,nonatomic) NSMutableString *answers;
 @end
 
 @implementation Question11ViewController
 
 - (void)viewDidLoad {
     self.questionNumber=11;
-    self.rightNavigationButtonTit=@"";
     self.segueToNextControllerName = @"segue1112";
     [super viewDidLoad];
+    self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
 }
 
@@ -29,18 +28,23 @@
 }
 
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"Tre gange om ugen eller oftere"];
+    self.list.Q11Answer=@"Tre gange om ugen eller oftere";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"To gange om ugen"];
+    self.list.Q11Answer=@"To gange om ugen";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"En gang om ugen"];
+    self.list.Q11Answer=@"En gang om ugen";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"Et par gange om måneden eller sjældnere"];
+    self.list.Q11Answer=@"Et par gange om måneden eller sjældnere";
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q11Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question12ViewController *vc = [segue destinationViewController];
