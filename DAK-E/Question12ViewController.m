@@ -12,6 +12,10 @@
 @interface Question12ViewController ()
 
 @property (nonatomic) NSMutableString *answers;
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+@property (weak, nonatomic) IBOutlet UIButton *button4;
 
 @end
 
@@ -22,6 +26,11 @@
     self.questionNumber = 12;
     self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1213";
+    self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button3.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button4.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+
     [super viewDidLoad];
 }
 

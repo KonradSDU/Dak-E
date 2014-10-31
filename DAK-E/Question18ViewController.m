@@ -10,6 +10,9 @@
 
 @interface Question18ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+
 @end
 
 @implementation Question18ViewController
@@ -18,6 +21,8 @@
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
     self.rightNavButt.hidden = YES;
+    self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     [super viewDidLoad];
 }
 - (IBAction)button1:(id)sender {

@@ -11,6 +11,10 @@
 
 @interface Question15ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+@property (weak, nonatomic) IBOutlet UIButton *button3;
+
 @end
 
 @implementation Question15ViewController
@@ -20,6 +24,9 @@
     self.questionNumber = 15;
     self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1516";
+    self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
+    self.button3.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     [super viewDidLoad];
 }
 
