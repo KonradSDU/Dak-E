@@ -10,7 +10,7 @@
 #import "Question9ViewController.h"
 
 @interface Question8ViewController ()
-
+@property (weak,nonatomic) NSMutableString *answers;
 @end
 
 @implementation Question8ViewController
@@ -27,7 +27,21 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"Dagligt eller næsten dagligt"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Ugentligt"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Månedligt"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Sjældent"];
+}
+- (IBAction)button5:(id)sender {
+    [self.answers appendString:@"Aldrig"];
+}
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question9ViewController *vc = [segue destinationViewController];
     vc.list=self.list;

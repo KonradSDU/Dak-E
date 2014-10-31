@@ -10,7 +10,7 @@
 #import "Question17ViewController.h"
 
 @interface Question16ViewController ()
-
+@property (weak,nonatomic) NSMutableString *answers;
 @end
 
 @implementation Question16ViewController
@@ -26,6 +26,34 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"Forhøjet blodtryk"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Forhøjet kolesterol"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Blodprop i hjertet"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Blodprop i hjernen"];
+}
+- (IBAction)button5:(id)sender {
+    [self.answers appendString:@"Blodprop i lunger eller ben"];
+}
+- (IBAction)button6:(id)sender {
+    [self.answers appendString:@"Type-1 diabetes"];
+}
+- (IBAction)button7:(id)sender {
+    [self.answers appendString:@"Type-2 diabetes"];
+}
+- (IBAction)button8:(id)sender {
+    [self.answers appendString:@"KOL"];
+}
+- (IBAction)button9:(id)sender {
+    [self.answers appendString:@"Slidgigt/ artrose"];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

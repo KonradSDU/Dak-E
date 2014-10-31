@@ -10,7 +10,7 @@
 #import "Question5ViewController.h"
 
 @interface Question4ViewController ()
-
+@property (weak,nonatomic) NSMutableString *answers;
 @end
 
 @implementation Question4ViewController
@@ -23,9 +23,31 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"På intet tidspunkt"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Sjældent"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Af og til"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Ofte"];
+}
+- (IBAction)button5:(id)sender {
+    [self.answers appendString:@"Hele tiden"];
+}
+
+-(void)viewDidAppear:(BOOL)animated{
+    if(self.list.Q4Answer!=nil){
+        self.rightNavButt.hidden = NO;
+    }
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

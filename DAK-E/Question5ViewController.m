@@ -11,6 +11,8 @@
 
 @interface Question5ViewController ()
 
+@property (weak,nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question5ViewController
@@ -23,9 +25,27 @@
     // Do any additional setup after loading the view.
 }
 
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"Nej, aldrig"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Kun når jeg er forkølet eller har hals- eller lungebetændelse"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Ja, et par dage om måneden"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Ja, de fleste dage på en uge"];
+}
+- (IBAction)button5:(id)sender {
+    [self.answers appendString:@"Ja, alle dage"];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

@@ -121,24 +121,24 @@
     
 }
 
--(float)calculateAlcholAmount{
-    float alkochol;
-    alkochol=alkochol+(_Q1Slider.value*1);
-    alkochol=alkochol+(_Q2Slider.value*1.25);
-    alkochol=alkochol+(_Q3Slider.value*1.25);
-    alkochol=alkochol+(_Q4Slider.value*1.75);
-    alkochol=alkochol+(_Q5Slider.value*1);
-    alkochol=alkochol+(_Q6Slider.value*1);
-    alkochol=alkochol+(_Q7Slider.value*1);
-    alkochol=alkochol+(_Q8Slider.value*20);
-    alkochol=alkochol+(_Q9Slider.value*10);
-    alkochol=alkochol+(_Q10Slider.value*6);
-    return alkochol;
+-(float)calculateAlcoholAmount{
+    float alkohol;
+    alkohol=alkohol+(_Q1Slider.value*1);
+    alkohol=alkohol+(_Q2Slider.value*1.25);
+    alkohol=alkohol+(_Q3Slider.value*1.25);
+    alkohol=alkohol+(_Q4Slider.value*1.75);
+    alkohol=alkohol+(_Q5Slider.value*1);
+    alkohol=alkohol+(_Q6Slider.value*1);
+    alkohol=alkohol+(_Q7Slider.value*1);
+    alkohol=alkohol+(_Q8Slider.value*20);
+    alkohol=alkohol+(_Q9Slider.value*10);
+    alkohol=alkohol+(_Q10Slider.value*6);
+    return alkohol;
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question8ViewController *vc = [segue destinationViewController];
-    self.list.Q7Answer=[NSString stringWithFormat:@"%d",(int)[self calculateAlcholAmount]];
+    self.list.Q7Answer=[NSString stringWithFormat:@"%d",(int)[self calculateAlcoholAmount]];
     vc.list=self.list;
 }
 

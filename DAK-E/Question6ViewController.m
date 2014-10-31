@@ -11,6 +11,8 @@
 
 @interface Question6ViewController ()
 
+@property (weak, nonatomic) NSMutableString *answers;
+
 @end
 
 @implementation Question6ViewController
@@ -26,6 +28,22 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)button1:(id)sender {
+    [self.answers appendString:@"Meget uenig"];
+}
+- (IBAction)button2:(id)sender {
+    [self.answers appendString:@"Uenig"];
+}
+- (IBAction)button3:(id)sender {
+    [self.answers appendString:@"Måske"];
+}
+- (IBAction)button4:(id)sender {
+    [self.answers appendString:@"Enig"];
+}
+- (IBAction)button5:(id)sender {
+    [self.answers appendString:@"Meget enig"];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

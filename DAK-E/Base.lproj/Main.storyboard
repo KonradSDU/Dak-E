@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VTd-Lb-emj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VTd-Lb-emj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -102,17 +102,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-lQ-phC" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="165" y="440" width="439" height="30"/>
-                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="Ryger til dagligt">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Ag5-Fh-0jF" kind="push" id="qrA-3s-jnk"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d52-nn-MaB" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="516" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -121,6 +110,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="tW7-i6-fa7" eventType="touchUpInside" id="rzT-2g-eGd"/>
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="5eJ-lf-GMt"/>
                                 </connections>
                             </button>
@@ -132,6 +122,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="tW7-i6-fa7" eventType="touchUpInside" id="81H-Bs-9gp"/>
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="Sw9-bN-ECG"/>
                                 </connections>
                             </button>
@@ -143,6 +134,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button5:" destination="tW7-i6-fa7" eventType="touchUpInside" id="11g-VE-VYh"/>
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="e0Y-GX-UYb"/>
                                 </connections>
                             </button>
@@ -154,6 +146,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="tW7-i6-fa7" eventType="touchUpInside" id="sMV-cT-O0V"/>
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="FxO-io-mR9"/>
                                 </connections>
                             </button>
@@ -170,6 +163,18 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-lQ-phC" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="440" width="439" height="30"/>
+                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="Ryger til dagligt">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="tW7-i6-fa7" eventType="touchUpInside" id="xf9-Va-YVN"/>
+                                    <segue destination="Ag5-Fh-0jF" kind="push" id="qrA-3s-jnk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="tintColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -195,17 +200,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-Yw-IQx" colorLabel="IBBuiltInLabel-Orange">
-                                <rect key="frame" x="165" y="440" width="439" height="30"/>
-                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <state key="normal" title="På intet tidspunkt">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="FV7-f7-iul" kind="push" id="wnY-UT-Eb2"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gxt-Dj-8gh" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="478" width="439" height="30"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -214,6 +208,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="Ag5-Fh-0jF" eventType="touchUpInside" id="SiJ-9a-7xl"/>
                                     <segue destination="FV7-f7-iul" kind="push" id="sOG-Xe-db0"/>
                                 </connections>
                             </button>
@@ -225,6 +220,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="Ag5-Fh-0jF" eventType="touchUpInside" id="GeL-wE-LZ6"/>
                                     <segue destination="FV7-f7-iul" kind="push" id="kXD-Rf-Eml"/>
                                 </connections>
                             </button>
@@ -236,6 +232,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="Ag5-Fh-0jF" eventType="touchUpInside" id="ReW-Sl-Nbg"/>
                                     <segue destination="FV7-f7-iul" kind="push" id="6bl-uW-XvC"/>
                                 </connections>
                             </button>
@@ -247,6 +244,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button5:" destination="Ag5-Fh-0jF" eventType="touchUpInside" id="Q1m-Bv-Y7j"/>
                                     <segue destination="FV7-f7-iul" kind="push" id="p6W-gg-B7x"/>
                                 </connections>
                             </button>
@@ -268,6 +266,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-Yw-IQx" colorLabel="IBBuiltInLabel-Orange">
+                                <rect key="frame" x="165" y="440" width="439" height="30"/>
+                                <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <state key="normal" title="På intet tidspunkt">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button1:" destination="Ag5-Fh-0jF" eventType="touchUpInside" id="oQi-d6-eVS"/>
+                                    <segue destination="FV7-f7-iul" kind="push" id="wnY-UT-Eb2"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -301,7 +311,8 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m19-Cq-ZDm" kind="push" id="sqa-Zv-4O7"/>
+                                    <action selector="button1:" destination="FV7-f7-iul" eventType="touchUpInside" id="jNa-G8-XFo"/>
+                                    <segue destination="m19-Cq-ZDm" kind="push" id="Rlb-cK-aGE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpn-Uc-sjG" colorLabel="IBBuiltInLabel-Orange">
@@ -312,7 +323,8 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m19-Cq-ZDm" kind="push" id="YNF-iz-aBp"/>
+                                    <action selector="button2:" destination="FV7-f7-iul" eventType="touchUpInside" id="5fs-wS-i5I"/>
+                                    <segue destination="m19-Cq-ZDm" kind="push" id="dwg-Kv-S5r"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nRg-Hy-sD4" colorLabel="IBBuiltInLabel-Orange">
@@ -323,7 +335,8 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m19-Cq-ZDm" kind="push" id="QvW-lk-bJG"/>
+                                    <action selector="button3:" destination="FV7-f7-iul" eventType="touchUpInside" id="Wf5-oR-nby"/>
+                                    <action selector="button4:" destination="FV7-f7-iul" eventType="touchUpInside" id="lNp-jf-hWE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1e-SE-SdU" colorLabel="IBBuiltInLabel-Orange">
@@ -334,7 +347,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m19-Cq-ZDm" kind="push" id="a3P-I3-PEC"/>
+                                    <action selector="button5:" destination="FV7-f7-iul" eventType="touchUpInside" id="Xd1-uC-eX9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zf-cD-DpS" colorLabel="IBBuiltInLabel-Orange">
@@ -345,7 +358,8 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="m19-Cq-ZDm" kind="push" id="zhq-cu-bLT"/>
+                                    <action selector="button4:" destination="FV7-f7-iul" eventType="touchUpInside" id="fbe-5k-ixN"/>
+                                    <segue destination="m19-Cq-ZDm" kind="push" id="CQb-ks-zgL"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoster du slim op? (Kun ét kryds)" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="hQn-hH-0rW">
@@ -361,11 +375,13 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <segue destination="m19-Cq-ZDm" kind="push" identifier="segueToQuestion6" id="Ib1-mw-aY9"/>
+                        <segue destination="m19-Cq-ZDm" kind="push" id="h7Y-1P-rkg"/>
+                        <segue destination="m19-Cq-ZDm" kind="push" id="qtu-tn-WOj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R1z-08-WbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5491" y="159"/>
+            <point key="canvasLocation" x="5463" y="143"/>
         </scene>
         <!--Question6 View Controller-->
         <scene sceneID="DSB-cr-tJ1">
@@ -386,6 +402,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button2:" destination="m19-Cq-ZDm" eventType="touchUpInside" id="64j-ZC-qFH"/>
+                                    <segue destination="ZnB-Fx-cU2" kind="push" id="MWq-Eq-dHM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gpv-hC-bfN" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="516" width="439" height="30"/>
@@ -394,6 +414,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button3:" destination="m19-Cq-ZDm" eventType="touchUpInside" id="Sd1-Z1-eZo"/>
+                                    <segue destination="ZnB-Fx-cU2" kind="push" id="re8-XF-l9S"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIP-H5-bOJ" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="554" width="439" height="30"/>
@@ -402,6 +426,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button4:" destination="m19-Cq-ZDm" eventType="touchUpInside" id="8Re-4d-CQf"/>
+                                    <segue destination="ZnB-Fx-cU2" kind="push" id="BVZ-hW-G2q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVG-Qv-D1t" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="592" width="439" height="30"/>
@@ -410,6 +438,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button5:" destination="m19-Cq-ZDm" eventType="touchUpInside" id="X61-Nt-JhX"/>
+                                    <segue destination="ZnB-Fx-cU2" kind="push" id="0JD-8l-BDj"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTj-uD-yRC" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="440" width="439" height="30"/>
@@ -418,6 +450,10 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button1:" destination="m19-Cq-ZDm" eventType="touchUpInside" id="Sfw-sI-Yac"/>
+                                    <segue destination="ZnB-Fx-cU2" kind="push" id="1xZ-pM-f34"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="jeg i de sidste 12 måneder bevæget mig mindre end jeg plejer." minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="n9b-YJ-MRL">
                                 <rect key="frame" x="58" y="366" width="653" height="29"/>
@@ -448,7 +484,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u5T-Fm-05h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6345" y="143"/>
+            <point key="canvasLocation" x="6327" y="159"/>
         </scene>
         <!--Question8 View Controller-->
         <scene sceneID="zhv-X7-TRb">
@@ -470,6 +506,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="l5X-e6-CoA" eventType="touchUpInside" id="9bU-2S-fWa"/>
                                     <segue destination="CfY-EH-wZm" kind="push" id="y2F-ov-FmC"/>
                                 </connections>
                             </button>
@@ -481,6 +518,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="l5X-e6-CoA" eventType="touchUpInside" id="qZj-bf-LQy"/>
                                     <segue destination="CfY-EH-wZm" kind="push" id="hbI-Rf-zuE"/>
                                 </connections>
                             </button>
@@ -492,6 +530,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="l5X-e6-CoA" eventType="touchUpInside" id="IY2-xE-xUI"/>
                                     <segue destination="CfY-EH-wZm" kind="push" id="nfd-En-ORB"/>
                                 </connections>
                             </button>
@@ -503,6 +542,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="l5X-e6-CoA" eventType="touchUpInside" id="iEv-dc-UHQ"/>
                                     <segue destination="CfY-EH-wZm" kind="push" id="fqI-i6-CQX"/>
                                 </connections>
                             </button>
@@ -514,6 +554,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button5:" destination="l5X-e6-CoA" eventType="touchUpInside" id="mvf-4F-f1W"/>
                                     <segue destination="CfY-EH-wZm" kind="push" id="5b2-Cc-IyD"/>
                                 </connections>
                             </button>
@@ -562,6 +603,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="CfY-EH-wZm" eventType="touchUpInside" id="Ubn-Yf-Tex"/>
                                     <segue destination="BrC-KR-jBs" kind="push" id="c2n-0y-6Uc"/>
                                 </connections>
                             </button>
@@ -573,6 +615,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="CfY-EH-wZm" eventType="touchUpInside" id="cg0-q2-mMe"/>
                                     <segue destination="BrC-KR-jBs" kind="push" id="FCr-bD-m6k"/>
                                 </connections>
                             </button>
@@ -584,6 +627,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="CfY-EH-wZm" eventType="touchUpInside" id="SFg-Hg-7vC"/>
                                     <segue destination="BrC-KR-jBs" kind="push" id="1m5-gz-oDq"/>
                                 </connections>
                             </button>
@@ -595,6 +639,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="CfY-EH-wZm" eventType="touchUpInside" id="R5a-cn-LIv"/>
                                     <segue destination="BrC-KR-jBs" kind="push" id="CSE-lR-xJN"/>
                                 </connections>
                             </button>
@@ -643,6 +688,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="BrC-KR-jBs" eventType="touchUpInside" id="eYR-e3-49f"/>
                                     <segue destination="mv1-V1-IRL" kind="push" id="HWF-OV-SbY"/>
                                 </connections>
                             </button>
@@ -654,6 +700,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="BrC-KR-jBs" eventType="touchUpInside" id="WIf-tt-rQ3"/>
                                     <segue destination="mv1-V1-IRL" kind="push" id="jgS-dI-p40"/>
                                 </connections>
                             </button>
@@ -665,6 +712,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="BrC-KR-jBs" eventType="touchUpInside" id="AJU-dU-Rb6"/>
                                     <segue destination="mv1-V1-IRL" kind="push" id="JJq-Pd-Lkk"/>
                                 </connections>
                             </button>
@@ -676,6 +724,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="BrC-KR-jBs" eventType="touchUpInside" id="EE5-0i-RDu"/>
                                     <segue destination="mv1-V1-IRL" kind="push" id="nU1-Jv-2It"/>
                                 </connections>
                             </button>
@@ -723,6 +772,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button1:" destination="mv1-V1-IRL" eventType="touchUpInside" id="qvw-q2-4mW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLU-Ih-VHF" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="497" width="439" height="30"/>
@@ -731,6 +783,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button2:" destination="mv1-V1-IRL" eventType="touchUpInside" id="a4J-O1-Jty"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RrD-B2-PFn" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="535" width="439" height="30"/>
@@ -739,6 +794,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button3:" destination="mv1-V1-IRL" eventType="touchUpInside" id="CrQ-jr-j77"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QRr-dJ-Bwr" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="167" y="573" width="439" height="30"/>
@@ -747,6 +805,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="button4:" destination="mv1-V1-IRL" eventType="touchUpInside" id="ndb-Jk-c2L"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hvor hyppigt spiser du fisk eller skaldyr som hovedret (Kun ét kryds)" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="ZBw-b3-mPY">
                                 <rect key="frame" x="29" y="422" width="715" height="29"/>
@@ -787,6 +848,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button1:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="idm-iX-Id3"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="Onb-nq-fOa"/>
                                 </connections>
                             </button>
@@ -798,6 +860,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button2:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="thy-lN-ctP"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="tB3-TG-xri"/>
                                 </connections>
                             </button>
@@ -809,6 +872,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button3:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="NgK-Zn-bCC"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="xA0-wX-D9D"/>
                                 </connections>
                             </button>
@@ -820,6 +884,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button4:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="cam-YF-m1h"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="H8P-Vv-1lC"/>
                                 </connections>
                             </button>
@@ -831,6 +896,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button5:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="Ae6-fS-fwi"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="tyH-RN-N3L"/>
                                 </connections>
                             </button>
@@ -842,6 +908,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button6:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="hq4-kp-B3B"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="sho-o2-leg"/>
                                 </connections>
                             </button>
@@ -853,6 +920,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button7:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="K3n-1x-KDU"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="6h4-dK-kCK"/>
                                 </connections>
                             </button>
@@ -864,6 +932,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button8:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="onF-4g-x5j"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="ePB-3o-VAf"/>
                                 </connections>
                             </button>
@@ -875,6 +944,7 @@
                                     <color key="titleShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
                                 </state>
                                 <connections>
+                                    <action selector="button9:" destination="dSt-YU-lZ5" eventType="touchUpInside" id="BzB-z3-QZd"/>
                                     <segue destination="h3f-An-D3W" kind="push" id="0yl-Cj-6Dm"/>
                                 </connections>
                             </button>
@@ -1842,15 +1912,16 @@
         <image name="card" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Ib1-mw-aY9"/>
+        <segue reference="tyH-RN-N3L"/>
+        <segue reference="qAd-OX-gKU"/>
+        <segue reference="Tii-pH-GLF"/>
+        <segue reference="xdG-Rg-fCO"/>
+        <segue reference="nU1-Jv-2It"/>
+        <segue reference="c2n-0y-6Uc"/>
+        <segue reference="y2F-ov-FmC"/>
+        <segue reference="xGX-ZS-TcV"/>
+        <segue reference="qtu-tn-WOj"/>
         <segue reference="6bl-uW-XvC"/>
         <segue reference="5eJ-lf-GMt"/>
-        <segue reference="y2F-ov-FmC"/>
-        <segue reference="c2n-0y-6Uc"/>
-        <segue reference="nU1-Jv-2It"/>
-        <segue reference="xdG-Rg-fCO"/>
-        <segue reference="Tii-pH-GLF"/>
-        <segue reference="qAd-OX-gKU"/>
-        <segue reference="tyH-RN-N3L"/>
     </inferredMetricsTieBreakers>
 </document>
