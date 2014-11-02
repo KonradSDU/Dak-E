@@ -33,6 +33,7 @@
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
 		63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998F19F856DD0046B0F9 /* Question16ViewController.m */; };
+		E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */; };
 		E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* Question14ViewController.m */; };
 		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
 		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
@@ -100,6 +101,8 @@
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
 		63AD998E19F856DD0046B0F9 /* Question16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question16ViewController.h; sourceTree = "<group>"; };
 		63AD998F19F856DD0046B0F9 /* Question16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question16ViewController.m; sourceTree = "<group>"; };
+		E72A7DED1A0698B200BE44DD /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
+		E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
 		E741C04F19F86D4A000C89AE /* Question14ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question14ViewController.h; sourceTree = "<group>"; };
 		E741C05019F86D4A000C89AE /* Question14ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question14ViewController.m; sourceTree = "<group>"; };
 		E741C05219F87274000C89AE /* Question15ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question15ViewController.h; sourceTree = "<group>"; };
@@ -156,6 +159,8 @@
 				47F764D919F840ED00E8CEEB /* BigUISlider.m */,
 				4748810319F6E58F00C39C09 /* BaseViewController.h */,
 				4748810419F6E58F00C39C09 /* BaseViewController.m */,
+				E72A7DED1A0698B200BE44DD /* M13Checkbox.h */,
+				E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */,
 				4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */,
 				4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */,
 				47F764D419F83D6800E8CEEB /* ViewControllers */,
@@ -352,6 +357,7 @@
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
 				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
+				E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */,
 				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
 				4796527219F8685D00756FCC /* Question12ViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
