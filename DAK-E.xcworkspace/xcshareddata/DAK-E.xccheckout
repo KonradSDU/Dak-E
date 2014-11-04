@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D4D753EB-8B99-492F-8771-ED214EDD8958</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DAK-E</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FC9F5438E2A256EDD88D5578B42EEC5BD8B29847</key>
+		<string>https://github.com/KonradSDU/Dak-E</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DAK-E.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FC9F5438E2A256EDD88D5578B42EEC5BD8B29847</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KonradSDU/Dak-E</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FC9F5438E2A256EDD88D5578B42EEC5BD8B29847</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FC9F5438E2A256EDD88D5578B42EEC5BD8B29847</string>
+			<key>IDESourceControlWCCName</key>
+			<string>dake</string>
+		</dict>
+	</array>
+</dict>
+</plist>

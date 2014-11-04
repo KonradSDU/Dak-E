@@ -33,11 +33,13 @@
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
 		63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998F19F856DD0046B0F9 /* Question16ViewController.m */; };
+		A2135CF6002C016BDDF7FFA9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7D20938224001044D35F18 /* libPods.a */; };
 		E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */; };
 		E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* Question14ViewController.m */; };
 		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
 		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
 		E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* Question18ViewController.m */; };
+		E7ED3E4F1A0959EF006E789F /* AdminModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D7D20938224001044D35F18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionaireAnswersList.h; sourceTree = "<group>"; };
 		4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionaireAnswersList.m; sourceTree = "<group>"; };
 		4709699A19FFB7B6008B592C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -101,6 +104,8 @@
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
 		63AD998E19F856DD0046B0F9 /* Question16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question16ViewController.h; sourceTree = "<group>"; };
 		63AD998F19F856DD0046B0F9 /* Question16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question16ViewController.m; sourceTree = "<group>"; };
+		B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E72A7DED1A0698B200BE44DD /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
 		E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
 		E741C04F19F86D4A000C89AE /* Question14ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question14ViewController.h; sourceTree = "<group>"; };
@@ -111,6 +116,8 @@
 		E741C05619F874D3000C89AE /* Question17ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question17ViewController.m; sourceTree = "<group>"; };
 		E741C05819F876DC000C89AE /* Question18ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question18ViewController.h; sourceTree = "<group>"; };
 		E741C05919F876DC000C89AE /* Question18ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question18ViewController.m; sourceTree = "<group>"; };
+		E7ED3E4D1A0959EF006E789F /* AdminModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminModeViewController.h; sourceTree = "<group>"; };
+		E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminModeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2135CF6002C016BDDF7FFA9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,12 +139,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B85A8A6DA8F602AB479D690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D7D20938224001044D35F18 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		474880CB19F6E13100C39C09 = {
 			isa = PBXGroup;
 			children = (
 				474880D619F6E13200C39C09 /* DAK-E */,
 				474880F319F6E13200C39C09 /* DAK-ETests */,
 				474880D519F6E13200C39C09 /* Products */,
+				F2E8BF2EB91CB36ABB3566CE /* Pods */,
+				3B85A8A6DA8F602AB479D690 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -205,6 +223,8 @@
 			children = (
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
 				4709699B19FFB7B6008B592C /* LoginViewController.m */,
+				E7ED3E4D1A0959EF006E789F /* AdminModeViewController.h */,
+				E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */,
 				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
 				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
@@ -245,6 +265,15 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		F2E8BF2EB91CB36ABB3566CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */,
+				E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -252,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 474880FA19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-E" */;
 			buildPhases = (
+				B00751DF1096511387F73D95 /* Check Pods Manifest.lock */,
 				474880D019F6E13100C39C09 /* Sources */,
 				474880D119F6E13100C39C09 /* Frameworks */,
 				474880D219F6E13100C39C09 /* Resources */,
+				5D050BA7EA0C7472A228A284 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,6 +372,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D050BA7EA0C7472A228A284 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B00751DF1096511387F73D95 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		474880D019F6E13100C39C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -351,6 +415,7 @@
 				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
+				E7ED3E4F1A0959EF006E789F /* AdminModeViewController.m in Sources */,
 				E741C05419F87274000C89AE /* Question15ViewController.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
@@ -492,6 +557,7 @@
 		};
 		474880FB19F6E13200C39C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -504,6 +570,7 @@
 		};
 		474880FC19F6E13200C39C09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

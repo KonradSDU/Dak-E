@@ -14,6 +14,8 @@
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
 - (IBAction)button:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *adminButton;
+- (IBAction)adminMode:(id)sender;
 
 @end
 
@@ -43,4 +45,26 @@
     Question1ViewController *vc = [segue destinationViewController];
     vc.list=list;
 }
+- (IBAction)adminMode:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Enter password:"
+                                                   message:nil
+                                                  delegate:self
+                                         cancelButtonTitle:@"Cancel"
+                                         otherButtonTitles:@"OK", nil];
+    alertView.alertViewStyle = UIAlertViewStyleSecureTextInput;
+    [alertView show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    NSString *title = [alertView buttonTitleAtIndex:buttonIndex];
+    
+    if ([title isEqualToString:@"OK"]){
+        UITextField *password = [alertView textFieldAtIndex:0];
+        if ([password.text isEqualToString:@"a"]){
+            [self performSegueWithIdentifier:@"segueToAdminMode" sender:nil];
+            
+        }
+    }
+}
+
 @end
