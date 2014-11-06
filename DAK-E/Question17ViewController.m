@@ -20,9 +20,9 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 17;
-    self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1718";
     [super viewDidLoad];
+    self.rightNavButt.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

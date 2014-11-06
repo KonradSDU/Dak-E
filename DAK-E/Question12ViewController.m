@@ -11,7 +11,7 @@
 
 @interface Question12ViewController ()
 
-@property (nonatomic) NSMutableString *answers;
+//@property (nonatomic) NSMutableString *answers;
 @property (weak, nonatomic) IBOutlet UIButton *button1;
 @property (weak, nonatomic) IBOutlet UIButton *button2;
 @property (weak, nonatomic) IBOutlet UIButton *button3;
@@ -24,14 +24,13 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 12;
-    self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1213";
     self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button3.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button4.titleLabel.font =  [UIFont systemFontOfSize:24.0];
-
     [super viewDidLoad];
+    self.rightNavButt.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,17 +38,18 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)button1:(id)sender {
-    [self.answers appendString:@"To gange dagligt eller oftere"];
+   self.list.Q12Answer = @"To gange dagligt eller oftere";
 }
 - (IBAction)button2:(id)sender {
-    [self.answers appendString:@"En gang dagligt"];
+    self.list.Q12Answer = @"En gang dagligt";
 }
 - (IBAction)button3:(id)sender {
-    [self.answers appendString:@"Nogle gange i løbet af ugen"];
+    self.list.Q12Answer = @"Nogle gange i løbet af ugen";
 }
 - (IBAction)button4:(id)sender {
-    [self.answers appendString:@"En gang om ugen eller sjældnere"];
+    self.list.Q12Answer = @"En gang om ugen eller sjældnere";
 }
+
 -(void)viewDidAppear:(BOOL)animated{
     if(self.list.Q12Answer!=nil){
         self.rightNavButt.hidden = NO;
@@ -58,7 +58,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question13ViewController *vc = [segue destinationViewController];
-    self.list.Q12Answer = self.answers;
+    //self.list.Q12Answer = self.answers;
     vc.list=self.list;
 }
 /*
