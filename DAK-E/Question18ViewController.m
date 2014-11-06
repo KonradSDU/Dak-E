@@ -20,6 +20,7 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
+    self.segueToNextControllerName = @"LastSegue";
     self.rightNavButt.hidden = YES;
     self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];

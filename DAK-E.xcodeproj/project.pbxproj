@@ -24,6 +24,7 @@
 		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
 		47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* Question1ViewController.m */; };
+		63839C631A0B36640040FDC1 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63839C621A0B36640040FDC1 /* LastViewController.m */; };
 		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
 		63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997D19F8279F0046B0F9 /* Question5ViewController.m */; };
@@ -86,6 +87,8 @@
 		47F764D919F840ED00E8CEEB /* BigUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigUISlider.m; sourceTree = "<group>"; };
 		47F764DB19F846C900E8CEEB /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
 		47F764DC19F846C900E8CEEB /* Question1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1ViewController.m; sourceTree = "<group>"; };
+		63839C611A0B36640040FDC1 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
+		63839C621A0B36640040FDC1 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
 		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
 		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 		63AD997919F824960046B0F9 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 				E741C05619F874D3000C89AE /* Question17ViewController.m */,
 				E741C05819F876DC000C89AE /* Question18ViewController.h */,
 				E741C05919F876DC000C89AE /* Question18ViewController.m */,
+				63839C611A0B36640040FDC1 /* LastViewController.h */,
+				63839C621A0B36640040FDC1 /* LastViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -421,6 +426,7 @@
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
+				63839C631A0B36640040FDC1 /* LastViewController.m in Sources */,
 				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
 				E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */,
 				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
