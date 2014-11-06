@@ -23,7 +23,10 @@
 @property (nonatomic,retain) NSString *Q11Answer;
 @property (nonatomic,retain) NSString *Q12Answer;
 @property (nonatomic,retain) NSString *Q13Answer;
-@property (nonatomic,retain) NSMutableArray *Q14Answer;//provide full answer string as a object of type nsstring in this array
+//@property (nonatomic,retain) NSMutableArray *Q14Answer;//provide full answer string as a object of type nsstring in this array
+@property (nonatomic, retain) NSString *Q14Answer1;
+@property (nonatomic, retain) NSString *Q14Answer2;
+@property (nonatomic, retain) NSString *Q14Answer3;
 @property (nonatomic,retain) NSString *Q15Answer;
 @property (nonatomic,retain) NSMutableArray *Q16Answer;//provide full answer string as a object of type nsstring in this array
 @property (nonatomic,retain) NSString *Q17Answer;
