@@ -9,5 +9,5 @@
 #import "BaseViewController.h"
 
 @interface LastViewController : UIViewController		
-
+@property (nonatomic,retain) NSString *restartNavigationButt;
 @end
