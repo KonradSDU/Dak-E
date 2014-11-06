@@ -1144,6 +1144,7 @@
                                 </state>
                                 <connections>
                                     <action selector="button1v:" destination="cHS-Od-IX3" eventType="touchUpInside" id="L8f-u4-ZcJ"/>
+                                    <segue destination="Dka-Ba-kES" kind="push" id="xbq-P9-U2D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1372,6 +1373,9 @@
                                 <rect key="frame" x="235" y="490" width="456" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="textFieldDidChange:" destination="h3f-An-D3W" eventType="editingDidEnd" id="jUC-lp-53F"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mellem dig og sundhedsvæsenet)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUm-Wz-sK1">
                                 <rect key="frame" x="154" y="330" width="461" height="33"/>
@@ -2102,9 +2106,9 @@
         <image name="cog" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yO4-QN-EI5"/>
-        <segue reference="5eJ-lf-GMt"/>
         <segue reference="6bl-uW-XvC"/>
+        <segue reference="5eJ-lf-GMt"/>
+        <segue reference="yO4-QN-EI5"/>
         <segue reference="qtu-tn-WOj"/>
         <segue reference="xGX-ZS-TcV"/>
         <segue reference="y2F-ov-FmC"/>
@@ -2112,7 +2116,7 @@
         <segue reference="nU1-Jv-2It"/>
         <segue reference="Ga6-Ix-WnI"/>
         <segue reference="xdG-Rg-fCO"/>
-        <segue reference="Tii-pH-GLF"/>
+        <segue reference="lBZ-53-7go"/>
         <segue reference="qAd-OX-gKU"/>
         <segue reference="tyH-RN-N3L"/>
     </inferredMetricsTieBreakers>

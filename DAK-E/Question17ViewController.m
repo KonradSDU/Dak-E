@@ -23,16 +23,24 @@
     self.segueToNextControllerName = @"segue1718";
     [super viewDidLoad];
     self.rightNavButt.hidden = YES;
+    self.textField.delegate = self;
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)textFieldDidChange:(id)sender {
+    NSRange range = [self.textField.text rangeOfString:@"@"];
+    NSRange range2 = [self.textField.text rangeOfString:@"."];
+    if (range.location!=NSNotFound && range2.location!=NSNotFound){
+        self.list.Q17Answer = self.textField.text;
+        self.rightNavButt.hidden = NO;
+    }
+}
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     Question18ViewController *vc = [segue destinationViewController];
-    self.list.Q17Answer = [NSString stringWithFormat:@"%@", self.textField.text];
     vc.list=self.list;
 }
 
@@ -41,6 +49,14 @@
         self.rightNavButt.hidden = NO;
     }
 }
+
+/*- (void)textFieldDidBeginEditing:(UITextField *)textField
+{
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+}*/
 
 - (BOOL)textFieldShouldReturn:(UITextField*)textField
 {
