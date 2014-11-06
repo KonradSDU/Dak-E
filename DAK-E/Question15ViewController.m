@@ -22,12 +22,12 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 15;
-    self.rightNavButt.hidden = YES;
     self.segueToNextControllerName = @"segue1516";
     self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button3.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     [super viewDidLoad];
+    self.rightNavButt.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {
