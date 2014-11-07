@@ -10,6 +10,12 @@
 		4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */; };
 		4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699B19FFB7B6008B592C /* LoginViewController.m */; };
 		470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470B737119FEA66900E6ABD8 /* Question7ViewController.m */; };
+		472015BC1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 472015BA1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld */; };
+		472015C51A0A35700021AABC /* Questionaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 472015C41A0A35700021AABC /* Questionaire.m */; };
+		472015CB1A0A35710021AABC /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 472015CA1A0A35710021AABC /* Question.m */; };
+		472015CE1A0AC8460021AABC /* SubQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 472015CD1A0AC8460021AABC /* SubQuestion.m */; };
+		473AAA6F1A0918680069FF51 /* CoreDataContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AAA6E1A0918680069FF51 /* CoreDataContext.m */; };
+		473AAA721A0919DB0069FF51 /* DatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AAA711A0919DB0069FF51 /* DatabaseManager.m */; };
 		474880DA19F6E13200C39C09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880D919F6E13200C39C09 /* main.m */; };
 		474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880DC19F6E13200C39C09 /* AppDelegate.m */; };
 		474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */; };
@@ -24,7 +30,6 @@
 		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
 		47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* Question1ViewController.m */; };
-		63839C631A0B36640040FDC1 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63839C621A0B36640040FDC1 /* LastViewController.m */; };
 		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
 		63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997D19F8279F0046B0F9 /* Question5ViewController.m */; };
@@ -34,13 +39,11 @@
 		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
 		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
 		63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998F19F856DD0046B0F9 /* Question16ViewController.m */; };
-		A2135CF6002C016BDDF7FFA9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D7D20938224001044D35F18 /* libPods.a */; };
 		E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */; };
 		E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* Question14ViewController.m */; };
 		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
 		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
 		E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* Question18ViewController.m */; };
-		E7ED3E4F1A0959EF006E789F /* AdminModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +57,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D7D20938224001044D35F18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionaireAnswersList.h; sourceTree = "<group>"; };
 		4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionaireAnswersList.m; sourceTree = "<group>"; };
 		4709699A19FFB7B6008B592C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		4709699B19FFB7B6008B592C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		470B737019FEA66900E6ABD8 /* Question7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question7ViewController.h; sourceTree = "<group>"; };
 		470B737119FEA66900E6ABD8 /* Question7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question7ViewController.m; sourceTree = "<group>"; };
+		472015BB1A0A30040021AABC /* QuestionareDBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuestionareDBModel.xcdatamodel; sourceTree = "<group>"; };
+		472015C31A0A35700021AABC /* Questionaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questionaire.h; sourceTree = "<group>"; };
+		472015C41A0A35700021AABC /* Questionaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questionaire.m; sourceTree = "<group>"; };
+		472015C91A0A35710021AABC /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		472015CA1A0A35710021AABC /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		472015CC1A0AC8460021AABC /* SubQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubQuestion.h; path = ../SubQuestion.h; sourceTree = "<group>"; };
+		472015CD1A0AC8460021AABC /* SubQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubQuestion.m; path = ../SubQuestion.m; sourceTree = "<group>"; };
+		473AAA6D1A0918680069FF51 /* CoreDataContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataContext.h; sourceTree = "<group>"; };
+		473AAA6E1A0918680069FF51 /* CoreDataContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataContext.m; sourceTree = "<group>"; };
+		473AAA701A0919DB0069FF51 /* DatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseManager.h; sourceTree = "<group>"; };
+		473AAA711A0919DB0069FF51 /* DatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseManager.m; sourceTree = "<group>"; };
 		474880D419F6E13200C39C09 /* DAK-E.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DAK-E.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		474880D819F6E13200C39C09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		474880D919F6E13200C39C09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,8 +100,6 @@
 		47F764D919F840ED00E8CEEB /* BigUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigUISlider.m; sourceTree = "<group>"; };
 		47F764DB19F846C900E8CEEB /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
 		47F764DC19F846C900E8CEEB /* Question1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1ViewController.m; sourceTree = "<group>"; };
-		63839C611A0B36640040FDC1 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
-		63839C621A0B36640040FDC1 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
 		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
 		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
 		63AD997919F824960046B0F9 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
@@ -107,8 +118,6 @@
 		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
 		63AD998E19F856DD0046B0F9 /* Question16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question16ViewController.h; sourceTree = "<group>"; };
 		63AD998F19F856DD0046B0F9 /* Question16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question16ViewController.m; sourceTree = "<group>"; };
-		B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E72A7DED1A0698B200BE44DD /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
 		E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
 		E741C04F19F86D4A000C89AE /* Question14ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question14ViewController.h; sourceTree = "<group>"; };
@@ -119,8 +128,6 @@
 		E741C05619F874D3000C89AE /* Question17ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question17ViewController.m; sourceTree = "<group>"; };
 		E741C05819F876DC000C89AE /* Question18ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question18ViewController.h; sourceTree = "<group>"; };
 		E741C05919F876DC000C89AE /* Question18ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question18ViewController.m; sourceTree = "<group>"; };
-		E7ED3E4D1A0959EF006E789F /* AdminModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminModeViewController.h; sourceTree = "<group>"; };
-		E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminModeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2135CF6002C016BDDF7FFA9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,12 +148,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B85A8A6DA8F602AB479D690 /* Frameworks */ = {
+		471530951A090F15009FA146 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				3D7D20938224001044D35F18 /* libPods.a */,
+				472015BA1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld */,
+				472015C31A0A35700021AABC /* Questionaire.h */,
+				472015C41A0A35700021AABC /* Questionaire.m */,
+				472015C91A0A35710021AABC /* Question.h */,
+				472015CA1A0A35710021AABC /* Question.m */,
+				472015CC1A0AC8460021AABC /* SubQuestion.h */,
+				472015CD1A0AC8460021AABC /* SubQuestion.m */,
+				473AAA6D1A0918680069FF51 /* CoreDataContext.h */,
+				473AAA6E1A0918680069FF51 /* CoreDataContext.m */,
+				473AAA701A0919DB0069FF51 /* DatabaseManager.h */,
+				473AAA711A0919DB0069FF51 /* DatabaseManager.m */,
 			);
-			name = Frameworks;
+			name = DB;
 			sourceTree = "<group>";
 		};
 		474880CB19F6E13100C39C09 = {
@@ -156,8 +172,6 @@
 				474880D619F6E13200C39C09 /* DAK-E */,
 				474880F319F6E13200C39C09 /* DAK-ETests */,
 				474880D519F6E13200C39C09 /* Products */,
-				F2E8BF2EB91CB36ABB3566CE /* Pods */,
-				3B85A8A6DA8F602AB479D690 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +187,7 @@
 		474880D619F6E13200C39C09 /* DAK-E */ = {
 			isa = PBXGroup;
 			children = (
+				471530951A090F15009FA146 /* DB */,
 				474880DB19F6E13200C39C09 /* AppDelegate.h */,
 				474880DC19F6E13200C39C09 /* AppDelegate.m */,
 				474880E419F6E13200C39C09 /* Main.storyboard */,
@@ -226,8 +241,6 @@
 			children = (
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
 				4709699B19FFB7B6008B592C /* LoginViewController.m */,
-				E7ED3E4D1A0959EF006E789F /* AdminModeViewController.h */,
-				E7ED3E4E1A0959EF006E789F /* AdminModeViewController.m */,
 				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
 				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
@@ -264,19 +277,8 @@
 				E741C05619F874D3000C89AE /* Question17ViewController.m */,
 				E741C05819F876DC000C89AE /* Question18ViewController.h */,
 				E741C05919F876DC000C89AE /* Question18ViewController.m */,
-				63839C611A0B36640040FDC1 /* LastViewController.h */,
-				63839C621A0B36640040FDC1 /* LastViewController.m */,
 			);
 			name = ViewControllers;
-			sourceTree = "<group>";
-		};
-		F2E8BF2EB91CB36ABB3566CE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */,
-				E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,11 +288,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 474880FA19F6E13200C39C09 /* Build configuration list for PBXNativeTarget "DAK-E" */;
 			buildPhases = (
-				B00751DF1096511387F73D95 /* Check Pods Manifest.lock */,
 				474880D019F6E13100C39C09 /* Sources */,
 				474880D119F6E13100C39C09 /* Frameworks */,
 				474880D219F6E13100C39C09 /* Resources */,
-				5D050BA7EA0C7472A228A284 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -377,39 +377,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5D050BA7EA0C7472A228A284 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B00751DF1096511387F73D95 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		474880D019F6E13100C39C09 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -420,20 +387,23 @@
 				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
-				E7ED3E4F1A0959EF006E789F /* AdminModeViewController.m in Sources */,
+				472015C51A0A35700021AABC /* Questionaire.m in Sources */,
 				E741C05419F87274000C89AE /* Question15ViewController.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
 				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
-				63839C631A0B36640040FDC1 /* LastViewController.m in Sources */,
+				472015BC1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld in Sources */,
 				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
 				E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */,
 				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
 				4796527219F8685D00756FCC /* Question12ViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
+				473AAA721A0919DB0069FF51 /* DatabaseManager.m in Sources */,
 				E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */,
+				473AAA6F1A0918680069FF51 /* CoreDataContext.m in Sources */,
+				472015CB1A0A35710021AABC /* Question.m in Sources */,
 				4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */,
 				E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */,
 				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
@@ -444,6 +414,7 @@
 				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
+				472015CE1A0AC8460021AABC /* SubQuestion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +534,6 @@
 		};
 		474880FB19F6E13200C39C09 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B37B3DB3EA3EFDFC393A0D0A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -576,7 +546,6 @@
 		};
 		474880FC19F6E13200C39C09 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E61983D293BE0CEE7D380D99 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -654,6 +623,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		472015BA1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				472015BB1A0A30040021AABC /* QuestionareDBModel.xcdatamodel */,
+			);
+			currentVersion = 472015BB1A0A30040021AABC /* QuestionareDBModel.xcdatamodel */;
+			path = QuestionareDBModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		474880DE19F6E13200C39C09 /* DAK_E.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

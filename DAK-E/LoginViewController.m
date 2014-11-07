@@ -10,6 +10,10 @@
 #import "UIColor+customColors.h"
 #import "QuestionaireAnswersList.h"
 #import "Question1ViewController.h"
+#import "DatabaseManager.h"
+#import "Questionaire.h"
+#import "Question.h"
+#import "SubQuestion.h"
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -26,7 +30,6 @@
     self.view.backgroundColor= [UIColor lighterGreen];
     _label.textColor = [UIColor gray];
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 -(BOOL)prefersStatusBarHidden { return YES; }

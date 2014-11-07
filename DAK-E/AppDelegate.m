@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DatabaseManager.h"
+#import "Questionaire.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,22 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"])
+    {
+        // app already launched
+    }
+    else
+    {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"HasLaunchedOnce"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        [DatabaseManager insertQuestionaireWithName:@"general"];
+        Questionaire *que = [DatabaseManager questionaireWithName:@"general"];
+        [DatabaseManager insertQuestionWithQuestion:@"Hvordan synes du dit helbred er alt i alt?" questionType:[NSNumber numberWithInt:1] subTitle:nil answers:[NSArray arrayWithObjects:@"Fremragende", @"Vældigt godt", @"Godt", @"Mindre godt", @"Dårligt", nil] questionaire:que];
+        [DatabaseManager insertQuestionWithQuestion:@"Vægt og højde" questionType:[NSNumber numberWithInt:2] subTitle:nil answers:[NSArray arrayWithObjects:@"Hvad er din vægt?", @"Hvor høj er du?", nil] questionaire:que];
+        [DatabaseManager insertQuestionWithQuestion:@"Ryger du?" questionType:[NSNumber numberWithInt:1] subTitle:nil answers:[NSArray arrayWithObjects:@"Ryger til dagligt", @"Lejlighedsvis ryger", @"Er stoppet for mindre end 6 måneder siden",@"Er stoppet for mere end 6 måneder siden", @"Har aldrig røget (hvis du aldrig har røget, gå da til spørgsmål 7)", nil] questionaire:que];
+        [DatabaseManager insertQuestionWithQuestion:@"Indenfor de sidste 4 uger, har du da haft åndenød i forbindelse med hverdagsaktiviteter? (for eksempel en gåtur, let havearbejde, rengøring, indkøb og lignende) " questionType:[NSNumber numberWithInt:1] subTitle:nil answers:[NSArray arrayWithObjects:@"På intet tidspunkt", @"Sjældent", @"Af og til", @"Ofte", @"Hele tiden", nil] questionaire:que];
+        
+    }
     return YES;
 }
 

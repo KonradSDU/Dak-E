@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6252" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Question" representedClassName="Question" syncable="YES">
+        <attribute name="qNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="qType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questionaire" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Questionaire" inverseName="questions" inverseEntity="Questionaire" syncable="YES"/>
+        <relationship name="subQuestions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="SubQuestion" inverseName="question" inverseEntity="SubQuestion" syncable="YES"/>
+    </entity>
+    <entity name="Questionaire" representedClassName="Questionaire" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="questions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Question" inverseName="questionaire" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <entity name="SubQuestion" representedClassName="SubQuestion" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sQNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="question" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Question" inverseName="subQuestions" inverseEntity="Question" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Question" positionX="0" positionY="0" width="128" height="135"/>
+        <element name="Questionaire" positionX="0" positionY="0" width="128" height="75"/>
+        <element name="SubQuestion" positionX="0" positionY="0" width="128" height="90"/>
+    </elements>
+</model>
