@@ -26,6 +26,7 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 13;
+   // NSLog(@"%@", self.list.Q3Answer);
     self.segueToNextControllerName = @"segue1314";
     self.button1.titleLabel.font =  [UIFont systemFontOfSize:21.0];
     self.button1b.titleLabel.font =  [UIFont systemFontOfSize:21.0];

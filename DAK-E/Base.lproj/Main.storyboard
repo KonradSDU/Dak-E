@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VTd-Lb-emj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="VTd-Lb-emj">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
@@ -1472,6 +1472,7 @@
                                 </state>
                                 <connections>
                                     <action selector="button1:" destination="6zJ-H1-FEH" eventType="touchUpInside" id="Wmj-xe-XQB"/>
+                                    <segue destination="QxE-Lj-2iV" kind="push" id="4dP-LU-Dap"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxM-eC-sUk">
@@ -1483,6 +1484,7 @@
                                 </state>
                                 <connections>
                                     <action selector="button2:" destination="6zJ-H1-FEH" eventType="touchUpInside" id="W5r-QE-vQ9"/>
+                                    <segue destination="QxE-Lj-2iV" kind="push" id="exO-6Y-PhK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1493,12 +1495,43 @@
                     <connections>
                         <outlet property="button1" destination="i5J-z7-ijN" id="DgF-Vk-7s3"/>
                         <outlet property="button2" destination="mxM-eC-sUk" id="6bj-gm-XIi"/>
-                        <segue destination="7hn-QR-OtJ" kind="push" identifier="LastSegue" id="jpI-It-RFM"/>
+                        <segue destination="QxE-Lj-2iV" kind="push" identifier="SegueToAllAnswers" id="Lge-na-9nT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1S-vL-EOW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6451" y="1511"/>
+        </scene>
+        <!--All Answered View Controller-->
+        <scene sceneID="X0m-qS-CDU">
+            <objects>
+                <viewController id="QxE-Lj-2iV" customClass="AllAnsweredViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FWy-zd-pSk"/>
+                        <viewControllerLayoutGuide type="bottom" id="iTX-l4-gf2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rmo-SJ-nOT">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7C-nx-t7W">
+                                <rect key="frame" x="316" y="195" width="230" height="132"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QDF-E5-nkY"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="Q16Label" destination="r7C-nx-t7W" id="hiQ-Cu-mXX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ks5-vN-FAO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7402" y="1511"/>
         </scene>
         <!--Last View Controller-->
         <scene sceneID="mN3-xa-QMd">
@@ -1538,7 +1571,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nMZ-12-gnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7379" y="1511"/>
+            <point key="canvasLocation" x="8315" y="1511"/>
         </scene>
         <!--Question7 View Controller-->
         <scene sceneID="vkH-TW-Dhu">
@@ -2106,18 +2139,19 @@
         <image name="cog" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="c2n-0y-6Uc"/>
+        <segue reference="y2F-ov-FmC"/>
+        <segue reference="xGX-ZS-TcV"/>
+        <segue reference="qtu-tn-WOj"/>
         <segue reference="6bl-uW-XvC"/>
         <segue reference="5eJ-lf-GMt"/>
         <segue reference="yO4-QN-EI5"/>
-        <segue reference="qtu-tn-WOj"/>
-        <segue reference="xGX-ZS-TcV"/>
-        <segue reference="y2F-ov-FmC"/>
-        <segue reference="c2n-0y-6Uc"/>
         <segue reference="nU1-Jv-2It"/>
         <segue reference="Ga6-Ix-WnI"/>
         <segue reference="xdG-Rg-fCO"/>
         <segue reference="lBZ-53-7go"/>
         <segue reference="qAd-OX-gKU"/>
         <segue reference="tyH-RN-N3L"/>
+        <segue reference="exO-6Y-PhK"/>
     </inferredMetricsTieBreakers>
 </document>

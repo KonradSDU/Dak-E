@@ -50,6 +50,7 @@
 - (void)viewDidLoad {
     self.questionNumber=7;
     self.segueToNextControllerName=@"segueToQ8";
+   // NSLog(@"%@", self.list.Q3Answer);
     _questionLabel.numberOfLines = 0;
     _questionLabel.text=@"Hvor mange genstande drikker du i gennemsnit \nom ugen på en almindelig uge?";
     _questionLabel.textColor = [UIColor darkerGreen];

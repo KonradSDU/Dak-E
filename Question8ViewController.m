@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     self.questionNumber=8;
+  //  NSLog(@"%@", self.list.Q3Answer);
     self.segueToNextControllerName = @"segueToQuestion9";
     [super viewDidLoad];
     self.rightNavButt.hidden=YES;
