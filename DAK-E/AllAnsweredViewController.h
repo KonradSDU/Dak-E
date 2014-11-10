@@ -8,6 +8,9 @@
 
 #import "BaseViewController.h"
 
-@interface AllAnsweredViewController : BaseViewController
+@interface AllAnsweredViewController : BaseViewController{
+    IBOutlet UIScrollView *scroller;
+
+}
 
 @end
