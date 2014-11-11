@@ -17,12 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO0-eh-XC7">
-                                <rect key="frame" x="105" y="250" width="558" height="33"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
-                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="APl-cX-ffA">
                                 <rect key="frame" x="165" y="490" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -83,6 +77,12 @@
                                     <segue destination="tNi-Hc-759" kind="push" identifier="segueToQ2" id="dgT-wD-Wac"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eO0-eh-XC7">
+                                <rect key="frame" x="105" y="250" width="558" height="33"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                                <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -165,19 +165,6 @@
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="FxO-io-mR9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="FBN-9g-Snq">
-                                <rect key="frame" x="250" y="247" width="269" height="28"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Ryger du? (Kun ét kryds)">
-                                        <attributes>
-                                            <color key="NSColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                            <font key="NSFont" size="24" name="HelveticaNeue"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-lQ-phC" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="84" y="487" width="600" height="50"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -191,6 +178,19 @@
                                     <segue destination="Ag5-Fh-0jF" kind="push" id="qrA-3s-jnk"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="FBN-9g-Snq">
+                                <rect key="frame" x="250" y="247" width="269" height="28"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Ryger du? (Kun ét kryds)">
+                                        <attributes>
+                                            <color key="NSColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                            <font key="NSFont" size="24" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="tintColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
                     </view>
@@ -267,12 +267,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Indenfor de sidste 4 uger, har du da haft åndenød i " minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="DSL-Pc-YwV">
-                                <rect key="frame" x="70" y="245" width="583" height="32"/>
-                                <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9F-Yw-IQx" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="165" y="489" width="439" height="50"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -299,6 +293,12 @@
                                     <segue destination="FV7-f7-iul" kind="push" id="6bl-uW-XvC"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Indenfor de sidste 4 uger, har du da haft åndenød i " minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="DSL-Pc-YwV">
+                                <rect key="frame" x="70" y="245" width="583" height="32"/>
+                                <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -376,12 +376,6 @@
                                     <segue destination="m19-Cq-ZDm" kind="push" id="CQb-ks-zgL"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoster du slim op? (Kun ét kryds)" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="hQn-hH-0rW">
-                                <rect key="frame" x="179" y="250" width="411" height="34"/>
-                                <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b1e-SE-SdU" colorLabel="IBBuiltInLabel-Orange">
                                 <rect key="frame" x="101" y="770" width="566" height="50"/>
                                 <color key="backgroundColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
@@ -394,6 +388,12 @@
                                     <action selector="button5:" destination="FV7-f7-iul" eventType="touchUpInside" id="Xd1-uC-eX9"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hoster du slim op? (Kun ét kryds)" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="hQn-hH-0rW">
+                                <rect key="frame" x="179" y="250" width="411" height="34"/>
+                                <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1519,13 +1519,85 @@
                                 <rect key="frame" x="16" y="64" width="736" height="1984"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7C-nx-t7W">
-                                        <rect key="frame" x="57" y="-27" width="230" height="132"/>
+                                        <rect key="frame" x="347" y="96" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lYK-kD-XWI">
                                         <rect key="frame" x="375" y="1947" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1. Hvordan synes du did helbred er alt i alt?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQQ-O8-Hgy">
+                                        <rect key="frame" x="142" y="61" width="452" height="27"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.37647058820000001" green="0.51764705879999995" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2. Vægt og højde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrn-t5-TwX">
+                                        <rect key="frame" x="279" y="125" width="178" height="27"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ukZ-VR-uNm">
+                                        <rect key="frame" x="347" y="160" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26d-EA-ahn">
+                                        <rect key="frame" x="347" y="189" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="3. Ryger du? (Kun ét kryds)" allowsEditingTextAttributes="YES" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="Bja-eR-yuC">
+                                        <rect key="frame" x="225" y="218" width="287" height="27"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKW-0p-Vxz">
+                                        <rect key="frame" x="347" y="253" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W7H-Ll-WRJ">
+                                        <rect key="frame" x="347" y="461" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="forbindelse med  hverdagsaktiviteter? (for eksempel en gåtur, let  " minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="M34-QW-p3H">
+                                        <rect key="frame" x="22" y="322" width="692" height="27"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="havearbejde, rengøring, indkøb og lignende) (Kun ét kryds)" minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="TON-VP-871">
+                                        <rect key="frame" x="58" y="362" width="618" height="27"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="4. Indenfor de sidste 4 uger, har du da haft åndenød i " minimumFontSize="26" translatesAutoresizingMaskIntoConstraints="NO" id="BDg-Lh-F9b">
+                                        <rect key="frame" x="76" y="282" width="562" height="27"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="5. Hoster du slim op? (Kun ét kryds)" minimumFontSize="28" translatesAutoresizingMaskIntoConstraints="NO" id="2B0-Y6-POv">
+                                        <rect key="frame" x="179" y="426" width="378" height="27"/>
+                                        <color key="textColor" red="0.37647062539999998" green="0.5176470876" blue="0.43921571970000001" alpha="1" colorSpace="deviceRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0D-Ok-cnA">
+                                        <rect key="frame" x="347" y="397" width="42" height="21"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                         <nil key="highlightedColor"/>
@@ -1549,7 +1621,12 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="768" height="2048"/>
                     <connections>
-                        <outlet property="Q16Label" destination="r7C-nx-t7W" id="hiQ-Cu-mXX"/>
+                        <outlet property="Q1Label" destination="r7C-nx-t7W" id="syz-Ut-j0b"/>
+                        <outlet property="Q2HLabel" destination="ukZ-VR-uNm" id="PcC-jC-aAK"/>
+                        <outlet property="Q2WLabel" destination="26d-EA-ahn" id="7pv-Py-Ajk"/>
+                        <outlet property="Q3Label" destination="eKW-0p-Vxz" id="BGd-0S-Yk3"/>
+                        <outlet property="Q4Label" destination="O0D-Ok-cnA" id="dGI-xD-zdM"/>
+                        <outlet property="Q5Label" destination="W7H-Ll-WRJ" id="ezb-26-Uv3"/>
                         <outlet property="scroller" destination="iaV-ZS-Tqx" id="WyC-U1-HzM"/>
                     </connections>
                 </viewController>
@@ -1911,12 +1988,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vægt og højde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9G-zl-mvl">
-                                <rect key="frame" x="30" y="138" width="708" height="69"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hvad er din vægt?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pGh-5q-MpH">
                                 <rect key="frame" x="30" y="382" width="708" height="37"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
@@ -1953,6 +2024,12 @@
                                     <action selector="sliderValueChanged:" destination="tNi-Hc-759" eventType="valueChanged" id="gYc-D9-jcf"/>
                                 </connections>
                             </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vægt og højde" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9G-zl-mvl">
+                                <rect key="frame" x="30" y="136" width="708" height="69"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2137,7 +2214,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="koV-jv-fXI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1063" y="1517"/>
+            <point key="canvasLocation" x="1061" y="1525"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="U8b-3w-gRg">
@@ -2163,13 +2240,13 @@
         <image name="cog" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="c2n-0y-6Uc"/>
-        <segue reference="y2F-ov-FmC"/>
-        <segue reference="xGX-ZS-TcV"/>
-        <segue reference="qtu-tn-WOj"/>
-        <segue reference="6bl-uW-XvC"/>
-        <segue reference="5eJ-lf-GMt"/>
         <segue reference="yO4-QN-EI5"/>
+        <segue reference="5eJ-lf-GMt"/>
+        <segue reference="6bl-uW-XvC"/>
+        <segue reference="qtu-tn-WOj"/>
+        <segue reference="xGX-ZS-TcV"/>
+        <segue reference="y2F-ov-FmC"/>
+        <segue reference="c2n-0y-6Uc"/>
         <segue reference="nU1-Jv-2It"/>
         <segue reference="Ga6-Ix-WnI"/>
         <segue reference="xdG-Rg-fCO"/>

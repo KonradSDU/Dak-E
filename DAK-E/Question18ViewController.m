@@ -7,6 +7,7 @@
 //
 
 #import "Question18ViewController.h"
+#import "AllAnsweredViewController.h"
 
 @interface Question18ViewController ()
 
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
-    NSLog(@"%@", self.list.Q3Answer);
+    //NSLog(@"%@", self.list.Q3Answer);
     //self.segueToNextControllerName = @"LastSegue";
     self.segueToNextControllerName=@"SegueToAllAnswers";
    // self.rightNavButt.hidden = YES;
@@ -48,6 +49,8 @@
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    AllAnsweredViewController *vc =[segue destinationViewController];
+    vc.list=self.list;
     
 }
 /*
