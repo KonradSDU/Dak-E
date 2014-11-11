@@ -62,14 +62,18 @@
     [progressView setTransform:CGAffineTransformMakeScale(1.0, 28.0)];
     [progressView setProgress:_questionNumber/18 animated:NO];
     progressView.progressTintColor = [UIColor darkerGreen];
-    [self.view addSubview:progressView];
+    if (!self.adminMode){
+        [self.view addSubview:progressView];
+    }
     
     UILabel *questionLab =[[UILabel alloc] initWithFrame:CGRectMake(0,75,768,51)];
     [questionLab setTextAlignment:UITextAlignmentCenter];
     [questionLab setTextColor:[UIColor whiteColor]];
     [questionLab setFont:[UIFont systemFontOfSize:40]];
     questionLab.text=[NSString stringWithFormat:@"%d/18",(int)_questionNumber];
-    [self.view addSubview:questionLab];
+    if (!self.adminMode){
+        [self.view addSubview:questionLab];
+    }
     
     // Width constraint
     [self.view addConstraint:[NSLayoutConstraint constraintWithItem:topBar

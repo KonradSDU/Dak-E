@@ -16,4 +16,5 @@
 @property (nonatomic, retain) NSString *segueToNextControllerName;
 @property (nonatomic, retain) QuestionaireAnswersList *list;
 @property (nonatomic,retain) UIButton *rightNavButt;
+@property (nonatomic, readwrite) BOOL adminMode;
 @end
