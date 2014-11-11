@@ -215,4 +215,18 @@
     }
 }
 
+//ANSWER SHEET
++ (AnswerSheet*)insertAnswerSheetForUser: (NSString*)userID
+                           Questionnaire:(Questionaire*)questionnaire
+                                 answers:(NSMutableArray *)answers{
+    AnswerSheet *aS = [NSEntityDescription insertNewObjectForEntityForName:@"Answer sheet" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
+    aS.userID = userID;
+    aS.questionnaireName = questionnaire.name;
+    aS.answers = answers;
+    
+    [[CoreDataContext getInstance] saveContext];
+    
+    return aS;
+}
+
 @end

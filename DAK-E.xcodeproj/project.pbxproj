@@ -45,6 +45,8 @@
 		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
 		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
 		E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* Question18ViewController.m */; };
+		E7CC671D1A1279FB0090ECCA /* AnswerSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC671C1A1279FB0090ECCA /* AnswerSheet.m */; };
+		E7CC67201A127A9B0090ECCA /* AdminModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */; };
 		F94431BC826C35B3E81D65DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97384F8A21A6793CA3D4CF3F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -135,6 +137,10 @@
 		E741C05619F874D3000C89AE /* Question17ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question17ViewController.m; sourceTree = "<group>"; };
 		E741C05819F876DC000C89AE /* Question18ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question18ViewController.h; sourceTree = "<group>"; };
 		E741C05919F876DC000C89AE /* Question18ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question18ViewController.m; sourceTree = "<group>"; };
+		E7CC671B1A1279FB0090ECCA /* AnswerSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerSheet.h; sourceTree = "<group>"; };
+		E7CC671C1A1279FB0090ECCA /* AnswerSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerSheet.m; sourceTree = "<group>"; };
+		E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminModeViewController.m; sourceTree = "<group>"; };
+		E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminModeViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +168,8 @@
 				472015BA1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld */,
 				472015C31A0A35700021AABC /* Questionaire.h */,
 				472015C41A0A35700021AABC /* Questionaire.m */,
+				E7CC671B1A1279FB0090ECCA /* AnswerSheet.h */,
+				E7CC671C1A1279FB0090ECCA /* AnswerSheet.m */,
 				472015C91A0A35710021AABC /* Question.h */,
 				472015CA1A0A35710021AABC /* Question.m */,
 				472015CC1A0AC8460021AABC /* SubQuestion.h */,
@@ -252,6 +260,8 @@
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
 				4709699B19FFB7B6008B592C /* LoginViewController.m */,
 				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
+				E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */,
+				E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */,
 				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
 				47F764D619F83E5200E8CEEB /* Question2ViewController.m */,
@@ -459,12 +469,14 @@
 				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
 				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
 				472015BC1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld in Sources */,
+				E7CC67201A127A9B0090ECCA /* AdminModeViewController.m in Sources */,
 				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
 				E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */,
 				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
 				4796527219F8685D00756FCC /* Question12ViewController.m in Sources */,
 				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
+				E7CC671D1A1279FB0090ECCA /* AnswerSheet.m in Sources */,
 				473AAA721A0919DB0069FF51 /* DatabaseManager.m in Sources */,
 				E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */,
 				473AAA6F1A0918680069FF51 /* CoreDataContext.m in Sources */,
