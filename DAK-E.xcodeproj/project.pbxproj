@@ -30,6 +30,7 @@
 		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
 		47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* Question1ViewController.m */; };
+		631401F81A1445ED005CF678 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631401F71A1445ED005CF678 /* LastViewController.m */; };
 		6344D7321A10198800107F00 /* AllAnsweredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344D7311A10198800107F00 /* AllAnsweredViewController.m */; };
 		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
 		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
@@ -107,6 +108,8 @@
 		47F764DB19F846C900E8CEEB /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
 		47F764DC19F846C900E8CEEB /* Question1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1ViewController.m; sourceTree = "<group>"; };
 		541F1780B5864AD4999FA6FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		631401F61A1445ED005CF678 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
+		631401F71A1445ED005CF678 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
 		6344D7301A10198800107F00 /* AllAnsweredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAnsweredViewController.h; sourceTree = "<group>"; };
 		6344D7311A10198800107F00 /* AllAnsweredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAnsweredViewController.m; sourceTree = "<group>"; };
 		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
@@ -265,13 +268,13 @@
 			children = (
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
 				4709699B19FFB7B6008B592C /* LoginViewController.m */,
-				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
 				E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */,
 				E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */,
 				E7CC67211A1299E00090ECCA /* ColorPickerViewController.h */,
 				E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */,
 				E7CC67241A1299F80090ECCA /* SelectQuestionnaireViewController.h */,
 				E7CC67251A1299F80090ECCA /* SelectQuestionnaireViewController.m */,
+				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
 				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
 				47F764D619F83E5200E8CEEB /* Question2ViewController.m */,
@@ -309,6 +312,8 @@
 				E741C05919F876DC000C89AE /* Question18ViewController.m */,
 				6344D7301A10198800107F00 /* AllAnsweredViewController.h */,
 				6344D7311A10198800107F00 /* AllAnsweredViewController.m */,
+				631401F61A1445ED005CF678 /* LastViewController.h */,
+				631401F71A1445ED005CF678 /* LastViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				E7CC67231A1299E00090ECCA /* ColorPickerViewController.m in Sources */,
 				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
+				631401F81A1445ED005CF678 /* LastViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
 				472015C51A0A35700021AABC /* Questionaire.m in Sources */,
 				E741C05419F87274000C89AE /* Question15ViewController.m in Sources */,

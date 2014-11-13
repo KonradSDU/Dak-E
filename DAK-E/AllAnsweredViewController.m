@@ -38,8 +38,7 @@
 
 - (void)viewDidLoad {
     
-  
-    NSLog(@"%@", self.list.Q3Answer);
+  //NSLog(@"%@", self.list.Q3Answer);
     
     _Q1Label.textColor = [UIColor darkerGreen];
     self.Q1Label.text = [NSString stringWithFormat:@"%@", self.list.Q1Answer];
@@ -79,6 +78,8 @@
     self.Q17Label.text = [NSString stringWithFormat:@"%@", self.list.Q17Answer];
     _Q18Label.textColor = [UIColor darkerGreen];
     self.Q18Label.text = [NSString stringWithFormat:@"%@", self.list.Q18Answer];
+    
+    self.segueToNextControllerName = @"LastSegue";
     
     [super viewDidLoad];
     [scroller setScrollEnabled:YES];
