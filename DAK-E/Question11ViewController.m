@@ -29,15 +29,24 @@
 
 - (IBAction)button1:(id)sender {
     self.list.Q11Answer=@"Tre gange om ugen eller oftere";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q11Answer=@"To gange om ugen";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     self.list.Q11Answer=@"En gang om ugen";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button4:(id)sender {
     self.list.Q11Answer=@"Et par gange om måneden eller sjældnere";
+    [self addLayerToTheButton:sender];
+}
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

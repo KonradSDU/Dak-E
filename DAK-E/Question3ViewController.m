@@ -36,26 +36,40 @@
 
 - (IBAction)button1:(id)sender {
     self.list.Q3Answer=@"Ryger til dagligt";
+    [self addLayerToTheButton:sender];
+
 }
 
 - (IBAction)button2:(id)sender {
     self.list.Q3Answer=@"Lejlighedsvis ryger";
+    [self addLayerToTheButton:sender];
+
 }
 
 - (IBAction)button3:(id)sender {
     self.list.Q3Answer=@"Er stoppet for mindre end 6 måneder siden";
+    [self addLayerToTheButton:sender];
+
 }
 
 - (IBAction)button4:(id)sender {
     self.list.Q3Answer=@"Er stoppet for mere end 6 måneder siden";
+    [self addLayerToTheButton:sender];
+
 }
 
 - (IBAction)button5:(id)sender {
     self.list.Q3Answer=@"Har aldrig røget (hvis du aldrig har røget, gå da til spørgsmål 7)";
+    [self addLayerToTheButton:sender];
+
 }
 
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
+}
 -(void)viewDidAppear:(BOOL)animated{
-    //NSLog(@"%@",self.list.Q3Answer);
     if(self.list.Q3Answer!=nil){
         self.rightNavButt.hidden = NO;
     }
@@ -64,7 +78,7 @@
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
    
     Question4ViewController *vc = [segue destinationViewController];
-  //  self.list.Q3Answer = [NSString stringWithFormat: @"%@", self.];
+
     vc.list=self.list;
 }
 

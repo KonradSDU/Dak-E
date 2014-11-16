@@ -18,7 +18,6 @@
 
 - (void)viewDidLoad {
     self.questionNumber=5;
-   // NSLog(@"%@", self.list.Q3Answer);
     self.segueToNextControllerName = @"segueToQuestion6";
     [super viewDidLoad];
     self.rightNavButt.hidden=YES;
@@ -34,18 +33,28 @@
 
 - (IBAction)button1:(id)sender {
     self.list.Q5Answer=@"Nej, aldrig";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q5Answer=@"Kun når jeg er forkølet eller har hals- eller lungebetændelse";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     self.list.Q5Answer=@"Ja, et par dage om måneden";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button4:(id)sender {
     self.list.Q5Answer=@"Ja, de fleste dage på en uge";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button5:(id)sender {
     self.list.Q5Answer=@"Ja, alle dage";
+    [self addLayerToTheButton:sender];
+}
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

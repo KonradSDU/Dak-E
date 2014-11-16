@@ -18,7 +18,6 @@
 
 - (void)viewDidLoad {
     self.questionNumber=6;
-  //  NSLog(@"%@", self.list.Q3Answer);
     self.segueToNextControllerName = @"segueToQ7";
     [super viewDidLoad];
     self.rightNavButt.hidden=YES;
@@ -32,18 +31,28 @@
 
 - (IBAction)button1:(id)sender {
     self.list.Q6Answer=@"Meget uenig";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q6Answer=@"Uenig";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     self.list.Q6Answer=@"Måske";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button4:(id)sender {
     self.list.Q6Answer=@"Enig";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button5:(id)sender {
     self.list.Q6Answer=@"Meget enig";
+    [self addLayerToTheButton:sender];
+}
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

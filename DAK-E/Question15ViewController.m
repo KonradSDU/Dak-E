@@ -36,13 +36,22 @@
 }
 - (IBAction)button1:(id)sender {
     self.list.Q15Answer = @"Ja";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q15Answer = @"Ja, men ikke lige nu";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     self.list.Q15Answer = @"Nej";
+    [self addLayerToTheButton:sender];
 }
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
+}
+
 -(void)viewDidAppear:(BOOL)animated{
     if(self.list.Q15Answer!=nil){
         self.rightNavButt.hidden = NO;

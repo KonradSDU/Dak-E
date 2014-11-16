@@ -17,11 +17,9 @@
 
 - (void)viewDidLoad {
     self.questionNumber=4;
-   // NSLog(@"%@",self.list.Q3Answer);
     self.segueToNextControllerName = @"segueToQuestion5";
     [super viewDidLoad];
     self.rightNavButt.hidden = YES;
-    // Do any additional setup after loading the view.
 }
 
 
@@ -31,18 +29,33 @@
 }
 - (IBAction)button1:(id)sender {
     self.list.Q4Answer=@"På intet tidspunkt";
+    [self addLayerToTheButton:sender];
+
 }
 - (IBAction)button2:(id)sender {
     self.list.Q4Answer=@"Sjældent";
+    [self addLayerToTheButton:sender];
+
 }
 - (IBAction)button3:(id)sender {
     self.list.Q4Answer=@"Af og til";
+    [self addLayerToTheButton:sender];
+
 }
 - (IBAction)button4:(id)sender {
     self.list.Q4Answer=@"Ofte";
+    [self addLayerToTheButton:sender];
+
 }
 - (IBAction)button5:(id)sender {
     self.list.Q4Answer=@"Hele tiden";
+    [self addLayerToTheButton:sender];
+
+}
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{

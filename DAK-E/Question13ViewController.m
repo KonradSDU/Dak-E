@@ -44,6 +44,7 @@
 }
 - (IBAction)button1v:(id)sender {
     [self.answers appendString:@"Dyrker motionsidræt eller udfører tungt havearbejde eller lingnende mindst 4 timer om ugen"];
+    [self addLayerToTheButton:sender];
 }
 
 - (IBAction)button1:(id)sender {
@@ -51,18 +52,26 @@
 }
 - (IBAction)button2:(id)sender {
     [self.answers appendString:@"Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen (medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde"];
-
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2b:(id)sender {
     [self.answers appendString:@"Spadserer, cykler eller har anden lettere motion mindst 4 timer om ugen (medregn også søntagsture, lettere havearbejde og cykling/gang til arbejde"];
-
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     [self.answers appendString:@"Læser, ser fjernsyn eller har anden stillesiddende beskæftiglese"];
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button4:(id)sender {
     [self.answers appendString:@"Træner hårdt og dyrker konkurrenceidræt regelmæsigt og flere gange om ugen"];
+    [self addLayerToTheButton:sender];
 }
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
+}
+
 -(void)viewDidAppear:(BOOL)animated{
     if(self.list.Q13Answer!=nil){
         self.rightNavButt.hidden = NO;

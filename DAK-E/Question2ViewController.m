@@ -48,6 +48,9 @@
     _kgSlider.thumbTintColor = [UIColor redColor];
     _kgLabel.text = [NSString stringWithFormat:@"%d kg", (int)_kgSlider.value];
     _cmLabel.text = [NSString stringWithFormat:@"%d cm", (int)_cmSlider.value];
+    
+    
+    
     [super viewDidLoad];
     self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.

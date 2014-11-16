@@ -81,6 +81,8 @@
     
     self.segueToNextControllerName = @"LastSegue";
     
+    self.top
+    
     [super viewDidLoad];
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(768,2048)];

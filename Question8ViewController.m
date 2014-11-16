@@ -16,9 +16,8 @@
 @implementation Question8ViewController
 
 - (void)viewDidLoad {
-    self.questionNumber=8;
-  //  NSLog(@"%@", self.list.Q3Answer);
     self.segueToNextControllerName = @"segueToQuestion9";
+    self.questionNumber=8;
     [super viewDidLoad];
     self.rightNavButt.hidden=YES;
     // Do any additional setup after loading the view.
@@ -30,19 +29,30 @@
 }
 - (IBAction)button1:(id)sender {
     self.list.Q8Answer=@"Dagligt eller næsten dagligt";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q8Answer=@"Ugentligt";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button3:(id)sender {
     self.list.Q8Answer= @"Månedligt";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button4:(id)sender {
     self.list.Q8Answer=@"Sjældent";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button5:(id)sender {
     self.list.Q8Answer=@"Aldrig";
+    [self addLayerToTheButton:sender];
 }
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
+}
+
 
 -(void)viewDidAppear:(BOOL)animated{
     if(self.list.Q8Answer!=nil){

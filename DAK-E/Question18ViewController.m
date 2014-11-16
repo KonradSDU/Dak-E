@@ -32,9 +32,16 @@
 }
 - (IBAction)button1:(id)sender {
     self.list.Q18Answer = @"Ja, I må gerne kontakte mig i forbindelse med forskning";
+    [self addLayerToTheButton:sender];
 }
 - (IBAction)button2:(id)sender {
     self.list.Q18Answer = @"Nej tak, jeg vil IKKE kontaktes yderligere i forbindelse med forskning";
+    [self addLayerToTheButton:sender];
+}
+
+-(void)addLayerToTheButton:(UIButton *) button{
+    [[button layer] setBorderWidth:2.0f];
+    [[button layer] setBorderColor:[UIColor whiteColor].CGColor];
 }
 
 -(void)viewDidAppear:(BOOL)animated{
