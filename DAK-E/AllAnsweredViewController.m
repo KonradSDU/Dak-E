@@ -81,7 +81,7 @@
     
     self.segueToNextControllerName = @"LastSegue";
     
-    self.top
+    
     
     [super viewDidLoad];
     [scroller setScrollEnabled:YES];
