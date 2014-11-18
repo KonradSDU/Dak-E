@@ -216,17 +216,47 @@
 }
 
 //ANSWER SHEET
-+ (AnswerSheet*)insertAnswerSheetForUser: (NSString*)userID
-                           Questionnaire:(Questionaire*)questionnaire
-                                 answers:(NSMutableArray *)answers{
-    AnswerSheet *aS = [NSEntityDescription insertNewObjectForEntityForName:@"Answer sheet" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
-    aS.userID = userID;
-    aS.questionnaireName = questionnaire.name;
-    aS.answers = answers;
+
++ (AnswerSheet*)insertAnswerSheetForUser:(NSString*)userID{
+    
+    AnswerSheet *answerSheet = [NSEntityDescription insertNewObjectForEntityForName:@"AnswerSheet" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
+    answerSheet.userID = userID;
     
     [[CoreDataContext getInstance] saveContext];
     
-    return aS;
+    return answerSheet;
 }
+
++ (AnswerSheet*)answerSheetForUser:(NSString*)userID{
+    NSFetchRequest *fetch = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"AnswerSheet" inManagedObjectContext: [CoreDataContext getInstance].managedObjectContext];
+    [fetch setEntity:entityDescription];
+    [fetch setPredicate:[NSPredicate predicateWithFormat:@"userID=%@", userID]];
+    NSError *error = nil;
+    NSArray *fetchedObjects = [[CoreDataContext getInstance].managedObjectContext executeFetchRequest:fetch error:&error];
+    if(error==nil){
+        if([fetchedObjects count] != 0)
+        {
+            return [fetchedObjects objectAtIndex:0];
+        }
+    }
+    return nil;
+}
+
+//ANSWER
+
++ (Answer*)insertAnswerWithAnswer:(NSString*)answer
+                           number:(NSNumber*)number
+                      answerSheet:(AnswerSheet*)answerSheet{
+    Answer *answer1 = [NSEntityDescription insertNewObjectForEntityForName:@"Answer" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
+    answer1.ans = answer;
+    answer1.questionNumber=number;
+    answer1.answerSheet=answerSheet;
+    
+    [[CoreDataContext getInstance] saveContext];
+    
+    return answer1;
+}
+
 
 @end
