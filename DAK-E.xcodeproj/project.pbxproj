@@ -49,7 +49,7 @@
 		E7CC671D1A1279FB0090ECCA /* AnswerSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC671C1A1279FB0090ECCA /* AnswerSheet.m */; };
 		E7CC67201A127A9B0090ECCA /* AdminModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */; };
 		E7CC67231A1299E00090ECCA /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */; };
-		E7CC67261A1299F80090ECCA /* SelectQuestionnaireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC67251A1299F80090ECCA /* SelectQuestionnaireViewController.m */; };
+		E7E353161A1BB6C300366CCE /* SelectQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E353151A1BB6C300366CCE /* SelectQuestionViewController.m */; };
 		F94431BC826C35B3E81D65DD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97384F8A21A6793CA3D4CF3F /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -148,8 +148,8 @@
 		E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminModeViewController.h; sourceTree = "<group>"; };
 		E7CC67211A1299E00090ECCA /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
 		E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorPickerViewController.m; sourceTree = "<group>"; };
-		E7CC67241A1299F80090ECCA /* SelectQuestionnaireViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectQuestionnaireViewController.h; sourceTree = "<group>"; };
-		E7CC67251A1299F80090ECCA /* SelectQuestionnaireViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectQuestionnaireViewController.m; sourceTree = "<group>"; };
+		E7E353141A1BB6C300366CCE /* SelectQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectQuestionViewController.h; sourceTree = "<group>"; };
+		E7E353151A1BB6C300366CCE /* SelectQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectQuestionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,14 +266,14 @@
 		47F764D419F83D6800E8CEEB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				E7E353141A1BB6C300366CCE /* SelectQuestionViewController.h */,
+				E7E353151A1BB6C300366CCE /* SelectQuestionViewController.m */,
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
 				4709699B19FFB7B6008B592C /* LoginViewController.m */,
 				E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */,
 				E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */,
 				E7CC67211A1299E00090ECCA /* ColorPickerViewController.h */,
 				E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */,
-				E7CC67241A1299F80090ECCA /* SelectQuestionnaireViewController.h */,
-				E7CC67251A1299F80090ECCA /* SelectQuestionnaireViewController.m */,
 				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
 				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
 				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
@@ -473,7 +473,7 @@
 			files = (
 				63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */,
 				6344D7321A10198800107F00 /* AllAnsweredViewController.m in Sources */,
-				E7CC67261A1299F80090ECCA /* SelectQuestionnaireViewController.m in Sources */,
+				E7E353161A1BB6C300366CCE /* SelectQuestionViewController.m in Sources */,
 				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
 				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				E7CC67231A1299E00090ECCA /* ColorPickerViewController.m in Sources */,
