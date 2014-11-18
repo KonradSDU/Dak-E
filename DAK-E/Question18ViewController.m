@@ -21,10 +21,9 @@
 - (void)viewDidLoad {
     // Do any additional setup after loading the view.
     self.questionNumber = 18;
-    //NSLog(@"%@", self.list.Q3Answer);
-    //self.segueToNextControllerName = @"LastSegue";
+
     self.segueToNextControllerName=@"SegueToAllAnswers";
-   // self.rightNavButt.hidden = YES;
+
     self.button1.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     self.button2.titleLabel.font =  [UIFont systemFontOfSize:24.0];
     [super viewDidLoad];
