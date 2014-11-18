@@ -10,4 +10,6 @@
 
 @interface ColorPickerViewController : BaseViewController
 
+@property (nonatomic, retain) UIColor *color;
+
 @end

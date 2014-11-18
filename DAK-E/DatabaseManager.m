@@ -216,17 +216,53 @@
 }
 
 //ANSWER SHEET
-+ (AnswerSheet*)insertAnswerSheetForUser: (NSString*)userID
+/*+ (AnswerSheet*)insertAnswerSheetForUser:(NSString*)userID
                            Questionnaire:(Questionaire*)questionnaire
                                  answers:(NSMutableArray *)answers{
-    AnswerSheet *aS = [NSEntityDescription insertNewObjectForEntityForName:@"Answer sheet" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
-    aS.userID = userID;
+    AnswerSheet *aS = [NSEntityDescription insertNewObjectForEntityForName:@"AnswerSheet" inManagedObjectContext:[CoreDataContext getInstance].managedObjectContext];
+    aS.userID1 = userID;
     aS.questionnaireName = questionnaire.name;
-    aS.answers = answers;
+    //aS.answers = answers;
     
     [[CoreDataContext getInstance] saveContext];
     
     return aS;
 }
+
++ (AnswerSheet*)answerSheetForUser:(NSString*)userID
+                     Questionnaire:(Questionaire*)questionnaire{
+    NSFetchRequest *fetch = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"AnswerSheet" inManagedObjectContext: [CoreDataContext getInstance].managedObjectContext];
+    [fetch setEntity:entityDescription];
+    [fetch setPredicate:[NSPredicate predicateWithFormat:@"userID=%@ AND questionnaireName=%@", userID, questionnaire.name]];
+    NSError *error = nil;
+    NSArray *fetchedObjects = [[CoreDataContext getInstance].managedObjectContext executeFetchRequest:fetch error:&error];
+    if(error==nil){
+        if([fetchedObjects count] != 0)
+        {
+            return [fetchedObjects objectAtIndex:0];
+        }
+    }
+    return nil;
+}
+
++ (void)removeAnswerSheetForUser:(NSString*)userID
+                   Questionnaire:(Questionaire*)questionnaire{
+    NSFetchRequest *fetch = [[NSFetchRequest alloc] init];
+    NSEntityDescription *entityDescription = [NSEntityDescription entityForName:@"AnswerSheet" inManagedObjectContext: [CoreDataContext getInstance].managedObjectContext];
+    [fetch setEntity:entityDescription];
+    [fetch setPredicate:[NSPredicate predicateWithFormat:@"userID=%@ AND questionnaireName=%@", userID, questionnaire.name]];
+    NSError *error = nil;
+    NSArray *fetchedObjects = [[CoreDataContext getInstance].managedObjectContext executeFetchRequest:fetch error:&error];
+    if (fetchedObjects != nil && error == nil) {
+        for (NSManagedObject *object in fetchedObjects) {
+            [[CoreDataContext getInstance].managedObjectContext deleteObject:object];
+        }
+    }else {
+        NSLog(@"Unresolved error: %@, %@", error, [error userInfo]);
+    }
+    
+
+}*/
 
 @end
