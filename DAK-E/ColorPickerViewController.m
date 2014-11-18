@@ -7,7 +7,6 @@
 //
 
 #import "ColorPickerViewController.h"
-#import <HRColorPickerView.h>
 
 @interface ColorPickerViewController ()
 
@@ -19,21 +18,12 @@
     self.adminMode = YES;
     [super viewDidLoad];
     self.rightNavButt.hidden = YES;
-    HRColorPickerView *colorPickerView = [[HRColorPickerView alloc] init];
-    colorPickerView.color = self.color;
-    [colorPickerView addTarget:self
-                        action:@selector(selected:)
-              forControlEvents:UIControlEventValueChanged];
-    [self.view addSubview:colorPickerView];
     // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)selected:(id) sender{
 }
 
 /*

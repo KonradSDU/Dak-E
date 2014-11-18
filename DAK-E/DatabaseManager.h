@@ -10,7 +10,7 @@
 #import "Questionaire.h"
 #import "SubQuestion.h"
 #import "Question.h"
-//#import "AnswerSheet.h"
+#import "AnswerSheet.h"
 
 
 @interface DatabaseManager : NSObject
@@ -47,15 +47,9 @@
 + (NSArray*)allSubQuestionsForQuestion:(Question*)question;
 
 //ANSWER SHEET
-/*
-+ (AnswerSheet*)insertAnswerSheetForUser:(NSString*)userID
+
++ (AnswerSheet*)insertAnswerSheetForUser: (NSString*)userID
                            Questionnaire:(Questionaire*)questionnaire
                                  answers:(NSMutableArray*)answers;
-
-+ (AnswerSheet*)answerSheetForUser:(NSString*)userID
-                     Questionnaire:(Questionaire*)questionnaire;
-
-+ (void)removeAnswerSheetForUser:(NSString*)userID
-                   Questionnaire:(Questionaire*)questionnaire;*/
 
 @end
