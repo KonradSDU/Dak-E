@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface AdminModeViewController : BaseViewController
+@interface AdminModeViewController : UIViewController
 
 @end

@@ -9,8 +9,10 @@
 #import "SelectQuestionViewController.h"
 #import "DatabaseManager.h"
 #import "Questionaire.h"
+#import "UIColor+customColors.h"
 
 @interface SelectQuestionViewController ()
+@property (strong, nonatomic) IBOutlet UITableView *tableView;
 
 @property (nonatomic, retain) NSMutableArray *names;
 
@@ -21,9 +23,11 @@
 }
 
 - (void)viewDidLoad {
-    self.adminMode = YES;
+    self.view.backgroundColor = [UIColor lighterGreen];
+    UIView* bview = [[UIView alloc] init];
+    bview.backgroundColor = [UIColor lighterGreen];
+    [_tableView setBackgroundView:bview];
     [super viewDidLoad];
-    self.rightNavButt.hidden = YES;
     questionnaires = [DatabaseManager allQuestionares];
     self.names = [[NSMutableArray alloc]init];
     for (Questionaire *questionnaire in questionnaires){
@@ -32,6 +36,8 @@
 
     // Do any additional setup after loading the view.
 }
+
+-(BOOL)prefersStatusBarHidden { return YES; }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -52,7 +58,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:simpleTableIdentifier];
     }
-    
+    cell.backgroundColor=[UIColor darkerGreen];
     cell.textLabel.text = [self.names objectAtIndex:indexPath.row];
     return cell;
 }
@@ -62,6 +68,7 @@
     NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
     [prefs setObject:selectedQuestionnaire forKey:@"SelectedQuestionnaire"];
     [prefs synchronize];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 /*

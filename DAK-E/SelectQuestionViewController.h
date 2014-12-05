@@ -9,6 +9,6 @@
 #import "BaseViewController.h"
 #import <UIKit/UIKit.h>
 
-@interface SelectQuestionViewController : BaseViewController <UITableViewDelegate, UITableViewDataSource>
+@interface SelectQuestionViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */; };
 		4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709699B19FFB7B6008B592C /* LoginViewController.m */; };
-		470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 470B737119FEA66900E6ABD8 /* Question7ViewController.m */; };
 		472015BC1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 472015BA1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld */; };
 		472015C51A0A35700021AABC /* Questionaire.m in Sources */ = {isa = PBXBuildFile; fileRef = 472015C41A0A35700021AABC /* Questionaire.m */; };
 		472015CB1A0A35710021AABC /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 472015CA1A0A35710021AABC /* Question.m */; };
@@ -25,27 +23,10 @@
 		474880F719F6E13200C39C09 /* DAK_ETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 474880F619F6E13200C39C09 /* DAK_ETests.m */; };
 		4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810119F6E29100C39C09 /* UIColor+customColors.m */; };
 		4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4748810419F6E58F00C39C09 /* BaseViewController.m */; };
-		4796527219F8685D00756FCC /* Question12ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796526E19F8685D00756FCC /* Question12ViewController.m */; };
-		4796527319F8685D00756FCC /* Question13ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4796527019F8685D00756FCC /* Question13ViewController.m */; };
-		47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D619F83E5200E8CEEB /* Question2ViewController.m */; };
 		47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764D919F840ED00E8CEEB /* BigUISlider.m */; };
-		47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F764DC19F846C900E8CEEB /* Question1ViewController.m */; };
 		631401F81A1445ED005CF678 /* LastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631401F71A1445ED005CF678 /* LastViewController.m */; };
 		6344D7321A10198800107F00 /* AllAnsweredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6344D7311A10198800107F00 /* AllAnsweredViewController.m */; };
-		63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997719F816230046B0F9 /* Question3ViewController.m */; };
-		63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997A19F824960046B0F9 /* Question4ViewController.m */; };
-		63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD997D19F8279F0046B0F9 /* Question5ViewController.m */; };
-		63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998019F828810046B0F9 /* Question6ViewController.m */; };
-		63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998319F828BB0046B0F9 /* Question8ViewController.m */; };
-		63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998619F828D60046B0F9 /* Question9ViewController.m */; };
-		63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998919F829070046B0F9 /* Question10ViewController.m */; };
-		63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998C19F829180046B0F9 /* Question11ViewController.m */; };
-		63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD998F19F856DD0046B0F9 /* Question16ViewController.m */; };
 		E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */ = {isa = PBXBuildFile; fileRef = E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */; };
-		E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05019F86D4A000C89AE /* Question14ViewController.m */; };
-		E741C05419F87274000C89AE /* Question15ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05319F87274000C89AE /* Question15ViewController.m */; };
-		E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05619F874D3000C89AE /* Question17ViewController.m */; };
-		E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E741C05919F876DC000C89AE /* Question18ViewController.m */; };
 		E7CC67201A127A9B0090ECCA /* AdminModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */; };
 		E7CC67231A1299E00090ECCA /* ColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */; };
 		E7E353161A1BB6C300366CCE /* SelectQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E353151A1BB6C300366CCE /* SelectQuestionViewController.m */; };
@@ -65,12 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionaireAnswersList.h; sourceTree = "<group>"; };
-		4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionaireAnswersList.m; sourceTree = "<group>"; };
 		4709699A19FFB7B6008B592C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		4709699B19FFB7B6008B592C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		470B737019FEA66900E6ABD8 /* Question7ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question7ViewController.h; sourceTree = "<group>"; };
-		470B737119FEA66900E6ABD8 /* Question7ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question7ViewController.m; sourceTree = "<group>"; };
 		472015BB1A0A30040021AABC /* QuestionareDBModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QuestionareDBModel.xcdatamodel; sourceTree = "<group>"; };
 		472015C31A0A35700021AABC /* Questionaire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Questionaire.h; sourceTree = "<group>"; };
 		472015C41A0A35700021AABC /* Questionaire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Questionaire.m; sourceTree = "<group>"; };
@@ -98,51 +75,17 @@
 		4748810119F6E29100C39C09 /* UIColor+customColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+customColors.m"; sourceTree = "<group>"; };
 		4748810319F6E58F00C39C09 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
 		4748810419F6E58F00C39C09 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
-		4796526E19F8685D00756FCC /* Question12ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question12ViewController.m; sourceTree = "<group>"; };
-		4796526F19F8685D00756FCC /* Question13ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question13ViewController.h; sourceTree = "<group>"; };
-		4796527019F8685D00756FCC /* Question13ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question13ViewController.m; sourceTree = "<group>"; };
-		4796527119F8685D00756FCC /* Question12ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question12ViewController.h; sourceTree = "<group>"; };
-		47F764D519F83E5200E8CEEB /* Question2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question2ViewController.h; sourceTree = "<group>"; };
-		47F764D619F83E5200E8CEEB /* Question2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question2ViewController.m; sourceTree = "<group>"; };
 		47F764D819F840ED00E8CEEB /* BigUISlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigUISlider.h; sourceTree = "<group>"; };
 		47F764D919F840ED00E8CEEB /* BigUISlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigUISlider.m; sourceTree = "<group>"; };
-		47F764DB19F846C900E8CEEB /* Question1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question1ViewController.h; sourceTree = "<group>"; };
-		47F764DC19F846C900E8CEEB /* Question1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question1ViewController.m; sourceTree = "<group>"; };
 		541F1780B5864AD4999FA6FB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		631401F61A1445ED005CF678 /* LastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastViewController.h; sourceTree = "<group>"; };
 		631401F71A1445ED005CF678 /* LastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastViewController.m; sourceTree = "<group>"; };
 		6344D7301A10198800107F00 /* AllAnsweredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllAnsweredViewController.h; sourceTree = "<group>"; };
 		6344D7311A10198800107F00 /* AllAnsweredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllAnsweredViewController.m; sourceTree = "<group>"; };
-		63AD997619F816230046B0F9 /* Question3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question3ViewController.h; sourceTree = "<group>"; };
-		63AD997719F816230046B0F9 /* Question3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question3ViewController.m; sourceTree = "<group>"; };
-		63AD997919F824960046B0F9 /* Question4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question4ViewController.h; sourceTree = "<group>"; };
-		63AD997A19F824960046B0F9 /* Question4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question4ViewController.m; sourceTree = "<group>"; };
-		63AD997C19F8279F0046B0F9 /* Question5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question5ViewController.h; sourceTree = "<group>"; };
-		63AD997D19F8279F0046B0F9 /* Question5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question5ViewController.m; sourceTree = "<group>"; };
-		63AD997F19F828810046B0F9 /* Question6ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question6ViewController.h; sourceTree = "<group>"; };
-		63AD998019F828810046B0F9 /* Question6ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question6ViewController.m; sourceTree = "<group>"; };
-		63AD998219F828BB0046B0F9 /* Question8ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Question8ViewController.h; path = ../Question8ViewController.h; sourceTree = "<group>"; };
-		63AD998319F828BB0046B0F9 /* Question8ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Question8ViewController.m; path = ../Question8ViewController.m; sourceTree = "<group>"; };
-		63AD998519F828D60046B0F9 /* Question9ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question9ViewController.h; sourceTree = "<group>"; };
-		63AD998619F828D60046B0F9 /* Question9ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question9ViewController.m; sourceTree = "<group>"; };
-		63AD998819F829070046B0F9 /* Question10ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question10ViewController.h; sourceTree = "<group>"; };
-		63AD998919F829070046B0F9 /* Question10ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question10ViewController.m; sourceTree = "<group>"; };
-		63AD998B19F829180046B0F9 /* Question11ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question11ViewController.h; sourceTree = "<group>"; };
-		63AD998C19F829180046B0F9 /* Question11ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question11ViewController.m; sourceTree = "<group>"; };
-		63AD998E19F856DD0046B0F9 /* Question16ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question16ViewController.h; sourceTree = "<group>"; };
-		63AD998F19F856DD0046B0F9 /* Question16ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question16ViewController.m; sourceTree = "<group>"; };
 		97384F8A21A6793CA3D4CF3F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0A94983337B64B9D1FE16E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E72A7DED1A0698B200BE44DD /* M13Checkbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13Checkbox.h; sourceTree = "<group>"; };
 		E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13Checkbox.m; sourceTree = "<group>"; };
-		E741C04F19F86D4A000C89AE /* Question14ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question14ViewController.h; sourceTree = "<group>"; };
-		E741C05019F86D4A000C89AE /* Question14ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question14ViewController.m; sourceTree = "<group>"; };
-		E741C05219F87274000C89AE /* Question15ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question15ViewController.h; sourceTree = "<group>"; };
-		E741C05319F87274000C89AE /* Question15ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question15ViewController.m; sourceTree = "<group>"; };
-		E741C05519F874D3000C89AE /* Question17ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question17ViewController.h; sourceTree = "<group>"; };
-		E741C05619F874D3000C89AE /* Question17ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question17ViewController.m; sourceTree = "<group>"; };
-		E741C05819F876DC000C89AE /* Question18ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question18ViewController.h; sourceTree = "<group>"; };
-		E741C05919F876DC000C89AE /* Question18ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question18ViewController.m; sourceTree = "<group>"; };
 		E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdminModeViewController.m; sourceTree = "<group>"; };
 		E7CC671F1A127A9B0090ECCA /* AdminModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdminModeViewController.h; sourceTree = "<group>"; };
 		E7CC67211A1299E00090ECCA /* ColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerViewController.h; sourceTree = "<group>"; };
@@ -225,12 +168,8 @@
 				474880E419F6E13200C39C09 /* Main.storyboard */,
 				47F764D819F840ED00E8CEEB /* BigUISlider.h */,
 				47F764D919F840ED00E8CEEB /* BigUISlider.m */,
-				4748810319F6E58F00C39C09 /* BaseViewController.h */,
-				4748810419F6E58F00C39C09 /* BaseViewController.m */,
 				E72A7DED1A0698B200BE44DD /* M13Checkbox.h */,
 				E72A7DEE1A0698B200BE44DD /* M13Checkbox.m */,
-				4709699719FFB0AA008B592C /* QuestionaireAnswersList.h */,
-				4709699819FFB0AA008B592C /* QuestionaireAnswersList.m */,
 				47F764D419F83D6800E8CEEB /* ViewControllers */,
 				4748810019F6E29100C39C09 /* UIColor+customColors.h */,
 				4748810119F6E29100C39C09 /* UIColor+customColors.m */,
@@ -271,6 +210,8 @@
 		47F764D419F83D6800E8CEEB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				4748810319F6E58F00C39C09 /* BaseViewController.h */,
+				4748810419F6E58F00C39C09 /* BaseViewController.m */,
 				E7E353141A1BB6C300366CCE /* SelectQuestionViewController.h */,
 				E7E353151A1BB6C300366CCE /* SelectQuestionViewController.m */,
 				4709699A19FFB7B6008B592C /* LoginViewController.h */,
@@ -279,42 +220,6 @@
 				E7CC671E1A127A9B0090ECCA /* AdminModeViewController.m */,
 				E7CC67211A1299E00090ECCA /* ColorPickerViewController.h */,
 				E7CC67221A1299E00090ECCA /* ColorPickerViewController.m */,
-				47F764DB19F846C900E8CEEB /* Question1ViewController.h */,
-				47F764DC19F846C900E8CEEB /* Question1ViewController.m */,
-				47F764D519F83E5200E8CEEB /* Question2ViewController.h */,
-				47F764D619F83E5200E8CEEB /* Question2ViewController.m */,
-				63AD997619F816230046B0F9 /* Question3ViewController.h */,
-				63AD997719F816230046B0F9 /* Question3ViewController.m */,
-				63AD997919F824960046B0F9 /* Question4ViewController.h */,
-				63AD997A19F824960046B0F9 /* Question4ViewController.m */,
-				63AD997C19F8279F0046B0F9 /* Question5ViewController.h */,
-				63AD997D19F8279F0046B0F9 /* Question5ViewController.m */,
-				63AD997F19F828810046B0F9 /* Question6ViewController.h */,
-				63AD998019F828810046B0F9 /* Question6ViewController.m */,
-				470B737019FEA66900E6ABD8 /* Question7ViewController.h */,
-				470B737119FEA66900E6ABD8 /* Question7ViewController.m */,
-				63AD998219F828BB0046B0F9 /* Question8ViewController.h */,
-				63AD998319F828BB0046B0F9 /* Question8ViewController.m */,
-				63AD998519F828D60046B0F9 /* Question9ViewController.h */,
-				63AD998619F828D60046B0F9 /* Question9ViewController.m */,
-				63AD998819F829070046B0F9 /* Question10ViewController.h */,
-				63AD998919F829070046B0F9 /* Question10ViewController.m */,
-				63AD998B19F829180046B0F9 /* Question11ViewController.h */,
-				63AD998C19F829180046B0F9 /* Question11ViewController.m */,
-				4796527119F8685D00756FCC /* Question12ViewController.h */,
-				4796526E19F8685D00756FCC /* Question12ViewController.m */,
-				4796526F19F8685D00756FCC /* Question13ViewController.h */,
-				4796527019F8685D00756FCC /* Question13ViewController.m */,
-				E741C04F19F86D4A000C89AE /* Question14ViewController.h */,
-				E741C05019F86D4A000C89AE /* Question14ViewController.m */,
-				E741C05219F87274000C89AE /* Question15ViewController.h */,
-				E741C05319F87274000C89AE /* Question15ViewController.m */,
-				63AD998E19F856DD0046B0F9 /* Question16ViewController.h */,
-				63AD998F19F856DD0046B0F9 /* Question16ViewController.m */,
-				E741C05519F874D3000C89AE /* Question17ViewController.h */,
-				E741C05619F874D3000C89AE /* Question17ViewController.m */,
-				E741C05819F876DC000C89AE /* Question18ViewController.h */,
-				E741C05919F876DC000C89AE /* Question18ViewController.m */,
 				6344D7301A10198800107F00 /* AllAnsweredViewController.h */,
 				6344D7311A10198800107F00 /* AllAnsweredViewController.m */,
 				631401F61A1445ED005CF678 /* LastViewController.h */,
@@ -476,43 +381,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63AD998119F828810046B0F9 /* Question6ViewController.m in Sources */,
 				6344D7321A10198800107F00 /* AllAnsweredViewController.m in Sources */,
 				E7E353161A1BB6C300366CCE /* SelectQuestionViewController.m in Sources */,
-				63AD998D19F829180046B0F9 /* Question11ViewController.m in Sources */,
 				4709699C19FFB7B6008B592C /* LoginViewController.m in Sources */,
 				E7CC67231A1299E00090ECCA /* ColorPickerViewController.m in Sources */,
-				63AD997E19F8279F0046B0F9 /* Question5ViewController.m in Sources */,
 				631401F81A1445ED005CF678 /* LastViewController.m in Sources */,
 				474880DD19F6E13200C39C09 /* AppDelegate.m in Sources */,
 				472015C51A0A35700021AABC /* Questionaire.m in Sources */,
-				E741C05419F87274000C89AE /* Question15ViewController.m in Sources */,
 				4748810519F6E58F00C39C09 /* BaseViewController.m in Sources */,
-				63AD999019F856DD0046B0F9 /* Question16ViewController.m in Sources */,
-				63AD997B19F824960046B0F9 /* Question4ViewController.m in Sources */,
-				63AD998419F828BB0046B0F9 /* Question8ViewController.m in Sources */,
 				472015BC1A0A30040021AABC /* QuestionareDBModel.xcdatamodeld in Sources */,
 				E7E3531F1A1BC12000366CCE /* AnswerSheet.m in Sources */,
 				E7CC67201A127A9B0090ECCA /* AdminModeViewController.m in Sources */,
-				4796527319F8685D00756FCC /* Question13ViewController.m in Sources */,
 				E7E353221A1BC12000366CCE /* Answer.m in Sources */,
 				E72A7DEF1A0698B200BE44DD /* M13Checkbox.m in Sources */,
-				47F764DD19F846C900E8CEEB /* Question1ViewController.m in Sources */,
-				4796527219F8685D00756FCC /* Question12ViewController.m in Sources */,
-				63AD998719F828D60046B0F9 /* Question9ViewController.m in Sources */,
 				474880E019F6E13200C39C09 /* DAK_E.xcdatamodeld in Sources */,
 				473AAA721A0919DB0069FF51 /* DatabaseManager.m in Sources */,
-				E741C05A19F876DC000C89AE /* Question18ViewController.m in Sources */,
 				473AAA6F1A0918680069FF51 /* CoreDataContext.m in Sources */,
 				472015CB1A0A35710021AABC /* Question.m in Sources */,
-				4709699919FFB0AA008B592C /* QuestionaireAnswersList.m in Sources */,
-				E741C05719F874D3000C89AE /* Question17ViewController.m in Sources */,
-				63AD997819F816230046B0F9 /* Question3ViewController.m in Sources */,
 				47F764DA19F840ED00E8CEEB /* BigUISlider.m in Sources */,
-				470B737219FEA66900E6ABD8 /* Question7ViewController.m in Sources */,
-				63AD998A19F829070046B0F9 /* Question10ViewController.m in Sources */,
-				E741C05119F86D4A000C89AE /* Question14ViewController.m in Sources */,
-				47F764D719F83E5200E8CEEB /* Question2ViewController.m in Sources */,
 				4748810219F6E29100C39C09 /* UIColor+customColors.m in Sources */,
 				474880DA19F6E13200C39C09 /* main.m in Sources */,
 				472015CE1A0AC8460021AABC /* SubQuestion.m in Sources */,

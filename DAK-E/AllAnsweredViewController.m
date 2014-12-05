@@ -41,48 +41,43 @@
   //NSLog(@"%@", self.list.Q3Answer);
     
     _Q1Label.textColor = [UIColor darkerGreen];
-    self.Q1Label.text = [NSString stringWithFormat:@"%@", self.list.Q1Answer];
+    //self.Q1Label.text = [NSString stringWithFormat:@"%@", self.list.Q1Answer];
     _Q2HLabel.textColor = [UIColor darkerGreen];
-    self.Q2HLabel.text = [NSString stringWithFormat:@"%@", self.list.Q2Height];
+    //self.Q2HLabel.text = [NSString stringWithFormat:@"%@", self.list.Q2Height];
     _Q2WLabel.textColor = [UIColor darkerGreen];
-    self.Q2WLabel.text = [NSString stringWithFormat:@"%@", self.list.Q2Weight];
+    //self.Q2WLabel.text = [NSString stringWithFormat:@"%@", self.list.Q2Weight];
     _Q3Label.textColor = [UIColor darkerGreen];
-    self.Q3Label.text = [NSString stringWithFormat:@"%@", self.list.Q3Answer];
+    //self.Q3Label.text = [NSString stringWithFormat:@"%@", self.list.Q3Answer];
     _Q4Label.textColor = [UIColor darkerGreen];
-    self.Q4Label.text = [NSString stringWithFormat:@"%@", self.list.Q4Answer];
+    //self.Q4Label.text = [NSString stringWithFormat:@"%@", self.list.Q4Answer];
     _Q5Label.textColor = [UIColor darkerGreen];
-    self.Q5Label.text = [NSString stringWithFormat:@"%@", self.list.Q5Answer];
+    //self.Q5Label.text = [NSString stringWithFormat:@"%@", self.list.Q5Answer];
     _Q6Label.textColor = [UIColor darkerGreen];
-    self.Q6Label.text = [NSString stringWithFormat:@"%@", self.list.Q6Answer];
+    //self.Q6Label.text = [NSString stringWithFormat:@"%@", self.list.Q6Answer];
     _Q7Label.textColor = [UIColor darkerGreen];
-    self.Q7Label.text = [NSString stringWithFormat:@"%@", self.list.Q7Answer];
+    //self.Q7Label.text = [NSString stringWithFormat:@"%@", self.list.Q7Answer];
     _Q8Label.textColor = [UIColor darkerGreen];
-    self.Q8Label.text = [NSString stringWithFormat:@"%@", self.list.Q8Answer];
+    //self.Q8Label.text = [NSString stringWithFormat:@"%@", self.list.Q8Answer];
     _Q9Label.textColor = [UIColor darkerGreen];
-    self.Q9Label.text = [NSString stringWithFormat:@"%@", self.list.Q9Answer];
+    //self.Q9Label.text = [NSString stringWithFormat:@"%@", self.list.Q9Answer];
     _Q10Label.textColor = [UIColor darkerGreen];
-    self.Q10Label.text = [NSString stringWithFormat:@"%@", self.list.Q10Answer];
+    //self.Q10Label.text = [NSString stringWithFormat:@"%@", self.list.Q10Answer];
     _Q11Label.textColor = [UIColor darkerGreen];
-    self.Q11Label.text = [NSString stringWithFormat:@"%@", self.list.Q11Answer];
+    //self.Q11Label.text = [NSString stringWithFormat:@"%@", self.list.Q11Answer];
     _Q12Label.textColor = [UIColor darkerGreen];
-    self.Q12Label.text = [NSString stringWithFormat:@"%@", self.list.Q12Answer];
+    //self.Q12Label.text = [NSString stringWithFormat:@"%@", self.list.Q12Answer];
     _Q13Label.textColor = [UIColor darkerGreen];
-    self.Q13Label.text = [NSString stringWithFormat:@"%@", self.list.Q13Answer];
+    //self.Q13Label.text = [NSString stringWithFormat:@"%@", self.list.Q13Answer];
     _Q14Label.textColor = [UIColor darkerGreen];
-    self.Q14Label.text = [NSString stringWithFormat:@"%@", self.list.Q14Answer1];
+    //self.Q14Label.text = [NSString stringWithFormat:@"%@", self.list.Q14Answer1];
     _Q15Label.textColor = [UIColor darkerGreen];
-    self.Q15Label.text = [NSString stringWithFormat:@"%@", self.list.Q15Answer];
+    //self.Q15Label.text = [NSString stringWithFormat:@"%@", self.list.Q15Answer];
     _Q16Label.textColor = [UIColor darkerGreen];
-    self.Q16Label.text = [NSString stringWithFormat:@"%@", self.list.Q16Answer];
+    //self.Q16Label.text = [NSString stringWithFormat:@"%@", self.list.Q16Answer];
     _Q17Label.textColor = [UIColor darkerGreen];
-    self.Q17Label.text = [NSString stringWithFormat:@"%@", self.list.Q17Answer];
+    //self.Q17Label.text = [NSString stringWithFormat:@"%@", self.list.Q17Answer];
     _Q18Label.textColor = [UIColor darkerGreen];
-    self.Q18Label.text = [NSString stringWithFormat:@"%@", self.list.Q18Answer];
-    
-    self.segueToNextControllerName = @"LastSegue";
-    
-    
-    
+    //self.Q18Label.text = [NSString stringWithFormat:@"%@", self.list.Q18Answer];
     [super viewDidLoad];
     [scroller setScrollEnabled:YES];
     [scroller setContentSize:CGSizeMake(768,2048)];

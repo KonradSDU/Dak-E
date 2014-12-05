@@ -8,12 +8,7 @@
 
 #import "LoginViewController.h"
 #import "UIColor+customColors.h"
-#import "QuestionaireAnswersList.h"
-#import "Question1ViewController.h"
-#import "DatabaseManager.h"
-#import "Questionaire.h"
-#import "Question.h"
-#import "SubQuestion.h"
+#import "BaseViewController.h"
 
 @interface LoginViewController ()
 @property (weak, nonatomic) IBOutlet UILabel *label;
@@ -40,14 +35,12 @@
 }
 
 - (IBAction)button:(id)sender {
-    [self performSegueWithIdentifier:@"segueToQ1" sender:self];
+    //[self performSegueWithIdentifier:@"segueToQ1" sender:self];
+    BaseViewController *base = [[BaseViewController alloc]init];
+    [self presentViewController:base animated:true completion:nil];
+    
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    QuestionaireAnswersList *list = [[QuestionaireAnswersList alloc]init];
-    Question1ViewController *vc = [segue destinationViewController];
-    vc.list=list;
-}
 - (IBAction)adminMode:(id)sender {
     UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Enter password:"
                                                    message:nil
